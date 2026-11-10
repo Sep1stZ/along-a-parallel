@@ -1,0 +1,441 @@
+[
+  {
+    "url": "https://whc.unesco.org/en/list/1334/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/1443/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hangzhou",
+    "status": 200,
+    "title": "Hangzhou - Wikipedia",
+    "excerptCountInspected": 6,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/1001/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chengdu",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://www.britannica.com/place/Chengdu",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/707/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Lhasa",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://www.britannica.com/place/Lhasa",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/1372/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Shiraz",
+    "status": 200,
+    "title": "Shiraz - Wikipedia",
+    "excerptCountInspected": 5,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://www.britannica.com/place/Shiraz",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/89/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Cairo",
+    "status": 200,
+    "title": "Cairo - Wikipedia",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://www.britannica.com/place/Cairo",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/331/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014",
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Marrakesh",
+    "status": 200,
+    "title": "Marrakesh - Wikipedia",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://www.nps.gov/jazz/learn/historyculture/index.htm",
+    "status": 200,
+    "title": "History & Culture - New Orleans Jazz National Historical Park (U.S. National Park Service)",
+    "excerptCountInspected": 1,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/New_Orleans",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://www.neworleans.com/plan/neighborhoods/french-quarter/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://buffalobayou.org/location/buffalo-bayou-park/",
+    "status": 200,
+    "title": "Buffalo Bayou Park - Buffalo Bayou Partnership",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Houston",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://www.visithoustontexas.com/about-houston/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Harbin",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://www.britannica.com/place/Harbin",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/394/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Venice",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Montreal",
+    "status": 200,
+    "title": "Montreal - Wikipedia",
+    "excerptCountInspected": 5,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://www.britannica.com/place/Montreal",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.mtl.org/en/experience/mile-end",
+    "status": 200,
+    "title": "Montréal neighbourhood: Discover Mile End | Tourisme Montréal",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://www.travelportland.com/culture/food-carts/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/1100/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://masp.org.br/en/about",
+    "status": 200,
+    "title": "MASP",
+    "excerptCountInspected": 1,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://www.britannica.com/place/Sao-Paulo-Brazil",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Antofagasta",
+    "status": 200,
+    "title": "Antofagasta - Wikipedia",
+    "excerptCountInspected": 2,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/La_Portada",
+    "status": 200,
+    "title": "La Portada - Wikipedia",
+    "excerptCountInspected": 1,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://www.britannica.com/place/Antofagasta-Chile",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alice_Springs",
+    "status": 200,
+    "title": "Alice Springs - Wikipedia",
+    "excerptCountInspected": 6,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://northernterritory.com/alice-springs-and-surrounds",
+    "status": 200,
+    "title": "Alice Springs Region | Northern Territory, Australia",
+    "excerptCountInspected": 2,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "url": "https://nt.gov.au/parks/find-a-park/alice-springs-telegraph-station-historical-reserve",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "hangzhou",
+    "url": "https://en.wikivoyage.org/wiki/Hangzhou",
+    "status": 200,
+    "title": "Hangzhou – Travel guide at Wikivoyage",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "chengdu",
+    "url": "https://en.wikivoyage.org/wiki/Chengdu",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "id": "lhasa",
+    "url": "https://en.wikivoyage.org/wiki/Lhasa",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "id": "shiraz",
+    "url": "https://en.wikivoyage.org/wiki/Shiraz",
+    "status": 200,
+    "title": "Shiraz – Travel guide at Wikivoyage",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "cairo",
+    "url": "https://en.wikivoyage.org/wiki/Cairo",
+    "status": 200,
+    "title": "Cairo – Travel guide at Wikivoyage",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "marrakesh",
+    "url": "https://en.wikivoyage.org/wiki/Marrakech",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "id": "new-orleans",
+    "url": "https://en.wikivoyage.org/wiki/New_Orleans",
+    "status": 200,
+    "title": "New Orleans – Travel guide at Wikivoyage",
+    "excerptCountInspected": 2,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "houston",
+    "url": "https://en.wikivoyage.org/wiki/Houston",
+    "status": 200,
+    "title": "Houston – Travel guide at Wikivoyage",
+    "excerptCountInspected": 2,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "harbin",
+    "url": "https://en.wikivoyage.org/wiki/Harbin",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "id": "venice",
+    "url": "https://en.wikivoyage.org/wiki/Venice",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "id": "montreal",
+    "url": "https://en.wikivoyage.org/wiki/Montreal",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "id": "portland",
+    "url": "https://en.wikivoyage.org/wiki/Portland_(Oregon)",
+    "status": 200,
+    "title": "Portland (Oregon) – Travel guide at Wikivoyage",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "rio",
+    "url": "https://en.wikivoyage.org/wiki/Rio_de_Janeiro",
+    "status": 200,
+    "title": "Rio de Janeiro – Travel guide at Wikivoyage",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "sao-paulo",
+    "url": "https://en.wikivoyage.org/wiki/S%C3%A3o_Paulo",
+    "status": 200,
+    "title": "São Paulo – Travel guide at Wikivoyage",
+    "excerptCountInspected": 3,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "antofagasta",
+    "url": "https://en.wikivoyage.org/wiki/Antofagasta",
+    "status": 200,
+    "title": "Antofagasta – Travel guide at Wikivoyage",
+    "excerptCountInspected": 2,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "alice-springs",
+    "url": "https://en.wikivoyage.org/wiki/Alice_Springs",
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+  },
+  {
+    "url": "https://www.nps.gov/jazz/learn/historyculture/history_early.htm",
+    "status": 200,
+    "title": "Jazz Origins in New Orleans - New Orleans Jazz National Historical Park (U.S. National Park Service)",
+    "excerptCountInspected": 1,
+    "reviewNote": "页面已访问；已核验范围以 places.ts 的 Source.scope 为准。"
+  },
+  {
+    "id": "chengdu",
+    "url": "https://www.wuhouci.net.cn/about",
+    "status": 200,
+    "title": "武侯祠简介",
+    "publisher": "成都武侯祠博物馆",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "武侯祠、惠陵、汉昭烈庙、前后两殿格局与博物馆的组成",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "chengdu",
+    "url": "https://www.lonelyplanet.com/china/sichuan/chengdu",
+    "status": 200,
+    "title": "Chengdu Travel",
+    "publisher": "Lonely Planet",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "实际城市指南已访问：茶馆文化与餐饮背景；不核验具体店铺或营业信息",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "lhasa",
+    "url": "https://www.potalapalace.cn/potala.html",
+    "status": 200,
+    "title": "布达拉宫简介",
+    "publisher": "西藏自治区布达拉宫管理处",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "布达拉宫的红山选址、宫堡式建筑、用途与扩建修缮",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "lhasa",
+    "url": "https://www.lonelyplanet.com/china/tibet/lhasa",
+    "status": 200,
+    "title": "Lhasa Travel",
+    "publisher": "Lonely Planet",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "实际城市指南已访问：红白宫殿外观、大昭寺与八廓环线",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "venice",
+    "url": "https://palazzoducale.visitmuve.it/en/building-and-history/",
+    "status": 200,
+    "title": "Building and history — The Doge’s Palace",
+    "publisher": "Fondazione Musei Civici di Venezia",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "总督宫的临水建筑、不同年代的翼楼、曾经的官署与现代博物馆用途",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "venice",
+    "url": "https://www.lonelyplanet.com/italy/venice",
+    "status": 200,
+    "title": "Venice Travel",
+    "publisher": "Lonely Planet",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "实际城市指南已访问：潟湖中的城市与临水宫邸；不核验具体餐馆",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "harbin",
+    "url": "https://govt.chinadaily.com.cn/s/201711/24/WS5b784019498e855160e8cb5f/central-avenue.html",
+    "status": 200,
+    "title": "Central Avenue",
+    "publisher": "China Daily · Government portal",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "中央大街的建筑语汇、商业用途及北端靠近松花江防洪纪念塔的位置",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "harbin",
+    "url": "https://govt.chinadaily.com.cn/s/201711/24/WS5b784023498e855160e8cb65/st-sophia-church.html",
+    "status": 200,
+    "title": "St. Sophia Church",
+    "publisher": "China Daily · Government portal",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "圣索菲亚教堂的建筑与穹顶；不引用陈旧票价或排名",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "harbin",
+    "url": "https://govt.chinadaily.com.cn/s/201711/24/WS5b78402e498e855160e8cb6c/the-sun-island-scenic-area.html",
+    "status": 200,
+    "title": "The Sun Island scenic area",
+    "publisher": "China Daily · Government portal",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "太阳岛位于松花江北岸及季节性的滨水景观；不引用排名或面积统计",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "harbin",
+    "url": "https://govt.chinadaily.com.cn/s/201803/16/WS5b78719c498e855160e8e9be/red-sausage-hong-chang-hongchang.html",
+    "status": 200,
+    "title": "Red Sausage",
+    "publisher": "China Daily · Government portal",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "哈尔滨红肠的存在与制作背景；不引用未经交叉核验的首创年份",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  },
+  {
+    "id": "harbin",
+    "url": "https://govt.chinadaily.com.cn/s/201803/16/WS5b787192498e855160e8e9b8/great-lieba-bread-da-lie-ba-mian-bao-daliebamianbao.html",
+    "status": 200,
+    "title": "Great lieba bread",
+    "publisher": "China Daily · Government portal",
+    "checkedAt": "2026-11-10",
+    "checkedFacts": "哈尔滨大列巴面包与具体地方生产者的关联；不引用重量或营销评价",
+    "reviewNote": "已实际获取正文并检查上述范围；仅为事实审校笔记，不复制文章正文。"
+  }
+]
