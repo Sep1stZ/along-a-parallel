@@ -1,0 +1,39 @@
+{
+  "family": "Parallel Sans SC",
+  "derivedFrom": "Noto Sans SC",
+  "fontVersion": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+  "file": "noto-sans-sc-latin-cjk.woff2",
+  "cssWeightRange": "400 700",
+  "unicodeCount": 1749,
+  "sourceCharacterCount": 1197,
+  "axes": [
+    {
+      "tag": "wght",
+      "min": 400.0,
+      "default": 400.0,
+      "max": 700.0
+    }
+  ],
+  "bytes": 357056,
+  "sha256": "b6e5683519764e94f7a8ca955764c7987e4f146e5a64c0e8725df6bcddd5c6a0",
+  "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "fallbackRequiredForActualText": [
+    "ا",
+    "ة",
+    "ر",
+    "ز",
+    "ش",
+    "ق",
+    "ك",
+    "ل",
+    "م",
+    "ه",
+    "ی",
+    "་",
+    "ལ",
+    "ས",
+    "ྷ"
+  ],
+  "generatedAt": "2026-11-10",
+  "note": "Subset of current src text plus ASCII, Latin accents, combining marks, punctuation and a UI vocabulary. Arabic/Tibetan and arbitrary names use system fallbacks. Adding Chinese copy may require regenerating subset."
+}

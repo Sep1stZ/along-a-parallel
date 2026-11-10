@@ -29,6 +29,8 @@ Windows 下安装依赖后，也可以双击 `start-local.cmd` 打开浏览器�
 
 仓库发布与网站托管是两件事。以上命令启动本机服务；如需公开网站，需要将应用部署到支持 Node.js 24 和持久磁盘的服务器。
 
+也可以导入仓库到支持 Docker 和持久数据卷的托管平台，无需自行维护服务器。项目提供 Dockerfile、Render 蓝图及带 HTTPS 的 Compose 示例；见 [公开部署指南](docs/DEPLOYMENT.md)。托管平台账号、费用与大陆访问情况需在实际部署时确认。
+
 ## 产品功能
 
 - D3 正射投影地球、真实海岸线、经纬网、精确纬线和半透明纬度带。
@@ -51,10 +53,12 @@ Windows 下安装依赖后，也可以双击 `start-local.cmd` 打开浏览器�
 
 默认数据库位于项目目录下的 `.data/parallel.sqlite`，WAL 辅助文件也在同目录。目录已加入 `.gitignore`，匿名会话、收藏与私人旅程不会进入 Git 仓库。
 
-`.env.example` 列出了唯一可选配置：
+`.env.example` 列出了可选配置：
 
 ```dotenv
 DB_PATH=.data/parallel.sqlite
+# 公开 HTTPS 服务或反向代理部署时设置；本地运行不需要。
+# APP_ORIGIN=https://atlas.example.com
 ```
 
 可将它复制为 `.env.local`，使用绝对路径或相对项目目录的路径。运行数据库脚本时，如需使用自定义位置，请在运行脚本的 shell 中设置 `DB_PATH`；脚本本身不读取 Next.js 的 `.env.local`。

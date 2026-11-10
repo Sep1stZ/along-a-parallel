@@ -4,6 +4,7 @@ import { NextRequest } from 'next/server';
 import { assertSameOrigin, readJson } from '../src/lib/server/http';
 import { ApiError } from '../src/lib/server/store';
 import { favoriteSchema } from '../src/lib/server/validation';
+import { configuredOrigin, publicOrigin } from '../src/lib/server/origin';
 
 test('writes reject cross-site and mismatched origins', () => {
   const url = 'http://localhost:3000/api/favorites';
@@ -66,6 +67,45 @@ test('CSRF origin uses browser Host when Next normalizes its internal request UR
       ),
     (error) => error instanceof ApiError && error.status === 403,
   );
+});
+
+test('canonical HTTPS origin works behind an internal HTTP reverse proxy without trusting forwarding headers', () => {
+  const previous = process.env.APP_ORIGIN;
+  process.env.APP_ORIGIN = 'https://atlas.example.com';
+  try {
+    const request = new NextRequest('http://app:3000/api/journey', {
+      headers: {
+        host: 'app:3000',
+        origin: 'https://atlas.example.com',
+        'x-forwarded-host': 'attacker.example',
+        'x-forwarded-proto': 'http',
+        'sec-fetch-site': 'same-origin',
+      },
+    });
+    assert.equal(publicOrigin(request), 'https://atlas.example.com');
+    assert.doesNotThrow(() => assertSameOrigin(request));
+    assert.throws(
+      () =>
+        assertSameOrigin(
+          new NextRequest('http://app:3000/api/journey', {
+            headers: { origin: 'https://attacker.example', 'x-forwarded-host': 'attacker.example' },
+          }),
+        ),
+      (error) => error instanceof ApiError && error.status === 403,
+    );
+  } finally {
+    if (previous === undefined) delete process.env.APP_ORIGIN;
+    else process.env.APP_ORIGIN = previous;
+  }
+  assert.equal(configuredOrigin('https://atlas.example.com/'), 'https://atlas.example.com');
+  for (const value of [
+    'file:///tmp/atlas',
+    'https://user:pass@atlas.example.com',
+    'https://atlas.example.com/route',
+    'https://atlas.example.com?redirect=attacker',
+  ]) {
+    assert.throws(() => configuredOrigin(value));
+  }
 });
 
 test('request parser enforces JSON content type, schema and actual streamed body size', async () => {

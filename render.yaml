@@ -1,0 +1,17 @@
+# Optional managed Docker deployment. Paid compute and persistent disk may be
+# required: review the platform's current quote before creating this resource.
+# After Render assigns a public URL, set APP_ORIGIN to that exact HTTPS origin.
+services:
+  - type: web
+    name: along-a-parallel
+    runtime: docker
+    region: singapore
+    plan: starter
+    healthCheckPath: /api/routes
+    envVars:
+      - key: DB_PATH
+        value: /app/.data/parallel.sqlite
+    disk:
+      name: journey-data
+      mountPath: /app/.data
+      sizeGB: 1

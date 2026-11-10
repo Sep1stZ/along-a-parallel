@@ -54,7 +54,22 @@
 
 插画将有辨识度的山体、水系和建筑元素组合为叙事画面，**不是实景照片，不对应精确观景机位，也不是建筑测绘**。例如开罗插画中的尼罗河、清真寺与远处金字塔是示意组合；不能据此推断其实际相对距离。插画、原创中文叙事及项目代码依照仓库 `LICENSE` 发布；Natural Earth 数据单独适用公有领域许可。
 
-素材清单记录每个文件的作者、用途、许可、本地路径、尺寸与哈希。字体使用系统本地衬线与无衬线字体栈，不请求外部字体服务。
+素材清单记录每个文件的作者、用途、许可、本地路径、尺寸与哈希。主要中文界面使用本地自托管的 Noto Sans SC 子集，另保留系统字体回退，不请求外部字体服务。
+
+## 本地中文字体
+
+界面字体 **Parallel Sans SC** 基于 Google Fonts 官方仓库的 **Noto Sans SC 2.004-H2** 制作字形子集。它是重新命名的项目子集，不是完整 Noto 字库。
+
+- 上游：[Google Fonts / ofl/notosanssc](https://github.com/google/fonts/tree/main/ofl/notosanssc)
+- 字体来源：[NotoSansSC[wght].ttf](https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf)
+- 原作者：Adobe 及 Noto 项目贡献者；上游版权声明保留于字体名称记录与本地许可证文件。
+- 许可：**SIL Open Font License 1.1**，原文保存在 `public/fonts/OFL-NotoSansSC.txt`；[许可原文来源](https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt)。字体单独适用 OFL，不改为项目 MIT 许可。
+- 本地文件：`public/fonts/noto-sans-sc-latin-cjk.woff2`，357,056 字节，变量字重 **400–700**。
+- 修改：以 fontTools 4.68.0 和 Brotli 1.2.1 对当前 `src/` 的字符、常见界面用字、ASCII、拉丁重音字符及标点取子集，保留 1,749 个 Unicode 映射；将字重轴限制为 400–700，并将内部字体家族重新命名为 Parallel Sans SC。未改变字形设计。
+- 范围：覆盖制作时站内中文界面与城市叙事；阿拉伯语、藏文与任意新增名称使用系统字体回退。新增中文文案后应检查是否需要扩充子集。
+- `public/fonts/subset-info.json` 记录字重轴、字符数量、文件 SHA-256、上游文件 SHA-256 与回退字符。`assets-manifest.json` 记录字体和许可证的来源与许可。
+
+浏览器从本站加载字体，基础阅读不依赖 Google Fonts、海外 CDN 或运行期外部网络。字体可缓存；初次加载期间应保留系统字体回退，避免文字空白。
 
 ## 新增或修订内容
 

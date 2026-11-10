@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { ZodError, type ZodType } from 'zod';
 import { ApiError, getStore, type Store } from './store';
+import { publicOrigin } from './origin';
 
 const COOKIE = 'parallel_session';
 const MAX_BODY = 16 * 1024;
@@ -10,21 +11,7 @@ type Handler = (context: Context) => unknown | Promise<unknown>;
 export function assertSameOrigin(request: NextRequest) {
   const origin = request.headers.get('origin');
   const fetchSite = request.headers.get('sec-fetch-site');
-  // Next may normalize request.url to localhost even when the browser addressed
-  // 127.0.0.1. Host is the target authority sent by the browser, so bind Origin
-  // to that authority rather than the server's internal URL. Do not trust an
-  // arbitrary X-Forwarded-Host value for this security decision.
-  const requestUrl = new URL(request.url);
-  const authority = request.headers.get('host') || requestUrl.host;
-  let expectedOrigin: string;
-  try {
-    const target = new URL(`${requestUrl.protocol}//${authority}`);
-    if (target.host !== authority.toLowerCase() || target.username || target.password)
-      throw new Error('Invalid authority');
-    expectedOrigin = target.origin;
-  } catch {
-    throw new ApiError(403, '请从本站页面发起操作');
-  }
+  const expectedOrigin = publicOrigin(request);
   if (fetchSite === 'cross-site' || (origin !== null && origin !== expectedOrigin)) {
     throw new ApiError(403, '请从本站页面发起操作');
   }
@@ -87,7 +74,7 @@ export async function api(
       response.cookies.set(COOKIE, freshToken, {
         httpOnly: true,
         sameSite: 'lax',
-        secure: new URL(request.url).protocol === 'https:',
+        secure: publicOrigin(request).startsWith('https:'),
         path: '/',
         maxAge: 180 * 24 * 60 * 60,
       });

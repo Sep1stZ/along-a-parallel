@@ -1,0 +1,48 @@
+name: Container
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: container-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  docker-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      REGISTRY_IMAGE: ghcr.io/sep1stz/along-a-parallel
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Build the production Docker image
+        run: >-
+          docker build --tag along-a-parallel:ci
+          --label org.opencontainers.image.source=https://github.com/${{ github.repository }}
+          --label org.opencontainers.image.revision=${{ github.sha }} .
+      - name: Verify APIs and persistent volume through restart and replacement
+        env:
+          CONTAINER_IMAGE: along-a-parallel:ci
+          TEST_PORT: '3001'
+        run: node scripts/smoke-container.mjs
+      - name: Log in to GitHub Container Registry after verification
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish the verified image
+        run: |
+          docker tag along-a-parallel:ci "${REGISTRY_IMAGE}:sha-${GITHUB_SHA}"
+          docker tag along-a-parallel:ci "${REGISTRY_IMAGE}:latest"
+          docker push "${REGISTRY_IMAGE}:sha-${GITHUB_SHA}"
+          docker push "${REGISTRY_IMAGE}:latest"

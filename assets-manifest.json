@@ -257,6 +257,43 @@
       "status": "verified",
       "bytes": 2049,
       "sha256": "60655b287e835cafe54bb29ba306f84319eb90a8b3d1655432d1b6b4560cd852"
+    },
+    {
+      "file": "public/fonts/noto-sans-sc-latin-cjk.woff2",
+      "title": "Parallel Sans SC — subset of Noto Sans SC",
+      "author": "Adobe and Noto project contributors; subset prepared by Along a Parallel",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+      "projectUrl": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "license": "SIL Open Font License 1.1",
+      "licenseUrl": "https://openfontlicense.org/",
+      "licenseTextSource": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "licenseTextFile": "public/fonts/OFL-NotoSansSC.txt",
+      "version": "2.004-H2",
+      "accessedAt": "2026-11-10",
+      "status": "verified",
+      "modifications": "Subset to current src text and Latin/punctuation/UI vocabulary; variable weight axis restricted to 400–700; family renamed Parallel Sans SC. Copyright and OFL records retained.",
+      "bytes": 357056,
+      "sha256": "b6e5683519764e94f7a8ca955764c7987e4f146e5a64c0e8725df6bcddd5c6a0",
+      "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "weights": [
+        400,
+        700
+      ],
+      "format": "woff2",
+      "unicodeCount": 1749,
+      "runtimeNetworkRequired": false
+    },
+    {
+      "file": "public/fonts/OFL-NotoSansSC.txt",
+      "title": "Noto Sans SC original SIL OFL license notice",
+      "author": "Adobe / SIL Open Font License authors",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "license": "SIL Open Font License 1.1",
+      "accessedAt": "2026-11-10",
+      "status": "verified",
+      "modifications": "None; original license text retained verbatim.",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
     }
   ]
 }
