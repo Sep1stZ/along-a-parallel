@@ -1,6 +1,6 @@
 # 验证记录
 
-日期：2026-11-10。以下区分本轮实测、历史记录、真实容器检查与镜像发布状态。
+日期：2026-11-10。以下区分本地验证、线上试用验收、历史记录与容器镜像发布状态。
 
 ## 本轮验证：界面与本地字体更新后
 
@@ -10,11 +10,15 @@
 | TypeScript                | 通过                 | 类型检查通过                                                                                                                                                        |
 | ESLint                    | 通过                 | 静态检查通过                                                                                                                                                        |
 | 生产构建                  | 通过                 | Next.js 生产构建成功                                                                                                                                                |
-| 生产浏览器测试            | 通过，11/11，21.8 秒 | 在生产服务上使用系统 Chrome 实际执行 Playwright 核心流程                                                                                                            |
+| 本地生产浏览器测试        | 通过，11/11，21.8 秒 | 在本机生产服务上使用系统 Chrome 实际执行 Playwright 核心流程                                                                                                        |
 | 本地字体                  | 通过                 | 浏览器确认 `Parallel Sans SC` 已加载并用于正文与标题；字体从项目本地 `/fonts/noto-sans-sc-latin-cjk.woff2` 提供                                                     |
 | 1440 / 1024 / 390 布局    | 通过                 | 三种宽度均无页面横向溢出，对话框位于视口内；逐座检查全部 16 城市在 390px 下的预览、四主题故事及至少两项来源                                                         |
-| 运行期外部网络依赖        | 核心流程通过         | 浏览器测试阻止第三方网络请求，本地地图、字体、插画、故事和应用接口仍可使用；本机服务保持运行                                                                        |
-| Docker 镜像与容器真实运行 | 通过，GitHub Actions | 任务 42824748311 实际完成生产镜像构建，以及容器启动、接口、会话、收藏所有权、分享快照、重启和替换后的数据卷持久化检查；镜像发布另行记录                             |
+| 运行期外部网络依赖        | 核心流程通过         | 浏览器测试阻止第三方网络请求，本地地图、字体、插画、故事和应用接口仍可使用；测试时本机服务保持运行                                                                  |
+| Docker 镜像与容器真实运行 | 通过，GitHub Actions | 修复后任务 42826836278 的生产镜像构建、容器 smoke 和 GHCR 发布均成功；检查包含启动、接口、会话、收藏所有权、分享快照、重启和替换后的数据卷持久化                    |
+| 公开可部署镜像            | 通过，匿名读取已核验 | `latest` 与已验证提交的 SHA 标签指向同一应用镜像 digest；配置为 `linux/amd64`、`USER=node`，10 个数据层匿名 HEAD 请求全部返回 200                                   |
+| 线上浏览器测试            | 通过，11/11，32.6 秒 | 对公开 HTTPS 站点运行同一核心流程；阻止所有第三方请求，仍完成测试                                                                                                   |
+| 线上接口与部署验收        | 通过，40/40          | 首页、资源、接口、会话隔离、写入防护、冻结快照及真实实例替换后的持久化                                                                                              |
+| 公开试用验收站            | 已上线并验证         | Sealos 杭州区，1 实例、200m CPU、256Mi 内存、1Gi 持久卷；HTTPS 首页 200、证书校验成功，HTTP 308 跳转 HTTPS                                                          |
 
 浏览器测试覆盖：收藏与刷新恢复、四主题故事、两城比较与第三城替换、公开只读分享、另一匿名会话的私人数据隔离、分享快照不随私人修改变化、城市直链、前进后退、方向键、鼠标拖动和标记点击、背面标记裁切、空纬度带恢复，以及从空纬度带打开比较城市故事后的上一站与下一站。
 
@@ -36,7 +40,23 @@ $env:PLAYWRIGHT_CHANNEL='chrome'
 node node_modules/@playwright/test/cli.js test
 ```
 
-本轮截图：[桌面首页](screenshots/desktop.png)、[手机首页](screenshots/mobile.png)、[两城比较](screenshots/comparison.png)。
+线上截图：[桌面首页](screenshots/desktop.png)、[手机首页](screenshots/mobile.png)、[两城比较](screenshots/comparison.png)。
+
+## 实测：线上试用验收站
+
+公开地址：[沿着一条纬线](https://parallel-6a30a9330b.sealoshzh.site/)。该站使用 Sealos 杭州区的临时系统域名，供开发、测试和试用验收；长期运行受平台余额、资源账单及域名政策约束，详见[部署说明](DEPLOYMENT.md)。
+
+线上接口与部署验收共 40 项全部通过，包括：
+
+- HTTPS 首页与本地地图、中文字体可用；三个预设纬度带分别有 8、4、4 座城市，共 16 座不重复城市，比较接口正常。
+- 匿名 Cookie 含 `Secure`、`HttpOnly` 和 `SameSite=Lax`；新会话为空，收藏写入和刷新恢复、私人旅程保存正常。
+- 独立匿名会话的私人数据隔离，不能删除他人的收藏；外部 `Origin` 写请求返回 403，原数据不变。
+- 分享链接使用正确的规范 HTTPS 地址；公开快照不暴露匿名会话标识，不提供写操作，也不会随原私人旅程修改而改变。
+- 实际执行应用滚动替换，确认新实例就绪并继续使用原持久卷；替换前的收藏、私人旅程进度和公开快照均保留，会话隔离仍有效。验收时无 OOM 或平台 Warning 事件。
+
+随后直接针对线上地址运行 11 项真实浏览器测试，全部通过，用时 32.6 秒；测试期间阻止所有第三方网络请求。线上 1440、1024、390px 三种宽度均无页面横向溢出，浏览器确认本地 `Parallel Sans SC` 已实际加载。HTTPS 首页返回 200 且 TLS 证书校验成功，HTTP 地址以 308 跳转至 HTTPS。
+
+以上记录证明验收时从本次测试网络可用，不能代表所有中国大陆运营商和地区的访问质量。
 
 ## 历史记录：生产服务完整重启
 
@@ -44,15 +64,21 @@ node node_modules/@playwright/test/cli.js test
 
 以上属于本轮字体与界面改版前的历史进程重启证据。本轮重新执行的单元测试与生产浏览器结果列于上表。
 
-## 实测：Docker 镜像与数据卷
+## 实测：Docker 镜像、数据卷与公开发布
 
-[Container 任务 42824748311](https://github.com/Sep1stZ/along-a-parallel/actions/runs/42824748311) 已在 GitHub Actions Ubuntu 环境实际构建 Docker 生产镜像并执行 [容器 smoke 脚本](../scripts/smoke-container.mjs)。脚本确认 Node.js 24、非 root 用户、首页与本地地图、16 座城市、匿名会话隔离、收藏唯一性与所有权、HTTPS 规范公开地址对应的 Secure Cookie、同源检查和冻结分享快照。挂载同一命名数据卷后，收藏、旅程与分享快照在容器重启以及删除、替换容器后仍然保留。日志中的三组 PASS 均已核对。
+[修复后 Container 任务 42826836278](https://github.com/Sep1stZ/along-a-parallel/actions/runs/42826836278) 成功完成提交 [`a4158bcb5e4c81caa7ea06c267aed79271f627e0`](https://github.com/Sep1stZ/along-a-parallel/commit/a4158bcb5e4c81caa7ea06c267aed79271f627e0) 的生产镜像构建、真实容器 smoke 和 GHCR 发布。
 
-该任务的 **GHCR 发布步骤失败**：数据层上传完成后，manifest 提交返回 `denied`。匿名读取确认，公开包中只有构建证明（attestation）manifest，`os` 和 `architecture` 均为 `unknown`，没有可执行启动命令；应用 manifest 和总 image index 均返回 404。因此本次不能宣称镜像已经可以从注册表拉取部署，也不能使用构建证明的 digest 作为应用镜像。
+容器 smoke 在 GitHub Actions Ubuntu 环境执行 [验证脚本](../scripts/smoke-container.mjs)，确认 Node.js 24、非 root 用户、首页与本地地图、16 座城市、匿名会话隔离、收藏唯一性与所有权、HTTPS 规范公开地址对应的 Secure Cookie、同源检查和冻结分享快照。挂载同一命名数据卷后，收藏、旅程与分享快照在容器重启以及删除、替换容器后仍然保留。
 
-任务日志显示 BuildKit 默认生成 provenance attestation 和 image index。Docker 官方文档说明这些证明默认生成，且 containerd image store 支持保留 image index。已准备最小诊断修复：构建显式加入 `--provenance=false --sbom=false`，保留源仓库与提交标签，并继续先执行容器 smoke 再发布。CLI 官方文档确认 `docker build` 是该构建命令的别名，两项参数均支持 `false`。修复后的工作流尚需重新运行，不能据此断言通用 `denied` 的唯一根因已查明。
+发布后已在未登录状态核验应用 manifest、配置及全部 10 个数据层的可访问性：
 
-参考：[Docker build CLI](https://github.com/docker/buildx/blob/master/docs/reference/buildx_build.md)、[默认构建证明](https://github.com/docker/docs/blob/main/content/manuals/build/metadata/attestations/_index.md)、[Docker Engine containerd image store](https://github.com/docker/docs/blob/main/content/manuals/engine/storage/containerd.md)。公开托管站还需独立验证实际拉取、启动、持久卷、HTTPS 和大陆网络访问。
+- 验收时，`ghcr.io/sep1stz/along-a-parallel:latest` 与 `ghcr.io/sep1stz/along-a-parallel:sha-a4158bcb5e4c81caa7ea06c267aed79271f627e0` 指向同一应用镜像。
+- 已验证 digest 为 `sha256:9f2d905549fe932f166cc606e67d30e1ab5e59c558d98d272129c9003e1e30ab`。
+- 镜像配置为 `linux/amd64`，运行用户为 `node`；10 个数据层匿名 HEAD 请求全部返回 HTTP 200。
+
+该应用镜像已在 Sealos 杭州区实际部署并完成上述线上验收；镜像构建、公开发布和网站运行分别保留验证记录。
+
+历史任务 42824748311 曾在 GHCR manifest 提交时失败。构建随后显式关闭 provenance 和 SBOM 输出并重新执行；上述成功任务及匿名注册表读取是当前发布状态的依据，不能再将历史失败描述为当前镜像状态。
 
 ## 产品与部署边界
 
@@ -61,3 +87,4 @@ node node_modules/@playwright/test/cli.js test
 - 中文和拉丁文字使用本地字体；阿拉伯文、藏文等原名使用系统字体回退。
 - SQLite 需要可写的持久磁盘，当前运行方式面向单实例 Node 服务。
 - GitHub 开源仓库发布与公网网站托管分别验证。
+- 当前公开地址是试用验收站。基础资源费用、流量和余额变化会影响可用时长；临时系统域名不构成永久生产地址承诺。

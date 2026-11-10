@@ -6,6 +6,8 @@
 
 An open-source, locally runnable atlas of places and everyday life. Explore sixteen cities through an interactive globe, read illustrated stories, compare places, and save or share a journey. The interface and editorial content are primarily in Simplified Chinese.
 
+[在线体验：沿着一条纬线](https://parallel-6a30a9330b.sealoshzh.site/)（Sealos 杭州试用验收站，临时演示域名；可用性取决于托管余额）。
+
 ![沿着一条纬线桌面探索界面](docs/screenshots/desktop.png)
 
 ## 本地运行 / Quick start
@@ -117,7 +119,7 @@ scripts/             可重复执行的数据库初始化
 tests/               核心行为测试
 ```
 
-技术栈为 Next.js App Router、React、TypeScript、D3-geo、Lucide、Zod 和 SQLite。视觉系统使用项目级 CSS 变量与系统字体，不依赖远程字体。
+技术栈为 Next.js App Router、React、TypeScript、D3-geo、Lucide、Zod 和 SQLite。视觉系统使用项目级 CSS 变量和随项目提供的 Noto Sans SC 本地字体，不依赖远程字体服务；其他文字使用系统字体回退。
 
 ## 新增城市
 
@@ -128,4 +130,4 @@ tests/               核心行为测试
 
 ## 许可 / License
 
-代码、原创文字与原创 SVG 示意插画按 [MIT License](LICENSE) 发布。Natural Earth 地理数据为公有领域数据；具体版本、来源与处理方式见素材清单。欢迎在保留来源、尊重地点差异的前提下继续补充城市与故事。
+代码、原创文字与原创 SVG 示意插画按 [MIT License](LICENSE) 发布。Natural Earth 地理数据为公有领域数据；Noto Sans SC 字体遵循随附的 SIL OFL 许可。具体版本、来源与处理方式见素材清单。欢迎在保留来源、尊重地点差异的前提下继续补充城市与故事。
