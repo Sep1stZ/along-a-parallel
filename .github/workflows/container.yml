@@ -26,7 +26,7 @@ jobs:
           node-version: 24
       - name: Build the production Docker image
         run: >-
-          docker build --tag along-a-parallel:ci
+          docker build --provenance=false --sbom=false --tag along-a-parallel:ci
           --label org.opencontainers.image.source=https://github.com/${{ github.repository }}
           --label org.opencontainers.image.revision=${{ github.sha }} .
       - name: Verify APIs and persistent volume through restart and replacement
