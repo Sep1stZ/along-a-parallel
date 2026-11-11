@@ -4,6 +4,26 @@ GitHub 保存代码。公开网站还需要托管运行服务。可以使用有 
 
 ## 当前交付状态
 
+**V2 已于 2026-11-11 更新到原公开地址：[沿着一条纬线](https://parallel-6a30a9330b.sealoshzh.site/)。** 当前收录 34,214 个地点、60 座精选城市、8 条路线与 30 条自然观察，沿用原 200m CPU、256Mi 内存和 1Gi 持久卷。
+
+[Container 42989875070](https://github.com/Sep1stZ/along-a-parallel/actions/runs/42989875070) 已完成生产构建、同规格小内存容器 smoke 和 GHCR 发布；[Checks 42989874995](https://github.com/Sep1stZ/along-a-parallel/actions/runs/42989874995) 也成功。线上验收及实例替换的数据保留证据见[验证记录](VERIFICATION.md)。
+
+运行代码提交为 `2f5735ed5ccc87ec18e4cc31e5b77cbf36ecce56`，固定镜像为：
+
+```text
+ghcr.io/sep1stz/along-a-parallel@sha256:0f225928401e34f005795ce1de9305077c477d383578c14a44478233d48dd6d0
+```
+
+该镜像已匿名核验为 Linux amd64、非 root `node` 用户，11 个数据层均可公开读取。V2 初次发布时测得首次导入容器峰值 173.7 MiB，最终修正也通过同规格容器测试；未购买或升级资源。后续文档和截图提交不会改变此处固定的运行版本。
+
+线上与示例 Ingress 的请求体上限均为 `3m`，应用对旅程导入保留 2 MiB 上限。实测 1,100,000 字节的有效 JSON 可导入，2,097,153 字节返回应用 JSON 413，避免代理先于应用拒绝合理文件。
+
+V2 使用版本化迁移、按需详情与本地目录文件。迁移前已做包含 WAL 的一致性备份与独立恢复演练。日常备份可执行 `node scripts/backup-db.mjs backup <live.sqlite> <new-backup.sqlite>`；恢复先创建独立新文件并验证，再停服务切换 `DB_PATH`。不能直接覆盖活动数据库。备份、kubeconfig 和会话信息不得进入 Git 仓库。
+
+公开站仍使用试用余额和临时系统域名；费用及长期使用条件见下方。以下 V1 发布记录仅作历史追溯。
+
+## V1 历史部署记录
+
 **试用验收站已上线：[沿着一条纬线](https://parallel-6a30a9330b.sealoshzh.site/)。** 2026-11-10 在 Sealos 杭州区完成 40 项线上接口与部署检查，以及 11 项真实浏览器测试（32.6 秒）。HTTPS 证书校验成功，HTTP 自动跳转 HTTPS；实际替换应用实例后，收藏、私人旅程和冻结分享快照均从原持久卷恢复。完整结果见[验证记录](VERIFICATION.md)。
 
 [Container 任务 42826836278](https://github.com/Sep1stZ/along-a-parallel/actions/runs/42826836278) 已成功完成提交 `a4158bcb5e4c81caa7ea06c267aed79271f627e0` 的 Docker 生产构建、真实容器 smoke 和 GHCR 发布。smoke 包含接口、匿名会话、收藏所有权、分享快照，以及使用持久卷重启和替换容器后的数据保留。

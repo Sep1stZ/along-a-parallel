@@ -30,7 +30,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: along-a-parallel
-          image: ghcr.io/sep1stz/along-a-parallel@sha256:9f2d905549fe932f166cc606e67d30e1ab5e59c558d98d272129c9003e1e30ab
+          image: ghcr.io/sep1stz/along-a-parallel@sha256:0f225928401e34f005795ce1de9305077c477d383578c14a44478233d48dd6d0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
@@ -117,7 +117,7 @@ metadata:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/backend-protocol: HTTP
     nginx.ingress.kubernetes.io/ssl-redirect: 'true'
-    nginx.ingress.kubernetes.io/proxy-body-size: 1m
+    nginx.ingress.kubernetes.io/proxy-body-size: 3m
 spec:
   tls:
     - hosts: [parallel-example.sealoshzh.site]
