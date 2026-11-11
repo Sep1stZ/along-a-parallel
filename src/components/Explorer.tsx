@@ -1707,30 +1707,36 @@ export default function Explorer() {
                         </div>
                       );
                     })}
-                    {[0, 1, 2, 3].map((index) => (
-                      <div className="comparison-dimension" key={index}>
-                        <h4>{['自然地理', '城市与建筑', '日常生活', '饮食文化'][index]}</h4>
+                    {[
+                      ['geography', '自然地理'],
+                      ['architecture', '城市与建筑'],
+                      ['life', '日常生活'],
+                      ['food', '饮食文化'],
+                    ].map(([theme, label]) => (
+                      <div className="comparison-dimension" key={theme}>
+                        <h4>{label}</h4>
                         {journey.compare.map((id) => {
                           const p = placeMap.get(id);
                           if (!p) return null;
+                          const story = details[id]?.stories.find((entry) => entry.theme === theme);
+                          const storyFailed = !details[id] && compareError;
                           return (
                             <div key={id}>
                               <span className="mobile-city-label">{p.name}</span>
                               <h5>
-                                {details[id]?.stories.find(
-                                  (story) =>
-                                    story.theme ===
-                                    ['自然地理', '城市与建筑', '日常生活', '饮食文化'][index],
-                                )?.title || (p.hasStory ? '手记正在读取' : '精选手记尚待编写')}
+                                {story?.title ||
+                                  (p.hasStory
+                                    ? storyFailed
+                                      ? '手记暂时无法读取'
+                                      : '手记正在读取'
+                                    : '精选手记尚待编写')}
                               </h5>
                               <p>
-                                {details[id]?.stories.find(
-                                  (story) =>
-                                    story.theme ===
-                                    ['自然地理', '城市与建筑', '日常生活', '饮食文化'][index],
-                                )?.body ||
+                                {story?.body ||
                                   (p.hasStory
-                                    ? '请稍候，或打开城市来源重试。'
+                                    ? storyFailed
+                                      ? '请打开下方城市故事与来源重试。'
+                                      : '请稍候，或打开城市来源重试。'
                                     : '目前提供地理位置、时区及来源资料。')}
                               </p>
                             </div>

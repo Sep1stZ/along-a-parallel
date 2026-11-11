@@ -11,6 +11,23 @@ async function ready(page: Page, path = '/') {
   await expect(page.locator('.preview-topline')).not.toContainText('读取中');
 }
 
+async function expectComparisonStories(page: Page, ids: string[]) {
+  const dimensions = page.getByRole('dialog').locator('.comparison-dimension');
+  await expect(dimensions).toHaveCount(4);
+  for (const [index, theme] of ['geography', 'architecture', 'life', 'food'].entries()) {
+    const stories = ids.map((id) =>
+      [...places, ...curatedV2]
+        .find((place) => place.id === id)!
+        .stories.find((s) => s.theme === theme)!,
+    );
+    await expect(dimensions.nth(index).locator('h5')).toHaveText(stories.map((s) => s.title));
+    await expect(dimensions.nth(index).locator('p')).toHaveText(stories.map((s) => s.body));
+  }
+  await expect(page.getByRole('dialog')).not.toContainText(
+    /手记正在读取|请稍候，或打开城市来源重试。/,
+  );
+}
+
 test.beforeEach(async ({ context }) => {
   // The complete core experience must continue with every third-party request blocked.
   await context.route('**/*', (route) => {
@@ -49,7 +66,7 @@ test('explore, save, compare and publish an immutable snapshot in another browse
   await expect(page.locator('.city-preview h2')).toContainText('成都');
   await page.getByRole('button', { name: '加入比较', exact: true }).click();
   await expect(page.getByRole('dialog').locator('.compare-cities h3')).toHaveText([/杭州/, /成都/]);
-  await expect(page.getByRole('dialog').locator('.comparison-dimension')).toHaveCount(4);
+  await expectComparisonStories(page, ['hangzhou', 'chengdu']);
   await page.keyboard.press('Escape');
 
   await page.getByRole('button', { name: /我的旅程/ }).click();
@@ -113,6 +130,24 @@ test('a comparison URL opens the restored comparison and third-city choice is ex
   await expect(page.getByRole('dialog')).toContainText('比较席位已满');
   await page.getByRole('button', { name: '替换开罗', exact: true }).click();
   await expect(page.getByRole('dialog').locator('.compare-cities h3')).toHaveText([/杭州/, /成都/]);
+});
+
+test('comparison renders all four actual stories for newly curated cities', async ({ page }) => {
+  await page.route('**/api/places/helsinki', (route) =>
+    route.fulfill({ status: 503, json: { error: 'Temporary failure' } }),
+  );
+  await ready(page, '/?lat=35&band=2&lng=139.69171&city=tokyo&compare=tokyo,helsinki');
+  await expect(page.getByRole('dialog').getByText('手记暂时无法读取', { exact: true })).toHaveCount(
+    4,
+  );
+  await expect(page.getByRole('dialog')).not.toContainText('手记正在读取');
+  await page.unroute('**/api/places/helsinki');
+  await ready(page, '/?lat=35&band=2&lng=139.69171&city=tokyo&compare=tokyo,helsinki');
+  await expect(page.getByRole('dialog').locator('.compare-cities h3')).toHaveText([
+    /东京/,
+    /赫尔辛基/,
+  ]);
+  await expectComparisonStories(page, ['tokyo', 'helsinki']);
 });
 
 test('comparison story navigation finds its own route when the current latitude has no cities', async ({
