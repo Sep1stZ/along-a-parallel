@@ -12,6 +12,11 @@ const cityIdsSchema = z
   .array(placeIdSchema)
   .max(100)
   .refine((ids) => new Set(ids).size === ids.length, '地点不能重复');
+export const MAX_PORTABLE_IDS = 50_000;
+export const portableIdsSchema = z
+  .array(placeIdSchema)
+  .max(MAX_PORTABLE_IDS)
+  .refine((ids) => new Set(ids).size === ids.length, '地点不能重复');
 export const journeyPatchSchema = z
   .object({
     latitude: latitudeSchema.optional(),
@@ -19,6 +24,7 @@ export const journeyPatchSchema = z
     longitude: longitudeSchema.optional(),
     selectedCity: placeIdSchema.nullable().optional(),
     explored: cityIdsSchema.optional(),
+    visited: placeIdSchema.optional(),
     compare: cityIdsSchema.refine((ids) => ids.length <= 2, '最多比较两座城市').optional(),
   })
   .strict()
@@ -30,6 +36,32 @@ export const compareSchema = z
   .array(placeIdSchema)
   .length(2)
   .refine((ids) => ids[0] !== ids[1], '请选择两座不同的城市');
+export const portableJourneySchema = z
+  .object({
+    version: z.literal(2),
+    journey: z
+      .object({
+        latitude: latitudeSchema,
+        band: bandSchema,
+        longitude: longitudeSchema,
+        selectedCity: placeIdSchema.nullable(),
+        compare: cityIdsSchema.refine((ids) => ids.length <= 2, '最多比较两座城市'),
+      })
+      .strict(),
+    favorites: portableIdsSchema,
+    explored: portableIdsSchema,
+  })
+  .strict();
+export type PortableJourney = z.infer<typeof portableJourneySchema>;
+export const listIdsSchema = z
+  .array(placeIdSchema)
+  .min(1)
+  .max(200)
+  .refine((ids) => new Set(ids).size === ids.length, '地点不能重复');
+export const listLimitSchema = z.number().int().min(1).max(200);
+export const listOffsetSchema = z.number().int().min(0).max(50_000);
+export const searchSchema = z.string().trim().max(100);
+export const contentLevelSchema = z.enum(['all', 'curated']);
 
 export type JourneyPatch = z.infer<typeof journeyPatchSchema>;
 export function normalizeLongitude(longitude: number) {

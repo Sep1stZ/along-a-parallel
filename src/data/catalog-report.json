@@ -1,0 +1,1140 @@
+{
+  "schemaVersion": 1,
+  "version": "geonames-cities15000-2026-11-11-2bbf3f840a-23981a95c3",
+  "generatedAt": "2026-11-11",
+  "chineseEnrichmentComplete": true,
+  "attribution": "Contains GeoNames geographical data, available under the Creative Commons Attribution 4.0 licence. https://www.geonames.org/ — labels filtered, fields reduced and legacy project identities preserved by Along a Parallel.",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceDocumentation": "https://download.geonames.org/export/dump/readme.txt",
+  "sources": [
+    {
+      "file": "cities15000.zip",
+      "url": "https://download.geonames.org/export/dump/cities15000.zip",
+      "bytes": 3367206,
+      "sha256": "2bbf3f840aa5dcc7704e2b72e37146f0a4c939191a1ccbf4199f6b8c4041f29f",
+      "lastModified": null,
+      "accessedAt": "2026-11-11"
+    },
+    {
+      "file": "alternateNamesV2.zip",
+      "url": "https://download.geonames.org/export/dump/alternateNamesV2.zip",
+      "bytes": 205195364,
+      "sha256": "23981a95c3951c78dd6a343c0a0c6d6e858a887ab44342cfb4d5f12ae3022b60",
+      "lastModified": null,
+      "accessedAt": "2026-11-11"
+    },
+    {
+      "file": "countryInfo.txt",
+      "url": "https://download.geonames.org/export/dump/countryInfo.txt",
+      "bytes": 32112,
+      "sha256": "79f8f59ea01cbb40438bf1856dd6c2ff201f03f8fc72d0530b2646aaf603ef04",
+      "lastModified": null,
+      "accessedAt": "2026-11-11"
+    },
+    {
+      "file": "admin1CodesASCII.txt",
+      "url": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+      "bytes": 151571,
+      "sha256": "2e4867f5397acb056ea26377601b57af37cb4c81399770225018e9e439e91ad3",
+      "lastModified": null,
+      "accessedAt": "2026-11-11"
+    },
+    {
+      "file": "readme.txt",
+      "url": "https://download.geonames.org/export/dump/readme.txt",
+      "bytes": 8843,
+      "sha256": "b1957379b6c1242c700c98ac9a8aa0a09f56c3c0a50ee72175527005f48ef2c5",
+      "lastModified": null,
+      "accessedAt": "2026-11-11"
+    }
+  ],
+  "inputRecords": 34214,
+  "acceptedRecords": 34214,
+  "rejected": {
+    "invalidCoordinate": 0,
+    "invalidId": 0,
+    "invalidTimezone": 0,
+    "missingTimezone": 0,
+    "missingName": 0,
+    "invalidCountry": 0
+  },
+  "chineseNamed": 11296,
+  "originalNameFallback": 22918,
+  "matchingChineseAliases": 14590,
+  "actualElevationRecords": 4495,
+  "uniqueTimezones": 356,
+  "countryOrTerritoryCount": 244,
+  "latitudeExtent": {
+    "min": -54.81084,
+    "max": 78.22334
+  },
+  "featureCodes": {
+    "PPLA": 2420,
+    "PPLC": 241,
+    "PPL": 18340,
+    "PPLX": 2393,
+    "PPLW": 5,
+    "PPLA2": 6873,
+    "PPLA3": 2828,
+    "PPLQ": 9,
+    "PPLA4": 980,
+    "PPLL": 72,
+    "PPLH": 8,
+    "PPLA5": 18,
+    "PPLG": 9,
+    "PPLS": 11,
+    "PPLF": 4,
+    "PPLR": 1,
+    "STLMT": 2
+  },
+  "legacyMatches": [
+    {
+      "id": "hangzhou",
+      "name": "杭州",
+      "geonamesId": 1808926,
+      "sourceName": "Hangzhou",
+      "latitude": 30.29365,
+      "longitude": 120.16142
+    },
+    {
+      "id": "chengdu",
+      "name": "成都",
+      "geonamesId": 1815286,
+      "sourceName": "Chengdu",
+      "latitude": 30.66667,
+      "longitude": 104.06667
+    },
+    {
+      "id": "lhasa",
+      "name": "拉萨",
+      "geonamesId": 1280737,
+      "sourceName": "Lhasa",
+      "latitude": 29.65,
+      "longitude": 91.1
+    },
+    {
+      "id": "shiraz",
+      "name": "设拉子",
+      "geonamesId": 115019,
+      "sourceName": "Shiraz",
+      "latitude": 29.61031,
+      "longitude": 52.53113
+    },
+    {
+      "id": "cairo",
+      "name": "开罗",
+      "geonamesId": 360630,
+      "sourceName": "Cairo",
+      "latitude": 30.06263,
+      "longitude": 31.24967
+    },
+    {
+      "id": "marrakesh",
+      "name": "马拉喀什",
+      "geonamesId": 2542997,
+      "sourceName": "Marrakesh",
+      "latitude": 31.63416,
+      "longitude": -7.99994
+    },
+    {
+      "id": "new-orleans",
+      "name": "新奥尔良",
+      "geonamesId": 4335045,
+      "sourceName": "New Orleans",
+      "latitude": 29.95465,
+      "longitude": -90.07507
+    },
+    {
+      "id": "houston",
+      "name": "休斯敦",
+      "geonamesId": 4699066,
+      "sourceName": "Houston",
+      "latitude": 29.76328,
+      "longitude": -95.36327
+    },
+    {
+      "id": "harbin",
+      "name": "哈尔滨",
+      "geonamesId": 2037013,
+      "sourceName": "Harbin",
+      "latitude": 45.75,
+      "longitude": 126.65
+    },
+    {
+      "id": "venice",
+      "name": "威尼斯",
+      "geonamesId": 3164603,
+      "sourceName": "Venice",
+      "latitude": 45.43713,
+      "longitude": 12.33265
+    },
+    {
+      "id": "montreal",
+      "name": "蒙特利尔",
+      "geonamesId": 6077243,
+      "sourceName": "Montréal",
+      "latitude": 45.50884,
+      "longitude": -73.58781
+    },
+    {
+      "id": "portland",
+      "name": "波特兰",
+      "geonamesId": 5746545,
+      "sourceName": "Portland",
+      "latitude": 45.52345,
+      "longitude": -122.67621
+    },
+    {
+      "id": "rio",
+      "name": "里约热内卢",
+      "geonamesId": 3451190,
+      "sourceName": "Rio de Janeiro",
+      "latitude": -22.90642,
+      "longitude": -43.18223
+    },
+    {
+      "id": "sao-paulo",
+      "name": "圣保罗",
+      "geonamesId": 3448439,
+      "sourceName": "São Paulo",
+      "latitude": -23.5475,
+      "longitude": -46.63611
+    },
+    {
+      "id": "antofagasta",
+      "name": "安托法加斯塔",
+      "geonamesId": 3899539,
+      "sourceName": "Antofagasta",
+      "latitude": -23.65094,
+      "longitude": -70.39752
+    },
+    {
+      "id": "alice-springs",
+      "name": "爱丽斯泉",
+      "geonamesId": 2077895,
+      "sourceName": "Alice Springs",
+      "latitude": -23.69748,
+      "longitude": 133.88362
+    }
+  ],
+  "coverage": [
+    {
+      "latitude": -90,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -89,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -88,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -87,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -86,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -85,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -84,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -83,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -82,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -81,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -80,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -79,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -78,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -77,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -76,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -75,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -74,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -73,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -72,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -71,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -70,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -69,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -68,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -67,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -66,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -65,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -64,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -63,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -62,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -61,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -60,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -59,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -58,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -57,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": -56,
+      "band": 2,
+      "places": 2
+    },
+    {
+      "latitude": -55,
+      "band": 2,
+      "places": 4
+    },
+    {
+      "latitude": -54,
+      "band": 2,
+      "places": 4
+    },
+    {
+      "latitude": -53,
+      "band": 2,
+      "places": 7
+    },
+    {
+      "latitude": -52,
+      "band": 2,
+      "places": 6
+    },
+    {
+      "latitude": -51,
+      "band": 2,
+      "places": 5
+    },
+    {
+      "latitude": -50,
+      "band": 2,
+      "places": 5
+    },
+    {
+      "latitude": -49,
+      "band": 2,
+      "places": 3
+    },
+    {
+      "latitude": -48,
+      "band": 2,
+      "places": 6
+    },
+    {
+      "latitude": -47,
+      "band": 2,
+      "places": 9
+    },
+    {
+      "latitude": -46,
+      "band": 2,
+      "places": 10
+    },
+    {
+      "latitude": -45,
+      "band": 2,
+      "places": 16
+    },
+    {
+      "latitude": -44,
+      "band": 2,
+      "places": 16
+    },
+    {
+      "latitude": -43,
+      "band": 2,
+      "places": 34
+    },
+    {
+      "latitude": -42,
+      "band": 2,
+      "places": 46
+    },
+    {
+      "latitude": -41,
+      "band": 2,
+      "places": 51
+    },
+    {
+      "latitude": -40,
+      "band": 2,
+      "places": 105
+    },
+    {
+      "latitude": -39,
+      "band": 2,
+      "places": 220
+    },
+    {
+      "latitude": -38,
+      "band": 2,
+      "places": 258
+    },
+    {
+      "latitude": -37,
+      "band": 2,
+      "places": 281
+    },
+    {
+      "latitude": -36,
+      "band": 2,
+      "places": 356
+    },
+    {
+      "latitude": -35,
+      "band": 2,
+      "places": 383
+    },
+    {
+      "latitude": -34,
+      "band": 2,
+      "places": 404
+    },
+    {
+      "latitude": -33,
+      "band": 2,
+      "places": 435
+    },
+    {
+      "latitude": -32,
+      "band": 2,
+      "places": 356
+    },
+    {
+      "latitude": -31,
+      "band": 2,
+      "places": 298
+    },
+    {
+      "latitude": -30,
+      "band": 2,
+      "places": 316
+    },
+    {
+      "latitude": -29,
+      "band": 2,
+      "places": 389
+    },
+    {
+      "latitude": -28,
+      "band": 2,
+      "places": 480
+    },
+    {
+      "latitude": -27,
+      "band": 2,
+      "places": 510
+    },
+    {
+      "latitude": -26,
+      "band": 2,
+      "places": 510
+    },
+    {
+      "latitude": -25,
+      "band": 2,
+      "places": 642
+    },
+    {
+      "latitude": -24,
+      "band": 2,
+      "places": 718
+    },
+    {
+      "latitude": -23,
+      "band": 2,
+      "places": 738
+    },
+    {
+      "latitude": -22,
+      "band": 2,
+      "places": 804
+    },
+    {
+      "latitude": -21,
+      "band": 2,
+      "places": 637
+    },
+    {
+      "latitude": -20,
+      "band": 2,
+      "places": 506
+    },
+    {
+      "latitude": -19,
+      "band": 2,
+      "places": 451
+    },
+    {
+      "latitude": -18,
+      "band": 2,
+      "places": 387
+    },
+    {
+      "latitude": -17,
+      "band": 2,
+      "places": 408
+    },
+    {
+      "latitude": -16,
+      "band": 2,
+      "places": 418
+    },
+    {
+      "latitude": -15,
+      "band": 2,
+      "places": 407
+    },
+    {
+      "latitude": -14,
+      "band": 2,
+      "places": 453
+    },
+    {
+      "latitude": -13,
+      "band": 2,
+      "places": 444
+    },
+    {
+      "latitude": -12,
+      "band": 2,
+      "places": 470
+    },
+    {
+      "latitude": -11,
+      "band": 2,
+      "places": 518
+    },
+    {
+      "latitude": -10,
+      "band": 2,
+      "places": 605
+    },
+    {
+      "latitude": -9,
+      "band": 2,
+      "places": 783
+    },
+    {
+      "latitude": -8,
+      "band": 2,
+      "places": 896
+    },
+    {
+      "latitude": -7,
+      "band": 2,
+      "places": 891
+    },
+    {
+      "latitude": -6,
+      "band": 2,
+      "places": 831
+    },
+    {
+      "latitude": -5,
+      "band": 2,
+      "places": 739
+    },
+    {
+      "latitude": -4,
+      "band": 2,
+      "places": 675
+    },
+    {
+      "latitude": -3,
+      "band": 2,
+      "places": 709
+    },
+    {
+      "latitude": -2,
+      "band": 2,
+      "places": 669
+    },
+    {
+      "latitude": -1,
+      "band": 2,
+      "places": 611
+    },
+    {
+      "latitude": 0,
+      "band": 2,
+      "places": 639
+    },
+    {
+      "latitude": 1,
+      "band": 2,
+      "places": 617
+    },
+    {
+      "latitude": 2,
+      "band": 2,
+      "places": 673
+    },
+    {
+      "latitude": 3,
+      "band": 2,
+      "places": 697
+    },
+    {
+      "latitude": 4,
+      "band": 2,
+      "places": 806
+    },
+    {
+      "latitude": 5,
+      "band": 2,
+      "places": 1044
+    },
+    {
+      "latitude": 6,
+      "band": 2,
+      "places": 1144
+    },
+    {
+      "latitude": 7,
+      "band": 2,
+      "places": 1327
+    },
+    {
+      "latitude": 8,
+      "band": 2,
+      "places": 1463
+    },
+    {
+      "latitude": 9,
+      "band": 2,
+      "places": 1699
+    },
+    {
+      "latitude": 10,
+      "band": 2,
+      "places": 1911
+    },
+    {
+      "latitude": 11,
+      "band": 2,
+      "places": 1911
+    },
+    {
+      "latitude": 12,
+      "band": 2,
+      "places": 1973
+    },
+    {
+      "latitude": 13,
+      "band": 2,
+      "places": 1841
+    },
+    {
+      "latitude": 14,
+      "band": 2,
+      "places": 1631
+    },
+    {
+      "latitude": 15,
+      "band": 2,
+      "places": 1629
+    },
+    {
+      "latitude": 16,
+      "band": 2,
+      "places": 1369
+    },
+    {
+      "latitude": 17,
+      "band": 2,
+      "places": 1216
+    },
+    {
+      "latitude": 18,
+      "band": 2,
+      "places": 1343
+    },
+    {
+      "latitude": 19,
+      "band": 2,
+      "places": 1361
+    },
+    {
+      "latitude": 20,
+      "band": 2,
+      "places": 1542
+    },
+    {
+      "latitude": 21,
+      "band": 2,
+      "places": 1860
+    },
+    {
+      "latitude": 22,
+      "band": 2,
+      "places": 1867
+    },
+    {
+      "latitude": 23,
+      "band": 2,
+      "places": 1830
+    },
+    {
+      "latitude": 24,
+      "band": 2,
+      "places": 1953
+    },
+    {
+      "latitude": 25,
+      "band": 2,
+      "places": 1800
+    },
+    {
+      "latitude": 26,
+      "band": 2,
+      "places": 1757
+    },
+    {
+      "latitude": 27,
+      "band": 2,
+      "places": 1920
+    },
+    {
+      "latitude": 28,
+      "band": 2,
+      "places": 1969
+    },
+    {
+      "latitude": 29,
+      "band": 2,
+      "places": 2057
+    },
+    {
+      "latitude": 30,
+      "band": 2,
+      "places": 2219
+    },
+    {
+      "latitude": 31,
+      "band": 2,
+      "places": 2305
+    },
+    {
+      "latitude": 32,
+      "band": 2,
+      "places": 2394
+    },
+    {
+      "latitude": 33,
+      "band": 2,
+      "places": 2693
+    },
+    {
+      "latitude": 34,
+      "band": 2,
+      "places": 3076
+    },
+    {
+      "latitude": 35,
+      "band": 2,
+      "places": 3399
+    },
+    {
+      "latitude": 36,
+      "band": 2,
+      "places": 3350
+    },
+    {
+      "latitude": 37,
+      "band": 2,
+      "places": 3172
+    },
+    {
+      "latitude": 38,
+      "band": 2,
+      "places": 2819
+    },
+    {
+      "latitude": 39,
+      "band": 2,
+      "places": 3046
+    },
+    {
+      "latitude": 40,
+      "band": 2,
+      "places": 3348
+    },
+    {
+      "latitude": 41,
+      "band": 2,
+      "places": 3215
+    },
+    {
+      "latitude": 42,
+      "band": 2,
+      "places": 3259
+    },
+    {
+      "latitude": 43,
+      "band": 2,
+      "places": 2518
+    },
+    {
+      "latitude": 44,
+      "band": 2,
+      "places": 2173
+    },
+    {
+      "latitude": 45,
+      "band": 2,
+      "places": 1890
+    },
+    {
+      "latitude": 46,
+      "band": 2,
+      "places": 1777
+    },
+    {
+      "latitude": 47,
+      "band": 2,
+      "places": 2083
+    },
+    {
+      "latitude": 48,
+      "band": 2,
+      "places": 1979
+    },
+    {
+      "latitude": 49,
+      "band": 2,
+      "places": 2480
+    },
+    {
+      "latitude": 50,
+      "band": 2,
+      "places": 2964
+    },
+    {
+      "latitude": 51,
+      "band": 2,
+      "places": 2909
+    },
+    {
+      "latitude": 52,
+      "band": 2,
+      "places": 2954
+    },
+    {
+      "latitude": 53,
+      "band": 2,
+      "places": 2410
+    },
+    {
+      "latitude": 54,
+      "band": 2,
+      "places": 1787
+    },
+    {
+      "latitude": 55,
+      "band": 2,
+      "places": 1307
+    },
+    {
+      "latitude": 56,
+      "band": 2,
+      "places": 852
+    },
+    {
+      "latitude": 57,
+      "band": 2,
+      "places": 669
+    },
+    {
+      "latitude": 58,
+      "band": 2,
+      "places": 435
+    },
+    {
+      "latitude": 59,
+      "band": 2,
+      "places": 374
+    },
+    {
+      "latitude": 60,
+      "band": 2,
+      "places": 337
+    },
+    {
+      "latitude": 61,
+      "band": 2,
+      "places": 299
+    },
+    {
+      "latitude": 62,
+      "band": 2,
+      "places": 189
+    },
+    {
+      "latitude": 63,
+      "band": 2,
+      "places": 114
+    },
+    {
+      "latitude": 64,
+      "band": 2,
+      "places": 79
+    },
+    {
+      "latitude": 65,
+      "band": 2,
+      "places": 61
+    },
+    {
+      "latitude": 66,
+      "band": 2,
+      "places": 51
+    },
+    {
+      "latitude": 67,
+      "band": 2,
+      "places": 34
+    },
+    {
+      "latitude": 68,
+      "band": 2,
+      "places": 34
+    },
+    {
+      "latitude": 69,
+      "band": 2,
+      "places": 26
+    },
+    {
+      "latitude": 70,
+      "band": 2,
+      "places": 14
+    },
+    {
+      "latitude": 71,
+      "band": 2,
+      "places": 11
+    },
+    {
+      "latitude": 72,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 73,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 74,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 75,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 76,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 77,
+      "band": 2,
+      "places": 1
+    },
+    {
+      "latitude": 78,
+      "band": 2,
+      "places": 1
+    },
+    {
+      "latitude": 79,
+      "band": 2,
+      "places": 1
+    },
+    {
+      "latitude": 80,
+      "band": 2,
+      "places": 1
+    },
+    {
+      "latitude": 81,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 82,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 83,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 84,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 85,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 86,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 87,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 88,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 89,
+      "band": 2,
+      "places": 0
+    },
+    {
+      "latitude": 90,
+      "band": 2,
+      "places": 0
+    }
+  ],
+  "nonEmptyLatitudeBands": 132,
+  "dataBytes": 9538749,
+  "dataSha256": "402cf4e77e3eb139d609737d1e8da946cae0cf59dcafb5345fb5979d03412815",
+  "notes": [
+    "Coverage counts are for integer latitude centres from -90 through 90, each with a ±2° band, and describe this selected source catalogue, not all settlements on Earth.",
+    "cities15000 is a selected populated-place dataset, not an exhaustive global list; oceans and polar areas can correctly have zero entries.",
+    "Chinese display labels use language-tagged current aliases or the 16 documented v1 manual labels. Otherwise the source local name remains; no machine-translated place names are generated.",
+    "Search aliases include registry transliterations and alternate spellings and are not all current preferred official names.",
+    "Elevation uses only the explicit GeoNames elevation field in metres. The DEM grid field is deliberately not substituted for city elevation.",
+    "Population is omitted because the extract does not provide an observation year per population figure.",
+    "Runtime curated overlays preserve their published coordinates and identifiers and replace matching GeoNames rows; report.coverage describes the source rows before that overlay."
+  ]
+}

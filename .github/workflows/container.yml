@@ -3,6 +3,10 @@ name: Container
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - 'README.md'
+      - 'SOURCES.md'
   workflow_dispatch:
 
 permissions:

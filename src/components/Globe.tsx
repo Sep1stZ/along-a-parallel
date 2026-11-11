@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { geoCircle, geoDistance, geoGraticule10, geoOrthographic, geoPath } from 'd3-geo';
 import { Compass, Move, RotateCcw } from 'lucide-react';
 import type { FeatureCollection } from 'geojson';
-import type { Place } from '@/data/places';
+import type { PlaceSummary } from '@/lib/place-types';
 import { coordinate, normalizeLongitude, shortestAngle } from '@/lib/geo';
 
 export default function Globe({
@@ -18,7 +18,7 @@ export default function Globe({
 }: {
   latitude: number;
   band: number;
-  places: Place[];
+  places: PlaceSummary[];
   selected: string | null;
   longitude: number;
   onSelect: (id: string) => void;
@@ -103,6 +103,37 @@ export default function Globe({
     .precision(1)();
   const pointVisible = (lon: number, lat: number) =>
     geoDistance([rotation[0], rotation[1]], [lon, lat]) < Math.PI / 2 - 0.035;
+  const grouped = new Map<string, { place: PlaceSummary; xy: [number, number]; count: number }>();
+  const visible = places
+    .filter((p) => pointVisible(p.longitude, p.latitude))
+    .sort(
+      (a, b) =>
+        Number(b.id === selected) - Number(a.id === selected) ||
+        Number(b.hasStory) - Number(a.hasStory),
+    );
+  for (const place of visible) {
+    const xy = projection([place.longitude, place.latitude]);
+    if (!xy) continue;
+    const key = `${Math.floor(xy[0] / 29)},${Math.floor(xy[1] / 29)}`;
+    const previous = grouped.get(key);
+    if (previous) previous.count++;
+    else grouped.set(key, { place, xy, count: 1 });
+  }
+  const labels: { x: number; y: number; width: number }[] = [];
+  const markers = [...grouped.values()].map((marker) => {
+    const active = marker.place.id === selected;
+    const width = Math.min(130, marker.place.name.length * 11 + 15);
+    const label =
+      active ||
+      (labels.length < 10 &&
+        !labels.some(
+          (other) =>
+            Math.abs(other.y - marker.xy[1]) < 24 &&
+            Math.abs(other.x - marker.xy[0]) < (other.width + width) / 2,
+        ));
+    if (label) labels.push({ x: marker.xy[0], y: marker.xy[1], width });
+    return { ...marker, label };
+  });
   return (
     <div className="globe-wrap">
       <div className="map-corner">
@@ -225,51 +256,57 @@ export default function Globe({
         />
         <path d={path(parallel) || ''} fill="none" stroke="#e8ad79" strokeWidth="2" />
         <path d={path({ type: 'Sphere' }) || ''} fill="url(#shade)" pointerEvents="none" />
-        {places
-          .filter((p) => pointVisible(p.longitude, p.latitude))
-          .map((p) => {
-            const xy = projection([p.longitude, p.latitude]);
-            if (!xy) return null;
-            const active = p.id === selected;
-            return (
-              <g
-                key={p.id}
-                data-city={p.id}
-                transform={`translate(${xy[0].toFixed(3)},${xy[1].toFixed(3)})`}
-                className="map-marker"
-                role="button"
-                aria-label={`探索${p.name}`}
-                tabIndex={0}
-                onClick={() => {
-                  setOcean(false);
+        {markers.map(({ place: p, xy, count, label }) => {
+          const active = p.id === selected;
+          return (
+            <g
+              key={p.id}
+              data-city={p.id}
+              transform={`translate(${xy[0].toFixed(3)},${xy[1].toFixed(3)})`}
+              className="map-marker"
+              role="button"
+              aria-label={`探索${p.name}${count > 1 ? `，附近聚合 ${count} 个地点` : ''}`}
+              tabIndex={0}
+              onClick={() => {
+                setOcean(false);
+                onSelect(p.id);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
                   onSelect(p.id);
-                }}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    onSelect(p.id);
-                  }
-                }}
-              >
-                <circle r="17" fill="transparent" />
-                {active && (
-                  <circle
-                    r="12"
-                    fill="#e8ad79"
-                    fillOpacity=".23"
-                    stroke="#f0bb8a"
-                    strokeOpacity=".55"
-                  />
-                )}
+                }
+              }}
+            >
+              <title>
+                {p.name}
+                {count > 1 ? ` · 当前页附近 ${count} 个地点，可用列表逐一查看` : ''}
+              </title>
+              <circle r="17" fill="transparent" />
+              {active && (
                 <circle
-                  r={active ? 5 : 3.5}
-                  fill={active ? '#f1c497' : '#f4efe5'}
-                  stroke="#294a48"
-                  strokeWidth="1.5"
+                  r="12"
+                  fill="#e8ad79"
+                  fillOpacity=".23"
+                  stroke="#f0bb8a"
+                  strokeOpacity=".55"
                 />
+              )}
+              <circle
+                r={count > 1 ? 9 : active ? 5 : 3.5}
+                fill={active ? '#f1c497' : '#f4efe5'}
+                stroke="#294a48"
+                strokeWidth="1.5"
+              />
+              {count > 1 && (
+                <text y="3" textAnchor="middle" fill="#183c3b" fontSize="8" fontWeight="600">
+                  {count}
+                </text>
+              )}
+              {label && (
                 <text
-                  x={active ? 15 : 10}
-                  y={active ? -10 : -8}
+                  x={active ? 15 : 12}
+                  y={active ? -10 : -9}
                   fill="#fff8e9"
                   fontSize={active ? 16 : 11}
                   fontWeight={active ? 600 : 400}
@@ -279,14 +316,15 @@ export default function Globe({
                 >
                   {p.name}
                 </text>
-                {active && (
-                  <text x="15" y="7" fill="#e0d3b8" fontSize="8" letterSpacing="1.5">
-                    {p.originalName.toUpperCase()}
-                  </text>
-                )}
-              </g>
-            );
-          })}
+              )}
+              {active && (
+                <text x="15" y="7" fill="#e0d3b8" fontSize="8" letterSpacing="1.5">
+                  {p.originalName.toUpperCase().slice(0, 30)}
+                </text>
+              )}
+            </g>
+          );
+        })}
         <text x="578" y="289" fill="#b3724f" fontFamily="Georgia, serif" fontSize="15">
           {Math.abs(latitude)}°{latitude < 0 ? 'S' : 'N'}
         </text>
@@ -314,7 +352,9 @@ export default function Globe({
           <RotateCcw size={13} /> 复位视角
         </button>
       </div>
-      {ocean && <p className="ocean-note">这一段还没有收录故事，继续转动地球，或选择下一站。</p>}
+      {ocean && (
+        <p className="ocean-note">当前页在这一视角没有地点标记，继续转动地球，或选择下一站。</p>
+      )}
       <div className="globe-coordinate">
         {coordinate(normalizeLongitude(rotation[0]), false)}
         <span>ORTHOGRAPHIC PROJECTION</span>

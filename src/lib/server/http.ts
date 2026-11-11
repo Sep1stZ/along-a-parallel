@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { ZodError, type ZodType } from 'zod';
 import { ApiError, getStore, type Store } from './store';
+import { isApiError } from './errors';
 import { publicOrigin } from './origin';
 
 const COOKIE = 'parallel_session';
@@ -17,11 +18,15 @@ export function assertSameOrigin(request: NextRequest) {
   }
 }
 
-export async function readJson<T>(request: NextRequest, schema: ZodType<T>): Promise<T> {
+export async function readJson<T>(
+  request: NextRequest,
+  schema: ZodType<T>,
+  maxBody = MAX_BODY,
+): Promise<T> {
   if (!/^application\/json(?:\s*;|$)/i.test(request.headers.get('content-type') || ''))
     throw new ApiError(415, '请使用 JSON 格式提交');
   const length = request.headers.get('content-length');
-  if (length !== null && (!/^\d+$/.test(length) || Number(length) > MAX_BODY))
+  if (length !== null && (!/^\d+$/.test(length) || Number(length) > maxBody))
     throw new ApiError(413, '请求内容过大');
   const reader = request.body?.getReader();
   const chunks: Uint8Array[] = [];
@@ -31,7 +36,7 @@ export async function readJson<T>(request: NextRequest, schema: ZodType<T>): Pro
       const chunk = await reader.read();
       if (chunk.done) break;
       size += chunk.value.byteLength;
-      if (size > MAX_BODY) {
+      if (size > maxBody) {
         await reader.cancel();
         throw new ApiError(413, '请求内容过大');
       }
@@ -56,7 +61,7 @@ export async function readJson<T>(request: NextRequest, schema: ZodType<T>): Pro
 export async function api(
   request: NextRequest,
   handler: Handler,
-  options: { session?: boolean; write?: boolean; status?: number } = {},
+  options: { session?: boolean; write?: boolean; status?: number; public?: boolean } = {},
 ) {
   let freshToken: string | undefined;
   try {
@@ -68,7 +73,12 @@ export async function api(
     freshToken = session.token;
     const result = await handler({ store, sessionId: session.id });
     const response = NextResponse.json(result, { status: options.status || 200 });
-    response.headers.set('Cache-Control', 'private, no-store');
+    response.headers.set(
+      'Cache-Control',
+      options.public && !options.session
+        ? 'public, max-age=300, stale-while-revalidate=3600'
+        : 'private, no-store',
+    );
     response.headers.set('X-Content-Type-Options', 'nosniff');
     if (freshToken)
       response.cookies.set(COOKIE, freshToken, {
@@ -80,13 +90,12 @@ export async function api(
       });
     return response;
   } catch (error) {
-    const status = error instanceof ApiError ? error.status : error instanceof ZodError ? 400 : 500;
-    const message =
-      error instanceof ApiError
-        ? error.message
-        : error instanceof ZodError
-          ? '请求参数无效，请检查纬度、带宽与城市选择'
-          : '暂时无法保存，请稍后重试';
+    const status = isApiError(error) ? error.status : error instanceof ZodError ? 400 : 500;
+    const message = isApiError(error)
+      ? error.message
+      : error instanceof ZodError
+        ? '请求参数无效，请检查纬度、带宽与城市选择'
+        : '暂时无法保存，请稍后重试';
     if (status === 500) console.error('API failure', error);
     const response = NextResponse.json({ error: message }, { status });
     response.headers.set('Cache-Control', 'private, no-store');

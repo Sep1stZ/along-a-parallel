@@ -3,7 +3,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: '沿着一条纬线 · Along a Parallel',
   description:
-    '同一条纬线，很多种生活。转动地球，沿着三个纬度带探索十六座城市的自然、建筑、食物与日常。',
+    '同一条纬线，很多种生活。搜索全球三万多个真实地点，沿八条精选纬度带阅读六十座城市的手记，比较、收藏并分享自己的地理图册。',
   icons: { icon: '/icon.svg' },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {

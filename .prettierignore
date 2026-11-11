@@ -8,3 +8,4 @@ test-results
 playwright-report
 work
 next-env.d.ts
+src/data/catalog-data.json

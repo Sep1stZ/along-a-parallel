@@ -6,7 +6,7 @@ export const shortestAngle = (from: number, to: number) => from + normalizeLongi
 export const inBand = (latitude: number, center: number, band: number) =>
   Math.abs(latitude - center) <= band + 1e-9;
 export const latitudeLabel = (value: number) =>
-  `${value < 0 ? '南纬' : '北纬'} ${Math.abs(value)}°`;
+  value === 0 ? '赤道 0°' : `${value < 0 ? '南纬' : '北纬'} ${Math.abs(value)}°`;
 export const coordinate = (value: number, lat = true) =>
   `${Math.abs(value).toFixed(2)}° ${lat ? (value < 0 ? 'S' : 'N') : value < 0 ? 'W' : 'E'}`;
 export type ExploreState = {
@@ -16,7 +16,7 @@ export type ExploreState = {
   selectedCity: string | null;
   compare: string[];
 };
-export function parseExplore(search: string, knownIds: string[]): ExploreState | null {
+export function parseExplore(search: string, knownIds?: string[]): ExploreState | null {
   const p = new URLSearchParams(search);
   if (!p.size) return null;
   const number = (name: string, fallback: number, min: number, max: number) => {
@@ -33,9 +33,10 @@ export function parseExplore(search: string, knownIds: string[]): ExploreState |
     const selectedCity = p.get('city');
     const compare = [...new Set(p.get('compare')?.split(',').filter(Boolean) ?? [])];
     if (
-      (selectedCity && !knownIds.includes(selectedCity)) ||
+      (selectedCity &&
+        !(knownIds ? knownIds.includes(selectedCity) : /^[a-z0-9-]{1,60}$/.test(selectedCity))) ||
       compare.length > 2 ||
-      compare.some((id) => !knownIds.includes(id))
+      compare.some((id) => !(knownIds ? knownIds.includes(id) : /^[a-z0-9-]{1,60}$/.test(id)))
     )
       return null;
     return { latitude, band, longitude, selectedCity, compare };

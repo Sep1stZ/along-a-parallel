@@ -1,28 +1,5 @@
-export type Source = {
-  title: string;
-  publisher: string;
-  url: string;
-  accessedAt: string;
-  status: 'verified' | 'pending';
-  scope: string;
-};
-
-export type Story = { theme: string; title: string; body: string };
-export type Place = {
-  id: string;
-  name: string;
-  originalName: string;
-  country: string;
-  latitude: number;
-  longitude: number;
-  timezone: string;
-  tagline: string;
-  intro: string;
-  image: string;
-  accent: string;
-  stories: Story[];
-  sources: Source[];
-};
+import type { Place, Source } from '../lib/place-types';
+export type { Place, Story, Source } from '../lib/place-types';
 
 const verifiedSourceUrls = new Set<string>([
   'https://en.wikipedia.org/wiki/Hangzhou',
@@ -60,13 +37,44 @@ const verifiedSourceUrls = new Set<string>([
   'https://govt.chinadaily.com.cn/s/201803/16/WS5b787192498e855160e8e9b8/great-lieba-bread-da-lie-ba-mian-bao-daliebamianbao.html',
 ]);
 
+/** V2 rechecks: only the facts actually read are included in the reviewed scope. */
+const v2ReviewedSourceScopes: Record<string, string> = {
+  'https://en.wikipedia.org/wiki/Chengdu':
+    '实际审阅成都平原、岷江流域、茶馆及担担面与川菜调味线索；未用该页核验人民公园的具体场景或担担面名称起源',
+  'https://en.wikipedia.org/wiki/Lhasa':
+    '实际审阅拉萨河与高原位置、大昭寺周边的转经路线及八廓商贸背景；未用该页核验茶饮或糌粑的食材做法',
+  'https://en.wikipedia.org/wiki/New_Orleans':
+    '实际审阅密西西比河三角洲、庞恰特雷恩湖方位、法国区庭院与铁阳台，以及 gumbo、beignet 餐饮线索',
+  'https://www.neworleans.com/plan/neighborhoods/french-quarter/':
+    '实际审阅法国区的步行街区、临街铁阳台与庭院，以及法国、西班牙、克里奥尔等多时期建筑背景；未采纳价格和营业资讯',
+  'https://en.wikipedia.org/wiki/Houston':
+    '实际审阅墨西哥湾沿岸平原、Buffalo Bayou 与 White Oak Bayou 的水道背景、博物馆区与剧院区；未用该页核验 Viet-Cajun 具体做法',
+  'https://www.visithoustontexas.com/about-houston/':
+    '实际审阅市中心艺术机构、博物馆区与餐饮场景的旅游机构概述；不采纳城市排名、消费频率或人口数字比较',
+  'https://en.wikipedia.org/wiki/Harbin':
+    '实际审阅松花江、中央大街、圣索菲亚教堂，以及红肠和大列巴的城市饮食线索；不将社区编辑的文化概述泛化为全部居民习惯',
+  'https://en.wikipedia.org/wiki/Venice':
+    '实际审阅潟湖岛屿与 vaporetti 公共水上巴士；未用该页核验里亚托市场的经营情况或 cicchetti 的具体配料',
+  'https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014':
+    '实际审阅杰马夫纳文化空间的列入记录、摊贩与表演活动，以及广场从白天延续至夜间的多用途使用；未据此核验广场以外的食品做法',
+  'https://en.wikipedia.org/wiki/Portland,_Oregon':
+    '实际审阅威拉米特河与哥伦比亚河汇流区域、Tilikum Crossing、滨水公园和餐车场景；不采纳餐车数量、排名或活动日程',
+  'https://en.wikipedia.org/wiki/Rio_de_Janeiro':
+    '实际审阅瓜纳巴拉湾、山地与科帕卡巴纳等海滩的地理背景；未用该页核验 feijoada 做法或 botequim 小酒馆描述',
+  'https://en.wikipedia.org/wiki/S%C3%A3o_Paulo':
+    '实际审阅海岸山地之后的高原位置、自由区与移民街区、伊比拉普埃拉公园及披萨餐饮线索；不采纳人口、店铺数或产量统计',
+};
+
 const source = (title: string, publisher: string, url: string, scope: string): Source => ({
   title,
   publisher,
   url,
-  scope,
-  accessedAt: '2026-11-10',
-  status: verifiedSourceUrls.has(url) ? 'verified' : 'pending',
+  scope: v2ReviewedSourceScopes[url] ?? scope,
+  accessedAt: verifiedSourceUrls.has(url) ? '2026-11-10' : '2026-11-11',
+  status:
+    verifiedSourceUrls.has(url) || Object.hasOwn(v2ReviewedSourceScopes, url)
+      ? 'verified'
+      : 'pending',
 });
 
 /** Curated city-centre coordinates; illustrations are original schematic artwork. */

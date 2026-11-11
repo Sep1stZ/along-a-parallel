@@ -1,10 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { NextRequest } from 'next/server';
-import { assertSameOrigin, readJson } from '../src/lib/server/http';
+import { api, assertSameOrigin, readJson } from '../src/lib/server/http';
 import { ApiError } from '../src/lib/server/store';
-import { favoriteSchema } from '../src/lib/server/validation';
+import { favoriteSchema, portableJourneySchema } from '../src/lib/server/validation';
 import { configuredOrigin, publicOrigin } from '../src/lib/server/origin';
+import { isApiError } from '../src/lib/server/errors';
+import { Store } from '../src/lib/server/store';
 
 test('writes reject cross-site and mismatched origins', () => {
   const url = 'http://localhost:3000/api/favorites';
@@ -137,4 +139,55 @@ test('request parser enforces JSON content type, schema and actual streamed body
     readJson(request('{}', { 'content-length': '17000' }), favoriteSchema),
     (error) => error instanceof ApiError && error.status === 413,
   );
+});
+
+test('portable imports allow a bounded larger JSON body while the ordinary write limit remains small', async () => {
+  const body = JSON.stringify({
+    version: 2,
+    journey: { latitude: 30, band: 2, longitude: 120, selectedCity: null, compare: [] },
+    favorites: [],
+    explored: Array.from({ length: 2000 }, (_, index) => `geonames-${index}`),
+  });
+  const request = (value: string) =>
+    new NextRequest('http://localhost:3000/api/journey/import', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: value,
+    });
+  await assert.rejects(
+    readJson(request(body), portableJourneySchema),
+    (error) => error instanceof ApiError && error.status === 413,
+  );
+  assert.equal(
+    (await readJson(request(body), portableJourneySchema, 2 * 1024 * 1024)).explored.length,
+    2000,
+  );
+  await assert.rejects(
+    readJson(request(' '.repeat(2 * 1024 * 1024 + 1)), portableJourneySchema, 2 * 1024 * 1024),
+    (error) => error instanceof ApiError && error.status === 413,
+  );
+});
+
+test('HMR errors from an older Store retain their HTTP status instead of becoming 500', async () => {
+  const legacyError = Object.assign(new Error('原作者已撤销这条分享旅程'), { status: 410 });
+  assert.equal(legacyError instanceof ApiError, false);
+  assert.equal(isApiError(legacyError), true);
+  assert.equal(isApiError(new ApiError(404, '不存在')), true);
+  assert.equal(isApiError(Object.assign(new Error('invalid'), { status: 200 })), false);
+  assert.equal(isApiError({ status: 410, message: 'plain input' }), false);
+  const state = globalThis as unknown as { parallelStore?: Store };
+  const previous = state.parallelStore;
+  const store = new Store(':memory:');
+  state.parallelStore = store;
+  try {
+    const response = await api(new NextRequest('http://localhost:3000/api/shared/test'), () => {
+      throw legacyError;
+    });
+    assert.equal(response.status, 410);
+    assert.deepEqual(await response.json(), { error: legacyError.message });
+    assert.match(response.headers.get('cache-control')!, /no-store/);
+  } finally {
+    state.parallelStore = previous;
+    store.close();
+  }
 });

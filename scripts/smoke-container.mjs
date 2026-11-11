@@ -44,15 +44,54 @@ function startContainer() {
     '--detach',
     '--name',
     containerName,
+    '--memory',
+    '256m',
+    '--memory-swap',
+    '256m',
+    '--cpus',
+    '0.2',
     '--publish',
     `127.0.0.1:${port}:3000`,
     '--mount',
     `type=volume,source=${volumeName},target=/app/.data`,
     '--env',
     `APP_ORIGIN=${canonicalOrigin}`,
+    '--env',
+    'NODE_OPTIONS=--max-old-space-size=160',
     image,
   ]);
   containerCreated = true;
+}
+
+function verifyResourceBudget(label) {
+  const state = JSON.parse(docker(['inspect', '--format', '{{json .State}}', containerName]));
+  assert.equal(state.Running, true, `${label}: container must remain running`);
+  assert.equal(state.OOMKilled, false, `${label}: container must not be OOM killed`);
+  const memoryLimit = Number(
+    docker(['inspect', '--format', '{{.HostConfig.Memory}}', containerName]),
+  );
+  const cpuLimit = Number(
+    docker(['inspect', '--format', '{{.HostConfig.NanoCpus}}', containerName]),
+  );
+  assert.equal(memoryLimit, 256 * 1024 * 1024);
+  assert.equal(cpuLimit, 200_000_000);
+  const peak = docker([
+    'exec',
+    containerName,
+    'sh',
+    '-c',
+    'cat /sys/fs/cgroup/memory.peak 2>/dev/null || cat /sys/fs/cgroup/memory/memory.max_usage_in_bytes 2>/dev/null || true',
+  ]);
+  const environment = JSON.parse(
+    docker(['inspect', '--format', '{{json .Config.Env}}', containerName]),
+  );
+  assert.ok(environment.includes('NODE_OPTIONS=--max-old-space-size=160'));
+  const stats = docker(['stats', '--no-stream', '--format', '{{.MemUsage}}', containerName]);
+  if (peak)
+    assert.ok(Number(peak) <= memoryLimit, `${label}: cgroup peak exceeded the memory budget`);
+  console.log(
+    `PASS: ${label}; 0.2 CPU / 256 MiB / Node heap 160 MiB; memory ${stats}${peak ? `; peak ${(Number(peak) / 1048576).toFixed(1)} MiB` : ''}; no OOM`,
+  );
 }
 
 async function request(path, { cookie, method = 'GET', body, origin = canonicalOrigin } = {}) {
@@ -95,15 +134,41 @@ try {
   assert.equal(map.status, 200);
   assert.equal((await map.json()).type, 'FeatureCollection');
   const routes = await request('/api/routes');
-  assert.equal(routes.result.routes.length, 3);
-  for (const [latitude, expected] of [
-    [30, 8],
-    [45, 4],
-    [-23, 4],
+  assert.ok(routes.result.routes.length >= 8);
+  const catalog = await request('/api/catalog');
+  assert.equal(catalog.response.status, 200);
+  assert.ok(catalog.result.total >= 10_000);
+  assert.ok(catalog.result.curatedTotal >= 60);
+  assert.equal(catalog.result.coverage.length, 181);
+  assert.ok(catalog.result.coverage.filter((row) => row.count > 0).length > 100);
+  assert.equal(catalog.response.headers.get('set-cookie'), null);
+  assert.match(catalog.response.headers.get('cache-control') || '', /^public/);
+  for (const [latitude, id] of [
+    [30, 'hangzhou'],
+    [45, 'venice'],
+    [-23, 'rio'],
   ]) {
     const { result } = await request(`/api/places?latitude=${latitude}&band=2`);
-    assert.equal(result.places.length, expected);
+    assert.ok(result.total >= result.places.length && result.places.length <= 60);
+    assert.equal(
+      result.total,
+      catalog.result.coverage.find((row) => row.latitude === latitude).count,
+    );
+    assert.ok(result.places.every((place) => !('stories' in place)));
+    const lookup = await request(`/api/places?ids=${id}`);
+    assert.equal(lookup.result.places[0].id, id);
   }
+  const baseCity = (await request('/api/places?latitude=30&band=2&limit=200')).result.places.find(
+    (place) => place.level === 'catalog',
+  );
+  assert.ok(baseCity);
+  const baseDetail = await request(`/api/places/${baseCity.id}`);
+  assert.deepEqual(baseDetail.result.place.stories, []);
+  assert.ok(baseDetail.result.place.sources.length > 0);
+  const nearest = await request(
+    '/api/places/nearby?latitude=30&band=2&longitude=120&direction=nearest',
+  );
+  assert.ok(nearest.result.place.id);
 
   const owner = await establishSession();
   for (let i = 0; i < 2; i++) {
@@ -128,6 +193,10 @@ try {
     },
   });
   assert.equal(saved.response.status, 200);
+  const exported = await request('/api/journey/export', { cookie: owner.cookie });
+  assert.equal(exported.result.version, 2);
+  assert.deepEqual(exported.result.explored.sort(), ['cairo', 'hangzhou']);
+  assert.ok(!JSON.stringify(exported.result).includes(owner.cookie.split('=')[1]));
   const shared = await request('/api/journey/share', {
     cookie: owner.cookie,
     method: 'POST',
@@ -139,6 +208,8 @@ try {
   const snapshot = shared.result.snapshot;
   assert.equal(snapshot.selectedCity, 'cairo');
   assert.deepEqual(snapshot.favorites, ['hangzhou']);
+  assert.equal(snapshot.schemaVersion, 2);
+  assert.ok(snapshot.places.length <= 60);
 
   const other = await establishSession();
   assert.notEqual(other.cookie, owner.cookie);
@@ -149,6 +220,11 @@ try {
     method: 'DELETE',
   });
   assert.deepEqual(otherDelete.result.favorites, []);
+  const otherRevoke = await request(`/api/shares/${shared.result.token}`, {
+    cookie: other.cookie,
+    method: 'DELETE',
+  });
+  assert.equal(otherRevoke.response.status, 404);
   const forbidden = await request('/api/favorites', {
     cookie: owner.cookie,
     method: 'POST',
@@ -176,6 +252,18 @@ try {
     assert.equal(publicRead.response.headers.get('set-cookie'), null);
     assert.deepEqual(publicRead.result.snapshot, snapshot);
     assert.ok(!JSON.stringify(publicRead.result).includes(owner.cookie.split('=')[1]));
+    // Render the server page too: this loads the RSC route bundle in addition to API bundles.
+    const page = await fetch(`${baseUrl}/shared/${shared.result.token}`, {
+      signal: AbortSignal.timeout(15_000),
+    });
+    assert.equal(page.status, 200);
+    assert.equal(page.headers.get('set-cookie'), null);
+    const html = await page.text();
+    assert.ok(html.includes(snapshot.name));
+    assert.equal(
+      (html.match(/class="shared-card"/g) || []).length,
+      Math.min(12, snapshot.places.length),
+    );
   };
   const verifyPersistence = async () => {
     assert.deepEqual((await request('/api/favorites', { cookie: owner.cookie })).result.favorites, [
@@ -192,13 +280,15 @@ try {
     await readSnapshot();
   };
   await verifyPersistence();
+  verifyResourceBudget('initial import and API checks');
   console.log(
-    'PASS: image boot, local assets, 16 cities, sessions, ownership, CSRF and frozen sharing',
+    `PASS: image boot, local assets, ${catalog.result.total} catalog cities / ${catalog.result.curatedTotal} curated, sessions, ownership, export, CSRF and frozen sharing`,
   );
 
   docker(['restart', '--time', '20', containerName]);
   await waitUntilReady();
   await verifyPersistence();
+  verifyResourceBudget('restart with unchanged catalog');
   console.log('PASS: favorites, journeys and immutable public snapshot survived container restart');
 
   docker(['rm', '--force', containerName]);
@@ -206,10 +296,29 @@ try {
   startContainer();
   await waitUntilReady();
   await verifyPersistence();
+  verifyResourceBudget('replacement with persistent volume');
   console.log('PASS: persisted data survived replacement of the container using the same volume');
+  const shares = await request('/api/shares', { cookie: owner.cookie });
+  assert.ok(shares.result.shares.some((share) => share.token === shared.result.token));
+  const revoked = await request(`/api/shares/${shared.result.token}`, {
+    cookie: owner.cookie,
+    method: 'DELETE',
+  });
+  assert.equal(revoked.response.status, 200);
+  const gone = await request(`/api/shared/${shared.result.token}`);
+  assert.equal(gone.response.status, 410);
+  assert.match(gone.response.headers.get('cache-control') || '', /no-store/);
+  const withdrawnPage = await fetch(`${baseUrl}/shared/${shared.result.token}`, {
+    signal: AbortSignal.timeout(15_000),
+  });
+  assert.match(await withdrawnPage.text(), /这条分享旅程已撤销/);
+  console.log('PASS: owner-only revocation returns an uncached HTTP 410');
 } catch (error) {
   if (containerCreated) {
     try {
+      console.error(
+        `Container state: ${docker(['inspect', '--format', '{{json .State}}', containerName])}`,
+      );
       console.error(docker(['logs', '--tail', '100', containerName]));
     } catch {
       /* Retain the original test failure. */

@@ -1,11 +1,27 @@
 [
   {
     "url": "https://whc.unesco.org/en/list/1334/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/1334/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "西湖的堤岸、园林、寺塔及人文景观构成",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://whc.unesco.org/en/list/1443/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/1443/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "大运河与杭州的水运背景",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Hangzhou",
@@ -16,31 +32,87 @@
   },
   {
     "url": "https://whc.unesco.org/en/list/1001/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/1001/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "都江堰水利与岷江背景",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Chengdu",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/Chengdu",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅成都平原、岷江流域、茶馆及担担面与川菜调味线索；未用该页核验人民公园的具体场景或担担面名称起源",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://www.britannica.com/place/Chengdu",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Chengdu",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "城市地形、水系与历史背景",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://whc.unesco.org/en/list/707/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/707/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "布达拉宫、大昭寺、罗布林卡的建筑背景",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Lhasa",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/Lhasa",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅拉萨河与高原位置、大昭寺周边的转经路线及八廓商贸背景；未用该页核验茶饮或糌粑的食材做法",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://www.britannica.com/place/Lhasa",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Lhasa",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "高原河谷与城市史",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://whc.unesco.org/en/list/1372/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/1372/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "埃拉姆花园与波斯园林的空间结构",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Shiraz",
@@ -51,11 +123,27 @@
   },
   {
     "url": "https://www.britannica.com/place/Shiraz",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Shiraz",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "地形与城市文化史",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://whc.unesco.org/en/list/89/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/89/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "历史开罗建筑类型与遗产范围",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Cairo",
@@ -66,15 +154,39 @@
   },
   {
     "url": "https://www.britannica.com/place/Cairo",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Cairo",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "地形、水系与历史街区",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://whc.unesco.org/en/list/331/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/331/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "麦地那、城墙与历史建筑",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014",
-    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+    "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+    "v2Recheck": {
+      "url": "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅杰马夫纳文化空间的列入记录、摊贩与表演活动，以及广场从白天延续至夜间的多用途使用；未据此核验广场以外的食品做法",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Marrakesh",
@@ -92,11 +204,27 @@
   },
   {
     "url": "https://en.wikipedia.org/wiki/New_Orleans",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/New_Orleans",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅密西西比河三角洲、庞恰特雷恩湖方位、法国区庭院与铁阳台，以及 gumbo、beignet 餐饮线索",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://www.neworleans.com/plan/neighborhoods/french-quarter/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.neworleans.com/plan/neighborhoods/french-quarter/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅法国区的步行街区、临街铁阳台与庭院，以及法国、西班牙、克里奥尔等多时期建筑背景；未采纳价格和营业资讯",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://buffalobayou.org/location/buffalo-bayou-park/",
@@ -107,27 +235,75 @@
   },
   {
     "url": "https://en.wikipedia.org/wiki/Houston",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/Houston",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅墨西哥湾沿岸平原、Buffalo Bayou 与 White Oak Bayou 的水道背景、博物馆区与剧院区；未用该页核验 Viet-Cajun 具体做法",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://www.visithoustontexas.com/about-houston/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.visithoustontexas.com/about-houston/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅市中心艺术机构、博物馆区与餐饮场景的旅游机构概述；不采纳城市排名、消费频率或人口数字比较",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Harbin",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/Harbin",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅松花江、中央大街、圣索菲亚教堂，以及红肠和大列巴的城市饮食线索；不将社区编辑的文化概述泛化为全部居民习惯",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://www.britannica.com/place/Harbin",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Harbin",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "地理、铁路与城市史",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://whc.unesco.org/en/list/394/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/394/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "潟湖、岛屿和建筑遗产",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Venice",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/Venice",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅潟湖岛屿与 vaporetti 公共水上巴士；未用该页核验里亚托市场的经营情况或 cicchetti 的具体配料",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Montreal",
@@ -138,7 +314,15 @@
   },
   {
     "url": "https://www.britannica.com/place/Montreal",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Montreal",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "圣劳伦斯河、港口和城市史",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://www.mtl.org/en/experience/mile-end",
@@ -149,23 +333,63 @@
   },
   {
     "url": "https://en.wikipedia.org/wiki/Portland,_Oregon",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/Portland,_Oregon",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅威拉米特河与哥伦比亚河汇流区域、Tilikum Crossing、滨水公园和餐车场景；不采纳餐车数量、排名或活动日程",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://www.travelportland.com/culture/food-carts/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.travelportland.com/culture/food-carts/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "餐车及餐车聚落的具体场景",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://whc.unesco.org/en/list/1100/",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://whc.unesco.org/en/list/1100/",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "山海文化景观与滨水设计",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅瓜纳巴拉湾、山地与科帕卡巴纳等海滩的地理背景；未用该页核验 feijoada 做法或 botequim 小酒馆描述",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
-    "error": "HTTP Error 403: Too Many Reqs (1862a4b)"
+    "error": "HTTP Error 403: Too Many Reqs (1862a4b)",
+    "v2Recheck": {
+      "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 200,
+      "status": "verified",
+      "scope": "实际审阅海岸山地之后的高原位置、自由区与移民街区、伊比拉普埃拉公园及披萨餐饮线索；不采纳人口、店铺数或产量统计",
+      "reviewNote": "已读取正文并检查记录的指定事实范围；未将整篇内容或未找到的细节视为核验通过。"
+    }
   },
   {
     "url": "https://masp.org.br/en/about",
@@ -176,7 +400,15 @@
   },
   {
     "url": "https://www.britannica.com/place/Sao-Paulo-Brazil",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Sao-Paulo-Brazil",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "高原地理、移民与城市史",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Antofagasta",
@@ -194,7 +426,15 @@
   },
   {
     "url": "https://www.britannica.com/place/Antofagasta-Chile",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://www.britannica.com/place/Antofagasta-Chile",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "沙漠港口与资源运输历史",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "url": "https://en.wikipedia.org/wiki/Alice_Springs",
@@ -212,7 +452,15 @@
   },
   {
     "url": "https://nt.gov.au/parks/find-a-park/alice-springs-telegraph-station-historical-reserve",
-    "error": "HTTP Error 403: Forbidden"
+    "error": "HTTP Error 403: Forbidden",
+    "v2Recheck": {
+      "url": "https://nt.gov.au/parks/find-a-park/alice-springs-telegraph-station-historical-reserve",
+      "checkedAt": "2026-11-11",
+      "httpStatus": 403,
+      "status": "pending",
+      "scope": "电报站遗产与访问背景",
+      "reviewNote": "再次获取正文被 HTTP 403 阻断；未读取事实材料，保留待核验。"
+    }
   },
   {
     "id": "hangzhou",

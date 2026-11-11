@@ -4,6 +4,7 @@ import { mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { Store, ApiError } from '../src/lib/server/store';
+import { catalogSummaries } from '../src/data/catalog';
 import {
   bandSchema,
   journeyPatchSchema,
@@ -15,14 +16,20 @@ import {
 test('latitude filtering respects actual coordinates and inclusive boundaries', () => {
   const store = new Store(':memory:');
   try {
-    assert.equal(store.getPlaces(30, 2).length, 8);
-    assert.equal(store.getPlaces(45, 2).length, 4);
-    assert.equal(store.getPlaces(-23, 2).length, 4);
+    assert.ok(store.getPlaces(30, 2).some((p) => p.id === 'hangzhou'));
+    assert.ok(store.getPlaces(45, 2).some((p) => p.id === 'venice'));
+    assert.ok(store.getPlaces(-23, 2).some((p) => p.id === 'rio'));
     const place = store.getPlace('hangzhou');
     const difference = Math.abs(place.latitude - 30);
     assert.ok(store.getPlaces(30, difference).some((p) => p.id === place.id));
     assert.ok(!store.getPlaces(30, difference - 0.000001).some((p) => p.id === place.id));
-    assert.deepEqual(store.getPlaces(80, 2), []);
+    assert.deepEqual(store.getPlaces(89.123456, 0), []);
+    const plan = store.db
+      .prepare(
+        'EXPLAIN QUERY PLAN SELECT summary FROM places WHERE active=1 AND latitude BETWEEN ? AND ? ORDER BY longitude,id LIMIT 60',
+      )
+      .all(28, 32);
+    assert.match(JSON.stringify(plan), /SEARCH places USING INDEX places_latitude/);
   } finally {
     store.close();
   }
@@ -48,9 +55,14 @@ test('favorites are unique, scoped to owner, persistent and preserved by seeding
       selectedCity: 'cairo',
       longitude: 31.2357,
     });
-    store.seed();
+    const before = store.db.prepare('SELECT total_changes() AS n').get()?.n;
+    assert.equal(store.seed(), false);
+    assert.equal(store.db.prepare('SELECT total_changes() AS n').get()?.n, before);
     assert.deepEqual(store.favorites(a.id), ['hangzhou']);
-    assert.equal(store.db.prepare('SELECT count(*) AS n FROM places').get()?.n, 16);
+    assert.equal(
+      store.db.prepare('SELECT count(*) AS n FROM places WHERE active=1').get()?.n,
+      catalogSummaries.length,
+    );
     store.close();
     store = new Store(filename);
     assert.equal(store.resolveSession(a.token).id, a.id);
@@ -75,7 +87,8 @@ test('public snapshots remain immutable when the private journey and favorites c
     store.addFavorite(owner.id, 'hangzhou');
     const { token, snapshot } = store.share(owner.id, '测试旅程');
     assert.match(token, /^[A-Za-z0-9_-]{43}$/);
-    assert.equal(snapshot.cityIds.length, 8);
+    assert.equal(snapshot.schemaVersion, 2);
+    assert.deepEqual(new Set(snapshot.cityIds), new Set(['hangzhou', 'cairo']));
     assert.ok(!JSON.stringify(snapshot).includes(owner.id));
     assert.ok(!JSON.stringify(snapshot).includes(owner.token!));
     store.updateJourney(owner.id, {
