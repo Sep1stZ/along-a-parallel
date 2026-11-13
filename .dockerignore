@@ -12,3 +12,5 @@ tsconfig.tsbuildinfo
 deploy/.env
 work
 outputs
+**/__pycache__
+**/*.py[cod]

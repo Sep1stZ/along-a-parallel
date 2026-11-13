@@ -4,6 +4,8 @@
 
 一部可以在本地运行的中文地理人文图册。V2 收录 **34,214 个真实地点、60 座精选城市、8 条纬度路线和 30 条自然观察**，支持全球搜索、比较、收藏、旅程导入导出与分享撤销。
 
+V2.1 为全部地点补充地理档案、附近地点与延伸阅读，并为 **165 座城市**加入有独立来源的中文百科速读。地球改用 Canvas 底图与 SVG 交互标记，合并拖动绘制，减少旋转卡顿。数据与内容边界见 [城市速读说明](docs/CITY-ARTICLES.md)，实测对照见 [性能记录](docs/PERFORMANCE.md)。
+
 An open-source atlas with 34,214 geographical places, 60 curated cities, eight latitude routes and 30 natural observations. Search the world, explore a globe, compare places, and export or share a journey. The interface and editorial content are primarily in Simplified Chinese.
 
 [在线体验：沿着一条纬线](https://parallel-6a30a9330b.sealoshzh.site/)（Sealos 杭州试用验收站，临时演示域名；可用性取决于托管余额）。
@@ -39,7 +41,9 @@ Windows 下安装依赖后，也可以双击 `start-local.cmd` 打开浏览器�
 - 八个预设纬度带与自定义中心纬度，±1° / ±2° / ±5° / ±10° 范围和密度提示；按真实经度循环探索整个纬度带。
 - 中文、英文和别名搜索，同名地点显示国家/地区与行政区。摘要每页最多 60 条，详情按需加载；地图聚合邻近标记并保留选中地点。
 - 基础地点与精选手记分层；60 座精选城市有四主题原创手记和示意插画，另有 30 条自然观察与资料来源。
+- 全部地点提供地理档案：可读行政区、纬度位置、时区、点位海拔、别名、三个真实近邻与三个精选阅读入口。165 座城市另有经过审读的中文百科导言节选，保留原始修订与 CC BY-SA 4.0 许可；与精选四主题手记分别展示。
 - 两座城市的逐项比较、实际纬度、时区时间和已收录海拔。缺失值保留为空，未接入气候常年值。
+- 比较中含基础地点时，展示位置、简介、周边与延伸阅读；两座精选城市仍可按四个主题阅读。
 - 匿名收藏、探索记录与旅程恢复，服务端写入 SQLite。
 - JSON 旅程导出与合并导入，探索记录支持超过 100 个地点；界面显示最近 200 条记录，导出包含完整记录。
 - 公开只读分享快照最多含 60 个完整地点，创建后保持冻结；作者可查看和撤销自己的分享。V1 旧快照继续保持原样。
@@ -151,4 +155,4 @@ tests/               核心行为测试
 
 ## 许可 / License
 
-代码、原创文字与原创 SVG 按 [MIT License](LICENSE) 发布。GeoNames 原始及加工后的地理数据独立适用 **CC BY 4.0**，保留 GeoNames 署名及加工说明；Natural Earth 数据为公共领域，字体遵循 SIL OFL 1.1。第三方参考页面属于各自权利人。具体版本、来源与处理方式见素材清单。
+代码、原创文字与原创 SVG 按 [MIT License](LICENSE) 发布。GeoNames 原始及加工后的地理数据独立适用 **CC BY 4.0**；新增维基百科导言节选、对应审读白名单中的节选及其文字整理适用 **CC BY-SA 4.0**，保留原始修订与编者署名，不改授 MIT。Natural Earth 数据为公共领域，字体遵循 SIL OFL 1.1。其他第三方参考页面属于各自权利人。具体版本、来源与处理方式见 [SOURCES.md](SOURCES.md) 和素材清单。

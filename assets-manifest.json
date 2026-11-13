@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "preparedAt": "2026-11-11",
+  "preparedAt": "2026-11-13",
   "runtimeNetworkRequired": false,
   "assets": [
     {
@@ -272,14 +272,14 @@
       "accessedAt": "2026-11-10",
       "status": "verified",
       "modifications": "Subset to the complete local catalog, current UI and editorial text plus Latin/punctuation; variable weight axis 400–700; renamed Parallel Sans SC. Copyright and OFL retained. Rebuilt by scripts/build-font-subset.py.",
-      "bytes": 793528,
-      "sha256": "781ba4da772ffb12405de13ac70edfcf3c99c93d4993da9b98b3c71598ac4f4b",
+      "bytes": 837616,
+      "sha256": "15aa1bf0f3a548678c7c3c9b36833f90ed782f5c21fee2b7d58bde22afd4ded2",
       "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
       "weights": [400, 700],
       "format": "woff2",
-      "unicodeCount": 3278,
+      "unicodeCount": 3447,
       "runtimeNetworkRequired": false,
-      "preparedAt": "2026-11-11"
+      "preparedAt": "2026-11-13"
     },
     {
       "file": "public/fonts/OFL-NotoSansSC.txt",
@@ -1026,6 +1026,32 @@
       "status": "verified",
       "bytes": 2957,
       "sha256": "36cef149a1b3890b0b1ed9e26b09a7a593b732d42046fddabc05b380367457a0"
+    },
+    {
+      "file": "src/data/city-articles.json",
+      "title": "中文城市速读 · 维基百科导言节选",
+      "author": "Wikipedia contributors",
+      "sourceUrl": "https://api.wikimedia.org/",
+      "license": "CC BY-SA 4.0 (article text; separate from project MIT code)",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+      "modifications": "Selected introductory passages, removed citations/pronunciation and stale numeric claims; converted to Simplified Chinese. Per-article revision links and scopes retained.",
+      "accessedAt": "2026-11-13",
+      "status": "verified",
+      "bytes": 247446,
+      "sha256": "73fd492b6f8e97619ba74b90d57e3144a64dc3e30c6fa05fd23aa62954a6db25"
+    },
+    {
+      "file": "src/data/catalog-regions.json",
+      "title": "GeoNames 一级行政区可读标签",
+      "author": "GeoNames contributors",
+      "sourceUrl": "https://download.geonames.org/export/dump/",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Filtered administration names and Chinese language aliases from the pinned 2026-11-11 GeoNames snapshot; original names retained where Chinese labels are unavailable.",
+      "accessedAt": "2026-11-13",
+      "status": "verified",
+      "bytes": 107346,
+      "sha256": "61083e9d5767e196ab2b117da20b8581a858844666ca6230dc36c95c5d463943"
     }
   ]
 }

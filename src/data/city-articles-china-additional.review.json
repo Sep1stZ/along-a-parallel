@@ -1,0 +1,905 @@
+[
+  {
+    "geonamesId": 1792947,
+    "sourceSha256": "2a1085abc91b19b1c32269429c9ae8398609bf38c99d101eb4d904a46bf1afa2",
+    "article": {
+      "title": "天津市 · 城市速读",
+      "paragraphs": [
+        "天津位于华北平原、海河各支流交汇处，东临渤海，北依燕山，与北京、河北相邻。海河蜿蜒穿过城中，河道与跨河桥梁也是认识这座城市空间的线索。",
+        "随着大运河开通，天津逐渐成为南北物资转运的水陆码头。明代设置天津卫并筑城；1860年开放为通商口岸以后，租界、近代实业与交通设施的发展改变了城市面貌。"
+      ],
+      "source": {
+        "title": "天津市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A9%E6%B4%A5%E5%B8%82&oldid=95499100",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A9%E6%B4%A5%E5%B8%82&oldid=95499100",
+        "scope": "审读导言前三段，选取海河渤海区位、运河码头、设卫筑城与近代开埠；删去城市规模排名及军事机构细节。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1886760,
+    "sourceSha256": "2e5006b04e4a4742b0ebf31d4dae0a501174e4a76a765270000d8d9362a96013",
+    "article": {
+      "title": "苏州市 · 城市速读",
+      "paragraphs": [
+        "苏州位于江苏东南部、长江三角洲和太湖平原的中心地带，古称吴，是江南吴文化的重要发祥地。",
+        "明清时期，苏州是重要的工商业与文化城市。近代开埠格局和战乱曾影响其发展；20世纪后期，乡镇企业与开发区建设推动了新的产业增长，成为理解苏南经济变迁的一条线索。"
+      ],
+      "source": {
+        "title": "苏州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8B%8F%E5%B7%9E%E5%B8%82&oldid=95521346",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%8B%8F%E5%B7%9E%E5%B8%82&oldid=95521346",
+        "scope": "审读导言前三段并核对Jiangsu身份，选取太湖平原、吴文化、明清工商业与苏南乡镇企业；删去建城年代争议、经济人口排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1810821,
+    "sourceSha256": "f32e91cb8ade61d76f5285a93de33bc0c4a8515296fe54f54941307b39ce09f1",
+    "article": {
+      "title": "福州市 · 城市速读",
+      "paragraphs": [
+        "福州是福建省省会，位于福建东部、闽江下游，别称榕城，也是著名侨乡。滨江与滨海的地理背景，构成了认识这座海峡西岸城市的入口。",
+        "福州是闽都文化的发源地之一，长期担任福建的行政与文化中心。它既是历史上海上交通的门户，也是近代最早开放的五个通商口岸之一，城市历史与对外交流相互交织。"
+      ],
+      "source": {
+        "title": "福州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E7%A6%8F%E5%B7%9E%E5%B8%82&oldid=95498849",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%A6%8F%E5%B7%9E%E5%B8%82&oldid=95498849",
+        "scope": "审读导言前三段，选取福建闽江下游、榕城侨乡、闽都文化及通商口岸；删去古都数量、海域数字和政策称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1815577,
+    "sourceSha256": "0499c300e0fada05762c71b0476c56bfa69f41b6a926345e8c40214017a3c36f",
+    "article": {
+      "title": "长沙市 · 城市速读",
+      "paragraphs": [
+        "长沙是湖南省省会，位于湘东北、湘江下游，与株洲、湘潭共同构成长株潭城市群。山、水与洲的地理形态，也使长沙有山水洲城的称呼。",
+        "马王堆汉墓、长沙窑与岳麓书院，分别提供了阅读汉代生活、古代陶瓷贸易和书院教育的入口。近现代以来，工程机械、传媒和出版等产业也构成了长沙的城市特色。"
+      ],
+      "source": {
+        "title": "长沙市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%B2%99%E5%B8%82&oldid=95221430",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%B2%99%E5%B8%82&oldid=95221430",
+        "scope": "审读导言前三段，选取湘江与长株潭、马王堆长沙窑岳麓书院和机械传媒产业；不采用首创、全球之都及高校排名表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1787093,
+    "sourceSha256": "8b4492f1e0fab8df22dbc890a626d72428c884e659b7eccee553fb6eea56cdb2",
+    "article": {
+      "title": "烟台市 · 城市速读",
+      "paragraphs": [
+        "烟台古称芝罘，位于山东东部、胶东半岛中北部，北濒渤海，南滨黄海，与辽东半岛隔海相望。南北临海而东西连陆，是其市域鲜明的地理格局。",
+        "烟台市域兼有低山、丘陵、平原和海岸，境内有大泽山、艾山、昆嵛山等山地，以及五龙河、大沽夹河等河流。沿海开放城市的身份与多样的海陆地形，构成原条目介绍烟台的主要线索。"
+      ],
+      "source": {
+        "title": "烟台市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E7%83%9F%E5%8F%B0%E5%B8%82&oldid=95353926",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%83%9F%E5%8F%B0%E5%B8%82&oldid=95353926",
+        "scope": "审读唯一导言段，选取胶东双海岸、旧称、山地河流与沿海城市属性；不采用最古老城市、魅力奖项等表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1814087,
+    "sourceSha256": "96d56e1d4046ba061e1725a5ccf96ea7509bffc36cb9eebf47e753803e87ba7e",
+    "article": {
+      "title": "大连市 · 城市速读",
+      "paragraphs": [
+        "大连位于辽东半岛南端、黄海与渤海交界处，与山东半岛隔海相望。港口、贸易、工业与航运，是理解这座辽宁沿海城市的重要线索。",
+        "大连曾有旅大市之名，俄占时期也曾称达尔尼或达里尼。原条目导言还介绍了这里作为东北航运与物流中心的城市角色，以及夏季达沃斯新领军者年会的举办经历。"
+      ],
+      "source": {
+        "title": "大连市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E8%BF%9E%E5%B8%82&oldid=95483195",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E8%BF%9E%E5%B8%82&oldid=95483195",
+        "scope": "审读导言前三段，选取半岛港口区位、历史名称、航运物流及会展；删去气候绝对化、宜居营销与城市排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 2038180,
+    "sourceSha256": "3f12378742d47a1054f5a16f41b62dcaa40f44695929ce9c5b4400d519665335",
+    "article": {
+      "title": "长春市 · 城市速读",
+      "paragraphs": [
+        "长春是吉林省省会，位于东北平原腹地的松辽平原上。装备制造与综合交通枢纽功能，是认识这座东北城市的起点。",
+        "长春保留有近现代历史古迹与工业遗产，1932年至1945年曾是满洲国首都。汽车工业与电影工业构成其重要城市记忆，吉林大学、东北师范大学及多家科研机构也坐落于此。"
+      ],
+      "source": {
+        "title": "长春市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%98%A5%E5%B8%82&oldid=95533517",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%98%A5%E5%B8%82&oldid=95533517",
+        "scope": "审读导言第一和第三段，选取松辽平原、满洲国都城时期、汽车电影工业及高校；删去人口、基础建设和科研排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 2036502,
+    "sourceSha256": "dad51ef2c01fcaf60af0eb0d7fcfc6d22cb9fb971d5d67a8e1e7ac93678405ac",
+    "article": {
+      "title": "吉林市 · 城市速读",
+      "paragraphs": [
+        "吉林市位于吉林省中部偏东，松花江由南向北流经市域，沿途汇入辉发河、蛟河等支流。山岭与江河构成了这座北国江城的地理背景。",
+        "吉林市曾是吉林省省会。清代在此设置吉林府，近代又设置吉林市；吉林乌拉这一满语名称具有沿江的含义，河流与地方建制共同成为理解城市名称和历史的线索。"
+      ],
+      "source": {
+        "title": "吉林市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E6%9E%97%E5%B8%82&oldid=95420912",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E6%9E%97%E5%B8%82&oldid=95420912",
+        "scope": "审读导言前三段，选取松花江水系、原省会、吉林府与地名含义；删去唯一同名城市及城市规模的绝对判断。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 2035265,
+    "sourceSha256": "9ee70fc1c0302b2c3ad680e7f30c67ea593a1acede1414cfea05a0d94d90057b",
+    "article": {
+      "title": "齐齐哈尔市 · 城市速读",
+      "paragraphs": [
+        "齐齐哈尔位于黑龙江省、松嫩平原西部，嫩江自北向南贯穿市域，诺敏河、雅鲁河、乌裕尔河等水系也流经当地。西侧与内蒙古相邻，西南与吉林省相接。",
+        "齐齐哈尔别称鹤城、卜奎、龙沙，曾长期担任黑龙江省省会，也是一座历史文化名城和重要的重工业城市。原条目以河流平原、区域联系和城市建制介绍了这里。"
+      ],
+      "source": {
+        "title": "齐齐哈尔市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%B8%82&oldid=94554892",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%B8%82&oldid=94554892",
+        "scope": "审读唯一导言段，选取松嫩平原嫩江、区域邻接、旧省会及重工业；不由鹤城别称推导未经阅读的生态旅游细节。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 2035715,
+    "sourceSha256": "443a55fccef12ed9d5b9a475f2acd3570fe5e795bfee71f938107381bbf0571a",
+    "article": {
+      "title": "牡丹江市 · 城市速读",
+      "paragraphs": [
+        "牡丹江位于黑龙江东南部、张广才岭与老爷岭之间的谷地，因流经市区的牡丹江得名。市域东侧与俄罗斯滨海边疆区相邻，南侧接吉林延边。",
+        "牡丹江上游有镜泊湖，市域另有穆棱河、绥芬河等水系，森林与河谷是其鲜明的地理线索。原条目还介绍了辖区东宁的边境贸易口岸功能，体现这座城市与周边地区的联系。"
+      ],
+      "source": {
+        "title": "牡丹江市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E7%89%A1%E4%B8%B9%E6%B1%9F%E5%B8%82&oldid=95144439",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%89%A1%E4%B8%B9%E6%B1%9F%E5%B8%82&oldid=95144439",
+        "scope": "审读导言两段，选取山间谷地、河流命名、镜泊湖与东宁贸易口岸；删除城市机场规模排名和航线动态数字。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1529102,
+    "sourceSha256": "32fddd2e991c5b6450ab56b3686fc52f14a9cd3b2367814d8de4c28d09940332",
+    "article": {
+      "title": "乌鲁木齐市 · 城市速读",
+      "paragraphs": [
+        "乌鲁木齐是新疆维吾尔自治区首府，旧称迪化。城市位于天山中段北麓、准噶尔盆地南缘，东、南、西三面环山，地势总体南高北低。",
+        "博格达山、天格尔山与乌鲁木齐河等构成当地的山河背景。乌鲁木齐也是新疆重要的交通、商贸与教育中心，与中亚、西亚的交流是原条目介绍其城市角色的线索。"
+      ],
+      "source": {
+        "title": "乌鲁木齐市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82&oldid=95521409",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82&oldid=95521409",
+        "scope": "审读导言前两段，选取天山准噶尔区位、山河与首府商贸交通；删除最远海洋纪录、人口族群比例、财政与城市榜单。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1529114,
+    "sourceSha256": "6d20fcf4677e07a50fda8726c8436581b645511f22cd428b215ffa86196c44aa",
+    "article": {
+      "title": "吐鲁番市 · 城市速读",
+      "paragraphs": [
+        "吐鲁番位于新疆东部、天山山脉东段南麓，市域北半部为吐鲁番盆地，南半部为库木塔格沙漠和南湖戈壁，山地、盆地与荒漠相接。",
+        "吐鲁番盆地中的艾丁湖低于海平面，这是原条目介绍当地地形的重要特征。这里的低地资料指向市域中的具体湖盆，不能直接当作整个城市或每个街区的海拔。"
+      ],
+      "source": {
+        "title": "吐鲁番市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%90%E9%B2%81%E7%95%AA%E5%B8%82&oldid=94644127",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%90%E9%B2%81%E7%95%AA%E5%B8%82&oldid=94644127",
+        "scope": "审读导言两段，选取盆地与沙漠位置及艾丁湖低地；明确湖盆尺度，不采有争议的词源和极值排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1280849,
+    "sourceSha256": "07a96da8f048b9acadc2ddfe4408db090a59f32c4cd580b15528bd72e45baf3b",
+    "article": {
+      "title": "喀什市 · 城市速读",
+      "paragraphs": [
+        "喀什古称疏勒，位于新疆西南部、帕米尔高原与塔里木盆地的交接处。山地高原和盆地之间的位置，使它成为认识天山以南区域联系的重要城市。",
+        "喀什历史上是古代丝绸之路多条路线交会的交通枢纽和商品集散地。贸易与巴扎，也就是集市，是原条目导言介绍其城市特色的线索；这里保留的是历史地理背景，并非现实通行建议。"
+      ],
+      "source": {
+        "title": "喀什市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%96%80%E4%BB%80%E5%B8%82&oldid=94711280",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%96%80%E4%BB%80%E5%B8%82&oldid=94711280",
+        "scope": "审读唯一导言段，选取帕米尔塔里木交接、疏勒旧称、丝路交通和集市贸易；删去最西最大和营销式口号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1788852,
+    "sourceSha256": "4552a26871efa17d42e278812624446e9ceb5a5a35eee633087fab2d668b5f8b",
+    "article": {
+      "title": "西宁市 · 城市速读",
+      "paragraphs": [
+        "西宁是青海省省会，位于青藏高原东北部、湟水中游的河谷盆地。达坂山、拉脊山和日月山环绕周边，湟水自西向东穿过市域，南川河、北川河在城区汇合。",
+        "西宁古称鄯州、西平郡、青唐城，历史上是丝绸之路与唐蕃古道沿线的节点。河谷位置与古代通道，提供了理解这座高原城市地理和历史联系的入口。"
+      ],
+      "source": {
+        "title": "西宁市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E5%AE%81%E5%B8%82&oldid=95430484",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E5%AE%81%E5%B8%82&oldid=95430484",
+        "scope": "审读唯一导言段，选取湟水盆地、山脉支流、旧称和古代通道；不从高原位置推断城市生活或具体健康影响。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1804430,
+    "sourceSha256": "6ee2e7012e08c2eb280167d9c1dcf0f8b1924a0fb09c9347af928697fa5099de",
+    "article": {
+      "title": "兰州市 · 城市速读",
+      "paragraphs": [
+        "兰州是甘肃省省会，位于黄土高原、青藏高原与内蒙古高原交会区域的河谷盆地中。黄河自西向东穿过城市，南北两侧可见祁连山余脉。",
+        "兰州别称金城，汉代曾设金城县、金城郡，隋代改称兰州。历史上的交通节点角色延续到铁路时代，包兰、兰新、兰青、陇海等铁路在这里交汇。"
+      ],
+      "source": {
+        "title": "兰州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%85%B0%E5%B7%9E%E5%B8%82&oldid=95549122",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%85%B0%E5%B7%9E%E5%B8%82&oldid=95549122",
+        "scope": "审读导言前三段，选取黄河河谷、金城兰州名称沿革及铁路交通；删除中国几何中心、城市排名和荣誉称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1786657,
+    "sourceSha256": "3bd0b30bbb54239ee95168ec55afa42112dfde7f11dad001a2a902ae0b3090de",
+    "article": {
+      "title": "银川市 · 城市速读",
+      "paragraphs": [
+        "银川是宁夏回族自治区首府，位于宁夏平原中部，西倚贺兰山，黄河由南向北穿过市域，湖泊与湿地也是当地的地理线索。",
+        "银川曾为西夏王朝都城兴庆府，后来又是明代宁夏镇的所在地。贺兰山岩画、西夏王陵、拜寺口双塔，以及城中的玉皇阁、鼓楼等，呈现了周边与城市不同层次的历史。"
+      ],
+      "source": {
+        "title": "银川市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E9%93%B6%E5%B7%9D%E5%B8%82&oldid=95543872",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%93%B6%E5%B7%9D%E5%B8%82&oldid=95543872",
+        "scope": "审读导言前三段，选取贺兰山黄河平原、西夏与明代建制及历史遗迹；删除史前文明绝对判断、人口族群数字。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1809461,
+    "sourceSha256": "5646a676d0aaff217ff8f6140aed28d1acb1e3922f53e81c400814215240b068",
+    "article": {
+      "title": "贵阳市 · 城市速读",
+      "paragraphs": [
+        "贵阳是贵州省省会，位于云贵高原东部的黔中山原丘陵区，处在长江与珠江两大流域的分水岭地带。南明河等河流穿过当地，乌江流经市域北缘。",
+        "贵阳与安顺、毕节、遵义和黔南相邻，是全省的教育、文化、交通和旅游服务中心。山原丘陵与跨区域交通联系，构成原条目介绍这座西南城市的主要线索。"
+      ],
+      "source": {
+        "title": "贵阳市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B4%B5%E9%98%B3%E5%B8%82&oldid=94240600",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%B4%B5%E9%98%B3%E5%B8%82&oldid=94240600",
+        "scope": "审读唯一导言段，选取高原丘陵、流域分水岭、水系邻接和省会服务交通角色；删除人口面积和生态旅游营销称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1804651,
+    "sourceSha256": "6de642c0515609fffbf664d47b2c691dd11325a795073c99856e728e8f7da4cd",
+    "article": {
+      "title": "昆明市 · 城市速读",
+      "paragraphs": [
+        "昆明是云南省省会，别称春城，也是面向南亚、东南亚交流的重要交通城市。城市的教育、科研与文化机构，是理解其省会角色的线索。",
+        "原条目导言介绍了滇池、西山、轿子山以及云南石林等市域景观。这些湖泊、山地与石林景观提供了认识昆明周边的不同入口，地点之间的距离与范围仍需结合具体地图理解。"
+      ],
+      "source": {
+        "title": "昆明市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E6%98%86%E6%98%8E%E5%B8%82&oldid=95301688",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%98%86%E6%98%8E%E5%B8%82&oldid=95301688",
+        "scope": "审读唯一导言段，选取省会与对外交通角色、滇池西山轿子山石林；删去气候绝对化与城市人口等动态数据。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1799869,
+    "sourceSha256": "1d6ce0406c6cd1132fdf3fba0c364d4aea66c2e012dacf36afd5e964739d7a4d",
+    "article": {
+      "title": "南宁市 · 城市速读",
+      "paragraphs": [
+        "南宁是广西壮族自治区首府，简称邕，古称邕州，位于广西中部偏南、桂西南丘陵区。北面多山，南面相对平坦，邕江横贯市境并穿过城区。",
+        "南宁的地方建制可追溯到东晋时期。如今这里承担广西的教育、文化、交通和经济中心角色，邕江与邕州的旧称，也为认识城市地理和名称的延续提供了入口。"
+      ],
+      "source": {
+        "title": "南宁市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E5%AE%81%E5%B8%82&oldid=95501785",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E5%AE%81%E5%B8%82&oldid=95501785",
+        "scope": "审读导言两段，选取邕江丘陵地形、邕州名称、东晋建制及首府角色；删除绿城营销与奖项。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1809498,
+    "sourceSha256": "2ec5133f362add8ff03a06bf83ac73b8f8db8c07d7f260d312c51eaaae1e7b4b",
+    "article": {
+      "title": "桂林市 · 城市速读",
+      "paragraphs": [
+        "桂林位于广西东北部、南岭山脉西南侧，处在湘桂走廊南端。市域兼有山地、丘陵和岩溶峰林，中部的峰林地貌是认识桂林山水的地理线索。",
+        "漓江与湘江是市域中的两条主要河流，灵渠将两者联系起来。原条目以越城岭、海洋山、都庞岭等山地和相互连接的水系介绍当地，并将桂林列为历史文化名城。"
+      ],
+      "source": {
+        "title": "桂林市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E6%A1%82%E6%9E%97%E5%B8%82&oldid=95335368",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%A1%82%E6%9E%97%E5%B8%82&oldid=95335368",
+        "scope": "审读导言两段，选取南岭湘桂走廊、岩溶峰林及漓江湘江灵渠；删除山水甲天下等宣传性评价。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1809078,
+    "sourceSha256": "82c4ee7c14fe3f35f3893018046d4178270694972c01abff12b8af476501383c",
+    "article": {
+      "title": "海口市 · 城市速读",
+      "paragraphs": [
+        "海口是海南省省会，位于海南岛东北部、南渡江入海口的滨海平原，北隔琼州海峡与雷州半岛相望。主城区位于河口西岸，海甸岛、新埠岛也是城市空间的组成部分。",
+        "海口之名与南渡江河口的位置有关，古称白沙津、海口浦，别称椰城。海口港承担海南岛对外联系的重要功能，城市也集中了省内的文化、科技与行政服务。"
+      ],
+      "source": {
+        "title": "海口市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B5%B7%E5%8F%A3%E5%B8%82&oldid=95427189",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B5%B7%E5%8F%A3%E5%B8%82&oldid=95427189",
+        "scope": "审读唯一导言段，选取南渡江口平原与岛屿、河口词源、港口省会角色；删除人口GDP、港口排名及政策称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1796556,
+    "sourceSha256": "8bc452647dce06e607007369ff69750f131b44cd75339117fcac40c3c6aa624f",
+    "article": {
+      "title": "三亚市 · 城市速读",
+      "paragraphs": [
+        "三亚位于海南岛最南端，地势北高南低，兼有山地、丘陵与滨海平原，沿岸分布多个海湾和岛屿。宁远河、藤桥河、三亚河等自北向南汇入南海。",
+        "三亚的历史名称包括崖州、崖县，名称和行政中心曾经历变化。港口与热带滨海旅游，是原条目介绍当代城市特色的线索；市域山地、河流和海岸仍应按具体地点分别理解。"
+      ],
+      "source": {
+        "title": "三亚市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%89%E4%BA%9A%E5%B8%82&oldid=95428097",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%89%E4%BA%9A%E5%B8%82&oldid=95428097",
+        "scope": "审读唯一导言段，选取海南南端地形水系、崖州崖县旧称及港口旅游角色；删除人口族群比例和气候泛化。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1790437,
+    "sourceSha256": "fbfa46cd5fdbb3a6727204c9d3485daab7465711dd25db3db7a3da8dfcc32edf",
+    "article": {
+      "title": "珠海市 · 城市速读",
+      "paragraphs": [
+        "珠海位于广东南部、珠江口西岸，毗邻澳门，东隔伶仃洋与香港相望，南滨南海。市域岛屿众多，口岸、海湾与岛屿是认识这座城市的地理线索。",
+        "珠海于1979年建市，1980年设立经济特区。其地域文化属于香山文化的重要组成部分，港珠澳大桥的开通也进一步联系了珠江口两岸与澳门。"
+      ],
+      "source": {
+        "title": "珠海市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%A0%E6%B5%B7%E5%B8%82&oldid=94240107",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%A0%E6%B5%B7%E5%B8%82&oldid=94240107",
+        "scope": "审读导言两段，选取珠江口澳门邻接、岛屿、建市特区及香山文化；删去岛屿动态数量与全国唯一等绝对化表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1811103,
+    "sourceSha256": "bb8fdf0993df64998a46116666a1a01b6e48261c8b5e5a509d28ca7e74ea45d8",
+    "article": {
+      "title": "佛山市 · 城市速读",
+      "paragraphs": [
+        "佛山位于广东南部、珠江三角洲腹地。西江以西多低山丘陵，以东为三角洲平原；西江、北江及支流贯穿当地，在三水区相互连通。",
+        "明清时期的佛山镇与汉口、景德镇、朱仙镇并称四大名镇。如今佛山与广州联系紧密，也是一座侨乡；历史商镇、河网与民营经济共同构成原条目介绍城市的线索。"
+      ],
+      "source": {
+        "title": "佛山市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BD%9B%E5%B1%B1%E5%B8%82&oldid=95511013",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BD%9B%E5%B1%B1%E5%B8%82&oldid=95511013",
+        "scope": "审读导言两段，选取西北江河网与地形、明清名镇、侨乡与广佛联系；不采用经济领先排名和侨胞数量。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1812545,
+    "sourceSha256": "c0d6e3a346a6e40b7f0fe148dec9c44f394149b55338c0259aa8ede2b5bf36da",
+    "article": {
+      "title": "东莞市 · 城市速读",
+      "paragraphs": [
+        "东莞位于广东中南部、东江下游，处在珠江三角洲东部冲积平原与低山丘陵的交接带，北邻广州、惠州，南接深圳，西南临珠江口。",
+        "东江在石龙一带分为多条水道并注入狮子洋。原条目还将东莞介绍为重要的加工制造与商贸城市，河网、珠三角城市联系和工业发展共同构成认识它的入口。"
+      ],
+      "source": {
+        "title": "东莞市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%9C%E8%8E%9E%E5%B8%82&oldid=95384262",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%9C%E8%8E%9E%E5%B8%82&oldid=95384262",
+        "scope": "审读导言两段，选取东江分汊、丘陵平原交接、周边城市及加工制造；删除外来人口占比与世界工厂营销称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1806776,
+    "sourceSha256": "8081fe4a03755fe3e55a74b64e4ff4d681bc57c3c662ecaa896d1fb3d41ce8db",
+    "article": {
+      "title": "惠州市 · 城市速读",
+      "paragraphs": [
+        "惠州位于广东东南部、珠江三角洲东端与大亚湾北部。市域兼有南昆山、罗浮山等山地，河谷盆地与滨海平原；东江在城区与西枝江汇合。",
+        "惠州别称鹅城，历史上包括苏轼在内的文人曾在这里旅居并留下诗文。它也是客家人聚居的地区之一，近现代的电子制造业则为城市发展增加了另一条线索。"
+      ],
+      "source": {
+        "title": "惠州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E6%83%A0%E5%B7%9E%E5%B8%82&oldid=95444183",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%83%A0%E5%B7%9E%E5%B8%82&oldid=95444183",
+        "scope": "审读导言前三段，选取东江西枝江、山地海湾、苏轼旅居、客家与电子制造；删除客家聚落排名及发展潜力评价。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1801792,
+    "sourceSha256": "8066303580f70df3f162cc0f4c2239480228ad6b2bdecc1c52a8b035beed8534",
+    "article": {
+      "title": "洛阳市 · 城市速读",
+      "paragraphs": [
+        "洛阳是河南省的一座历史城市。原条目将洛阳地区描述为多个相邻而位置不同的古代都城所在，阅读其历史时，应区分现代城市与不同时代都城的范围。",
+        "洛阳与长安共同位于丝绸之路长安—天山廊道路网的东端。白马寺、龙门石窟等遗址，也为了解这座城市在中国佛教传播与艺术史中的位置提供了入口。"
+      ],
+      "source": {
+        "title": "洛阳市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B4%9B%E9%98%B3%E5%B8%82&oldid=94707279",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B4%9B%E9%98%B3%E5%B8%82&oldid=94707279",
+        "scope": "审读导言两段，选取多处古都的空间区别、丝路廊道与佛教遗址；不将多座古都混为一个连续不变的现代城区。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1804879,
+    "sourceSha256": "15b0601c24aa23b49ba2a36630d5b4fa657b250c2a547e3ec59a2bf54a87c82a",
+    "article": {
+      "title": "开封市 · 城市速读",
+      "paragraphs": [
+        "开封位于河南中东部、华北平原腹地，黄河流经市域北缘，贾鲁河、惠济河穿过当地。汴、汴京、汴梁等旧称保留了城市历史的痕迹。",
+        "战国魏国、五代诸政权与北宋曾在此建都，北宋时称东京开封府。原条目还介绍了城摞城遗址、豫剧及清明和菊花文化活动，可从古城遗存和地方艺术继续认识开封。"
+      ],
+      "source": {
+        "title": "开封市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BC%80%E5%B0%81%E5%B8%82&oldid=95431853",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%BC%80%E5%B0%81%E5%B8%82&oldid=95431853",
+        "scope": "审读导言前三段，选取平原河流、旧称、北宋等都城史、城摞城与豫剧；删除建城极早年代、唯一轴线等绝对判断。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1787227,
+    "sourceSha256": "9ccd2a3e6b24ae31b4af5fe862466cee2a82378dbdab90adff28ef66b7c84122",
+    "article": {
+      "title": "扬州市 · 城市速读",
+      "paragraphs": [
+        "扬州位于江苏中部、长江北岸，古称江都、广陵，是南北水陆交通交会地区的历史城市。漕运与盐运曾是理解城市繁荣的重要线索。",
+        "唐宋至明清，扬州经历多次商贸与文化交流的兴盛时期。盐商财富与江南、徽州等文化的交汇，形成了当地饮食和园林传统，淮扬菜也是原条目介绍城市特色的入口。"
+      ],
+      "source": {
+        "title": "扬州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E6%89%AC%E5%B7%9E%E5%B8%82&oldid=95396425",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%89%AC%E5%B7%9E%E5%B8%82&oldid=95396425",
+        "scope": "审读导言前三段，选取江北位置、漕盐运输、文化交流及饮食园林；不采用GDP、繁荣排名及有待细核的遗产子项表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1784642,
+    "sourceSha256": "5677e0babf380db5ff1bba09d88b398ff42a4cde38972472b9e57fb0fa5acec0",
+    "article": {
+      "title": "镇江市 · 城市速读",
+      "paragraphs": [
+        "镇江位于江苏南部、长江南岸，古称京口、润州。宁镇山脉与三角洲平原在这里相接，京杭大运河自南向北流贯并与长江交会。",
+        "长江与运河的联系，使镇江形成港口和贸易转运中心的角色。镇江也是历史文化名城，曾任江苏省省会，河运枢纽与历代城市建制为阅读其历史提供了入口。"
+      ],
+      "source": {
+        "title": "镇江市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E9%95%87%E6%B1%9F%E5%B8%82&oldid=95446402",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%95%87%E6%B1%9F%E5%B8%82&oldid=95446402",
+        "scope": "审读导言两段，选取宁镇山脉平原、江运河交会、港口转运和旧省会；删除精确建城年数等未经独立细核的量化。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1815456,
+    "sourceSha256": "d5b9d963fe65aa52ff718cac02d8f0436678c396de4702803555ff3f3c6ad42f",
+    "article": {
+      "title": "常州市 · 城市速读",
+      "paragraphs": [
+        "常州位于江苏南部、长江南岸与太湖北滨平原，西靠茅山，南倚天目山。京杭运河穿过城区，多条河流与水道交织构成了城市的水网背景。",
+        "常州古称毗陵、武进、延陵，是一座历史文化名城。它与苏州、无锡共同构成苏锡常地区的重要城市，运河交通和长三角城市联系是原条目介绍其空间位置的线索。"
+      ],
+      "source": {
+        "title": "常州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%B8%E5%B7%9E%E5%B8%82&oldid=95421056",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%B8%E5%B7%9E%E5%B8%82&oldid=95421056",
+        "scope": "审读导言两段，选取太湖北滨水网山地、历史名称及苏锡常联系；不采用城市等距等近似定位或营销称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1799722,
+    "sourceSha256": "41f90ba3d75ac0fb6f9db6067804bd26b10274ef6b8cb603d4fda9ee253bc60c",
+    "article": {
+      "title": "南通市 · 城市速读",
+      "paragraphs": [
+        "南通位于江苏东南部，东抵黄海、南濒长江，是江海交会处的沿海城市。长江岸线与海岸共同构成了这座港口城市的地理背景。",
+        "南通古称静海、通州、紫琅，是历史文化名城，也是早期对外开放的沿海城市之一。港口、长江水运与通向上海及长三角其他城市的联系，是认识其现代发展的线索。"
+      ],
+      "source": {
+        "title": "南通市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E9%80%9A%E5%B8%82&oldid=95044462",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E9%80%9A%E5%B8%82&oldid=95044462",
+        "scope": "审读导言前三段，选取江海交会、旧称、港口和沿海开放；删除GDP城市排序与黄金岸线等宣传表达。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 10630003,
+    "sourceSha256": "6f286cfb828ee06d6572e6313e19dc7f733d786ee40175b488e38391b6f7cb56",
+    "article": {
+      "title": "徐州市 · 城市速读",
+      "paragraphs": [
+        "徐州古称彭城，位于江苏西北部、苏鲁皖三省交界区域，以平原为主，也有云龙山、九里山等山丘。京杭运河贯穿市域，微山湖、骆马湖分布在周边。",
+        "京沪与陇海铁路在徐州交汇，交通枢纽是认识城市的重要线索。原条目还以黄淮平原、水系和历史文化名城的身份，介绍这座联系江苏、山东与安徽的城市。"
+      ],
+      "source": {
+        "title": "徐州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BE%90%E5%B7%9E%E5%B8%82&oldid=95536269",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%BE%90%E5%B7%9E%E5%B8%82&oldid=95536269",
+        "scope": "审读唯一导言段，选取彭城旧称、三省交界地形湖泊与铁路运河；核对GeoNames10630003城市点位，不添加汉文化未读细节。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1808722,
+    "sourceSha256": "e46aa668e9898cc37eb7e50dc1f801a45a7888fa062463c89ac713bb9edc2540",
+    "article": {
+      "title": "合肥市 · 城市速读",
+      "paragraphs": [
+        "合肥是安徽省省会，别称庐州，位于长江与淮河之间，市域环抱巢湖。江淮之间的地理位置，是认识这座城市交通与区域联系的起点。",
+        "合肥自秦汉以来就是江淮地区的重要行政与军事节点。原条目也介绍了这里的科研教育、现代制造业及集成电路产业，历史城邑与现代科学产业共同构成城市线索。"
+      ],
+      "source": {
+        "title": "合肥市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%88%E8%82%A5%E5%B8%82&oldid=95426842",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%88%E8%82%A5%E5%B8%82&oldid=95426842",
+        "scope": "审读导言两段，选取江淮巢湖、庐州与秦汉建制、科研制造及集成电路；删除人口、城市等级和阅读排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1791236,
+    "sourceSha256": "18e1c69ebe0df09b5ca1d801619e241b7c57f1a9e2f0b71bfda13cd2afcce024",
+    "article": {
+      "title": "芜湖市 · 城市速读",
+      "paragraphs": [
+        "芜湖古称鸠兹，位于安徽东南部的长江沿江平原。城区在长江南岸、青弋江与长江汇合处，水阳江、漳河等水系也流经周边。",
+        "近代芜湖开埠后，商贸发展使其成为江南米市之一。原条目以沿江区位、区域交通与产业联系介绍当代芜湖，江河汇流和历史贸易是理解城市形成的线索。"
+      ],
+      "source": {
+        "title": "芜湖市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8A%9C%E6%B9%96%E5%B8%82&oldid=94241229",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%8A%9C%E6%B9%96%E5%B8%82&oldid=94241229",
+        "scope": "审读导言两段，选取青弋江汇长江、水系、近代开埠与米市；删除GDP排名、政策园区名单与人口语言统计。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1805179,
+    "sourceSha256": "fe138faad777fd01ab1cf32f16ff63e2d8fa795d48329c935e059487ac41cd83",
+    "article": {
+      "title": "九江市 · 城市速读",
+      "paragraphs": [
+        "九江位于江西北部、长江南岸，扼鄱阳湖口，市域与湖北、安徽、湖南相接。庐山、幕阜山、九岭山和鄱阳湖平原，构成不同的地形层次。",
+        "九江古称江州、浔阳、柴桑，简称浔。原条目以修水、赣江及长江湖口关系介绍当地，山地与大江大湖的交接，也为理解这座赣北城市的区域联系提供了入口。"
+      ],
+      "source": {
+        "title": "九江市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%9D%E6%B1%9F%E5%B8%82&oldid=95324409",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%9D%E6%B1%9F%E5%B8%82&oldid=95324409",
+        "scope": "审读导言两段，选取赣北四省交界、鄱阳湖口山地水系及历史名称；不将政策节点名称改写成历史事实。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1810638,
+    "sourceSha256": "3e3aaf5f17762248d2f0d448f5270466f9c854f872d1b0c9b1f6ff7cb41b3919",
+    "article": {
+      "title": "赣州市 · 城市速读",
+      "paragraphs": [
+        "赣州位于江西南部，与福建、广东、湖南相邻，常以赣南称呼这一地域。跨省联系使这里成为连接赣粤闽湘的区域交通城市。",
+        "赣州是历史文化名城，也是客家人主要聚居地区之一。原条目还介绍了稀有金属和先进制造业，以及与原中央苏区有关的历史文化线索，可从区域文化与产业两方面继续认识它。"
+      ],
+      "source": {
+        "title": "赣州市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B5%A3%E5%B7%9E%E5%B8%82&oldid=95502237",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%B5%A3%E5%B7%9E%E5%B8%82&oldid=95502237",
+        "scope": "审读导言两段，选取赣南四省联系、客家聚居、稀有金属制造和原苏区背景；删除最大最多、世界之都等表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 2037799,
+    "sourceSha256": "7df7e015179c3165994f5695af2a9c405956859ba95529fde8ddd3f3b4abf065",
+    "article": {
+      "title": "大同市 · 城市速读",
+      "paragraphs": [
+        "大同古称平城、云中，位于山西北部、大同盆地北缘，邻接河北与内蒙古。御河自北向南流经城区并汇入桑干河，山地与盆地构成其地理背景。",
+        "大同曾是北魏首都、辽金时期的西京，明清时又是北方军事重镇。近代以来，煤炭工业与京包、同蒲、大秦等铁路，也构成认识城市发展和区域联系的重要线索。"
+      ],
+      "source": {
+        "title": "大同市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E5%90%8C%E5%B8%82&oldid=94822606",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E5%90%8C%E5%B8%82&oldid=94822606",
+        "scope": "审读唯一导言段并核对Shanxi身份，选取河流盆地、北魏辽金与边镇史、煤炭铁路；删去古都数量与城市规模排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1816971,
+    "sourceSha256": "27961c504a6d8ff20f01bb0921fd21eaa344825e83c4a92b2640cb2d69ab4bb8",
+    "article": {
+      "title": "保定市 · 城市速读",
+      "paragraphs": [
+        "保定位于河北中部偏西、太行山东麓与华北平原交接地带，地势西高东低。拒马河、唐河等河流向东流入白洋淀与大清河水系。",
+        "保定古称保州、清苑、保阳，清代曾是直隶省省会和直隶总督驻地，20世纪也曾担任河北省省会。山前平原的位置与省会行政历史，是原条目介绍这座历史文化名城的线索。"
+      ],
+      "source": {
+        "title": "保定市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BF%9D%E5%AE%9A%E5%B8%82&oldid=95526921",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BF%9D%E5%AE%9A%E5%B8%82&oldid=95526921",
+        "scope": "审读导言两段，选取太行山平原水系、历史名称与直隶河北省会；删除人口最多和雄安行政隶属等易变表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1819729,
+    "sourceSha256": "6ce716986613fedc82672d338bee3874eefc6cdcc74f046276083e9a437aba98",
+    "article": {
+      "title": "香港 · 城市速读",
+      "paragraphs": [
+        "香港位于珠江口东侧，地域包括香港岛、九龙与新界。海湾、岛屿和沿海位置，是理解这座城市与周边地区联系的起点。",
+        "香港是中国的特别行政区，贸易、航运和金融构成其重要城市功能。原条目还以自由港制度介绍这里的经济背景；这一概览针对香港整体地域，不把单一地图点位当作全部行政边界。"
+      ],
+      "source": {
+        "title": "香港",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&oldid=95445445",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&oldid=95445445",
+        "scope": "审读导言前三段，选取珠江口与港九新界、特别行政区及港口金融贸易；删去经济自由度排名、政策营销与人口流入评价，标明整体地域尺度。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1668341,
+    "sourceSha256": "b89b267aa270aa21a237b720efe2510c83ef3529128ed73de77c3958effb4d8b",
+    "article": {
+      "title": "臺北市 · 城市速读",
+      "paragraphs": [
+        "台北位于台湾北部、台北盆地东北半部，外围由新北市环绕，并与周边形成大型都市区。盆地地形与相邻城市的联系，为认识台北的空间范围提供了起点。",
+        "台北近代城市史可追溯到清代设置台北府及兴建台北城，1920年正式设市。此后城市持续发展，金融、科技、教育和文化机构在这里集中，城邑变迁与现代都市功能共同构成阅读线索。"
+      ],
+      "source": {
+        "title": "臺北市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E5%8C%97%E5%B8%82&oldid=95367331",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E5%8C%97%E5%B8%82&oldid=95367331",
+        "scope": "审读导言两段，选取台北盆地、新北邻接、清代城府与1920建市及现代城市功能；删去人口密度排名和世界城市等级。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1673820,
+    "sourceSha256": "a52ca6cffe4f19afee6768d83958a1b944e5076491d4c79d17ce40e41777c917",
+    "article": {
+      "title": "高雄市 · 城市速读",
+      "paragraphs": [
+        "高雄位于台湾西南部，因港口而有港都的别称。原条目以高雄港及周边城市地域介绍这里，港口是认识这座南部城市的重要线索。",
+        "高雄旧称打狗，20世纪改用高雄之名，名称变化与原有地名读音及日语汉字的对应有关。阅读地名沿革时，可以区分历史名称、近现代市区与今天更广阔的行政范围。"
+      ],
+      "source": {
+        "title": "高雄市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E9%AB%98%E9%9B%84%E5%B8%82&oldid=95397328",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%AB%98%E9%9B%84%E5%B8%82&oldid=95397328",
+        "scope": "审读唯一导言段，选取台湾西南位置、港口与打狗高雄名称变化；删除人口、港口大小排名，保留行政地域尺度区别。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  },
+  {
+    "geonamesId": 1668399,
+    "sourceSha256": "226055eb6dc4606cbde002e888c7d40916ecebf10b46b56f3a4d30662605c347",
+    "article": {
+      "title": "臺中市 · 城市速读",
+      "paragraphs": [
+        "台中位于台湾中部，西临台湾海峡，市域东侧与中央山脉、雪山山脉相接，并常与彰化、南投合称中彰投地区。海岸与山地构成市域不同的地理层次。",
+        "台中之名具有台湾中央的含义。近代城市雏形与20世纪初的市区规划有关，绿川、柳川的整治也是原条目介绍市街形成的线索；现代城市是在更早聚落基础上逐渐发展起来的。"
+      ],
+      "source": {
+        "title": "臺中市",
+        "url": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E4%B8%AD%E5%B8%82&oldid=95547240",
+        "publisher": "中文维基百科贡献者",
+        "accessedAt": "2026-11-13",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+        "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E4%B8%AD%E5%B8%82&oldid=95547240",
+        "scope": "审读导言两段，选取海峡山脉、中彰投联系、台中地名与市区规划河道；删除人口港口排名、空军基地极值和京都营销称呼。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+      }
+    }
+  }
+]

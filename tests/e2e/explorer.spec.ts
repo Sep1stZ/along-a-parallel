@@ -251,6 +251,46 @@ test('all sixty city previews and their sourced stories fit a 390px viewport', a
   expect(overflows).toEqual([]);
 });
 
+test('a released diagonal globe drag keeps its view and pointer cancellation can recover', async ({
+  page,
+}) => {
+  await ready(page);
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  const globe = page.getByRole('group', {
+    name: '可拖动的交互地球，使用左右方向键切换城市',
+    exact: true,
+  });
+  const bounds = (await globe.boundingBox())!;
+  const x = bounds.x + bounds.width * 0.4;
+  const y = bounds.y + bounds.height * 0.7;
+  await page.mouse.move(x, y);
+  await page.mouse.down();
+  await page.mouse.move(x + 45, y - 60, { steps: 20 });
+  await page.mouse.up();
+  await expect(globe).not.toHaveClass(/is-dragging/);
+  const marker = globe.locator('[data-city="hangzhou"]');
+  await expect(marker).toBeVisible();
+  const releasedPosition = await marker.getAttribute('transform');
+  const releasedLongitude = new URL(page.url()).searchParams.get('lng');
+  await page.waitForTimeout(1000); // A prop-driven recenter would finish within 850 ms.
+  await expect(marker).toHaveAttribute('transform', releasedPosition!);
+  expect(new URL(page.url()).searchParams.get('lng')).toBe(releasedLongitude);
+
+  await page.mouse.move(x, y);
+  await page.mouse.down();
+  await page.mouse.move(x + 40, y + 10, { steps: 8 });
+  await expect(globe).toHaveClass(/is-dragging/);
+  await globe.dispatchEvent('pointercancel', { pointerId: 1, isPrimary: true });
+  await expect(globe).not.toHaveClass(/is-dragging/);
+  await page.mouse.up();
+  await page.mouse.move(x, y);
+  await page.mouse.down();
+  await page.mouse.move(x - 50, y, { steps: 10 });
+  await page.mouse.up();
+  await expect.poll(() => new URL(page.url()).searchParams.get('lng')).not.toBe(releasedLongitude);
+  await expect(globe).not.toHaveClass(/is-dragging/);
+});
+
 test('failed favorite writes roll back and a failed journey can be retried', async ({ page }) => {
   await ready(page);
   await page.route('**/api/favorites', (route) =>
@@ -334,12 +374,84 @@ test('global search locates a basic place, restores its URL and explains its dat
   await expect(page.locator('.city-preview h2')).toContainText(place.name);
   expect(new URL(page.url()).searchParams.get('city')).toBe(place.id);
   await page.getByRole('button', { name: `查看${place.name}的资料`, exact: true }).click();
-  await expect(page.getByRole('dialog').locator('.catalog-record')).toContainText('尚无精选手记');
+  await expect(
+    page.getByRole('dialog').getByRole('region', { name: '地理档案', exact: true }),
+  ).toBeVisible();
+  for (const heading of ['位置与区域', '所在的纬度', '这里的钟表'])
+    await expect(
+      page.getByRole('dialog').getByRole('heading', { name: heading, exact: true }),
+    ).toBeVisible();
+  await expect(page.getByRole('dialog').locator('.profile-grid')).toContainText(place.timezone);
+  await expect(
+    page.getByRole('dialog').getByRole('region', { name: '附近地点', exact: true }),
+  ).toBeVisible();
   await expect(page.getByRole('dialog').locator('.story-grid section')).toHaveCount(0);
   await expect(page.getByRole('dialog').locator('.sources a')).not.toHaveCount(0);
   await page.keyboard.press('Escape');
   await page.reload();
   await expect(page.locator('.city-preview h2')).toContainText(place.name);
+});
+
+test('city readers retain attribution and nearby geography opens a real next place on mobile', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 1100 });
+  await ready(page);
+  const response = await page.request.get('/api/catalog');
+  const catalog = await response.json();
+  expect(catalog.articleTotal).toBeGreaterThanOrEqual(120);
+  const point = catalog.articleHighlights[0];
+  await page.locator('.reading-highlights button').filter({ hasText: point.name }).click();
+  const dialog = page.getByRole('dialog');
+  await expect(dialog.locator('.story-title h2')).toContainText(point.name);
+  const detail = (await (await page.request.get(`/api/places/${point.id}`)).json()).place;
+  await expect(dialog.locator('.place-article')).toContainText(detail.article.paragraphs[0]);
+  await expect(dialog.locator('.article-credit')).toContainText('CC BY-SA');
+  await expect(dialog.locator('.article-credit a').first()).toHaveAttribute(
+    'href',
+    detail.article.source.url,
+  );
+  expect(new URL(page.url()).searchParams.get('city')).toBe(point.id);
+  const nearby = detail.profile.nearby[0];
+  await dialog
+    .getByRole('region', { name: '附近地点', exact: true })
+    .getByRole('button')
+    .filter({ hasText: nearby.name })
+    .first()
+    .click();
+  await expect(dialog.locator('.story-title h2')).toContainText(nearby.name);
+  expect(new URL(page.url()).searchParams.get('city')).toBe(nearby.id);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth)).toBe(0);
+  await page.keyboard.press('Escape');
+  await page.reload();
+  await expect(page.locator('.city-preview h2')).toContainText(nearby.name);
+});
+
+test('basic place comparisons show actual geography and referenced reading instead of empty themes', async ({
+  page,
+}) => {
+  await ready(page);
+  const catalog = await (await page.request.get('/api/catalog')).json();
+  const point = catalog.articleHighlights[0];
+  const detail = (await (await page.request.get(`/api/places/${point.id}`)).json()).place;
+  await ready(
+    page,
+    `/?lat=${point.latitude}&band=2&lng=${point.longitude}&city=${point.id}&compare=${point.id},tokyo`,
+  );
+  const dialog = page.getByRole('dialog');
+  const dimensions = dialog.locator('.comparison-dimension');
+  await expect(dimensions.locator('h4')).toHaveText([
+    '位置与区域',
+    '城市简介',
+    '周边地点',
+    '延伸阅读',
+  ]);
+  await expect(dimensions.nth(0)).toContainText(detail.profile.regionText);
+  await expect(dimensions.nth(1)).toContainText(detail.article.paragraphs[0].slice(0, 70));
+  await expect(dimensions.nth(1)).toContainText('CC BY-SA');
+  await expect(dimensions.nth(2)).toContainText(detail.profile.nearby[0].name);
+  await expect(dimensions.nth(3)).toContainText(detail.profile.related[0].name);
+  await expect(dialog).not.toContainText('精选手记尚待编写');
 });
 
 test('latitude coverage, tier filter, paging and full-band stepping remain bounded', async ({

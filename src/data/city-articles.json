@@ -1,0 +1,3640 @@
+{
+  "version": "wikipedia-zh-reviewed-leads-2026-11-13-cb1eb7105108",
+  "accessedAt": "2026-11-13",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "中文维基百科贡献者；每篇提供原始条目修订与许可链接。城市速读含节选、删节、中文改编与文字整理，独立于项目 MIT 代码许可，改编内容继续按 CC BY-SA 4.0 提供。",
+  "reviewPolicy": "Only explicit reviewed entries with fixed oldid and source SHA-256 may be published. New downloads never enter this whitelist automatically.",
+  "articles": [
+    {
+      "geonamesId": 105343,
+      "sourceSha256": "bb0300eb72e98661d68d6f10425c0e802103e454aa9337659408e3a831aaab5c",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "吉达 · 城市速读",
+        "paragraphs": [
+          "吉达是沙特阿拉伯麦加省的港口城市，位于红海东岸、麦加以西。红海海岸和邻近麦加的位置，构成其重要地理背景。",
+          "吉达是穆斯林前往麦加朝觐的主要入口，当地还在1967年建立了大学。港口、朝觐通道与教育机构共同构成城市的具体职能。"
+        ],
+        "source": {
+          "title": "吉达",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E8%BE%BE&oldid=92086891",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E8%BE%BE&oldid=92086891",
+          "scope": "已审读该修订中文导言，保留范围：红海港口、麦加朝觐入口与大学。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 160263,
+      "sourceSha256": "859b4f1c2780fed672a6f7797963c35344d7411aeae8a97f99cffca60ffca6ad",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "达累斯萨拉姆 · 城市速读",
+        "paragraphs": [
+          "达累斯萨拉姆是坦桑尼亚的重要经济城市与旧首都，同时也是同名地区的行政中心。城市名称意译为“平安之寓所”，也有“安府”的译法。",
+          "城市内部包括伊拉拉、基诺多尼、特梅克、乌本戈和基加博尼等市区。这些片区与同名地区的行政中心，共同组成达累斯萨拉姆的城市结构。"
+        ],
+        "source": {
+          "title": "达累斯萨拉姆",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%BE%BE%E7%B4%AF%E6%96%AF%E8%90%A8%E6%8B%89%E5%A7%86&oldid=93650017",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%BE%BE%E7%B4%AF%E6%96%AF%E8%90%A8%E6%8B%89%E5%A7%86&oldid=93650017",
+          "scope": "已审读该修订中文导言，保留范围：旧首都、名称释义与内部片区。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 232422,
+      "sourceSha256": "87ed27ce19b22fe630959451d6b47080b0982f9607dfd85bb5ef1f62f0838abe",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "坎帕拉 · 城市速读",
+        "paragraphs": [
+          "坎帕拉是乌干达首都，海拔约1189米，周围都会区域联系着瓦基索、穆科诺、姆皮吉等邻近地区。",
+          "巴哈伊信仰的一座灵曦堂位于坎帕拉。城市也承担乌干达重要经济职能，其都会区域向周围多个地区延展。"
+        ],
+        "source": {
+          "title": "坎帕拉",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%9D%8E%E5%B8%95%E6%8B%89&oldid=89995428",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%9D%8E%E5%B8%95%E6%8B%89&oldid=89995428",
+          "scope": "已审读该修订中文导言，保留范围：首都与邻近地区、点位海拔和灵曦堂。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 264371,
+      "sourceSha256": "e93e5fca21b62fe8af0456bd4b33106a79fd37b394c6e32d80952f2d2f06ca25",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "雅典 · 城市速读",
+        "paragraphs": [
+          "雅典是希腊首都，位于巴尔干半岛南端，三面环山，西南邻近爱琴海法利龙湾。基菲索斯河与伊利索斯河流经城市，市内也分布多座小山。",
+          "雅典有数千年的城市历史，是希腊政治、经济、工业和文化中心。山丘、河流与近海区位，为阅读这座历史城市提供了具体的地理背景。"
+        ],
+        "source": {
+          "title": "雅典",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%9B%85%E5%85%B8&oldid=94130187",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%9B%85%E5%85%B8&oldid=94130187",
+          "scope": "已审读该修订中文导言，保留范围：半岛近海区位、河流山丘与历史城市。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 290030,
+      "sourceSha256": "aeebde6eafabe3a67189b832a2b777eae1ce6ede7efef1eeee2c0165843d6e27",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "多哈 · 城市速读",
+        "paragraphs": [
+          "多哈是卡塔尔首都，位于该国东部波斯湾沿岸，在沃克拉以北、豪尔以南，是全国政治、经济、交通与文化中心。",
+          "多哈在1820年代形成，起初只是比达城镇的一个分支村落。1971年卡塔尔独立后，多哈被正式宣布为国家首都。"
+        ],
+        "source": {
+          "title": "多哈",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%9A%E5%93%88&oldid=94765303",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%9A%E5%93%88&oldid=94765303",
+          "scope": "已审读该修订中文导言，保留范围：波斯湾区位、村落起源与首都建立。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 292223,
+      "sourceSha256": "fd43dfe939dc47d2b9cff8ddfe7112d449da1d04d88f9c9d990412e53a528490",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "杜拜 · 城市速读",
+        "paragraphs": [
+          "迪拜位于波斯湾东南岸，是阿拉伯联合酋长国迪拜酋长国的首府，也是重要的经济、金融及客货运城市。",
+          "1960年代，迪拜开展石油勘探，1966年发现石油，1969年开始出口。石油收入促进了早期建设，此后城市经济更多依靠贸易、旅游、服务与资本投资等活动。"
+        ],
+        "source": {
+          "title": "杜拜",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%9C%E6%8B%9C&oldid=95446910",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%9D%9C%E6%8B%9C&oldid=95446910",
+          "scope": "已审读该修订中文导言，保留范围：湾岸区位、石油开发与经济转型。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 323786,
+      "sourceSha256": "cbeba0439c100edf8164d1aaddceaf98b61d3aa8059f4eba41d2eef3274ed566",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "安卡拉 · 城市速读",
+        "paragraphs": [
+          "安卡拉是土耳其共和国首都，位于小亚细亚安纳托利亚高原中北部，历史上也称安塞拉或安哥拉。",
+          "1923年共和国建立后，安卡拉取代伊斯坦布尔成为新首都。城市不仅是政治中心，也有工商活动与公路、铁路交通职能；历史中心位于安卡拉河岸一座岩石山丘上。"
+        ],
+        "source": {
+          "title": "安卡拉",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%AE%89%E5%8D%A1%E6%8B%89&oldid=95345586",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%AE%89%E5%8D%A1%E6%8B%89&oldid=95345586",
+          "scope": "已审读该修订中文导言，保留范围：高原区位、新首都与山丘历史中心。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 498817,
+      "sourceSha256": "8951654bd8a39488b4e8c4be2b167d8bb174984393a8ffb0e2e1907abb586581",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "圣彼得堡 · 城市速读",
+        "paragraphs": [
+          "圣彼得堡位于俄罗斯西北部，濒临芬兰湾，涅瓦河流经市区，是波罗的海沿岸的重要港口与工业城市。",
+          "彼得大帝于1703年建立这座城市，此后长期作为俄国首都。20世纪城市先后使用彼得格勒、列宁格勒等名称，1991年经公投后恢复“圣彼得堡”之名，历史中心及相关古迹群列入世界遗产。"
+        ],
+        "source": {
+          "title": "圣彼得堡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1&oldid=95446903",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%9C%A3%E5%BD%BC%E5%BE%97%E5%A0%A1&oldid=95446903",
+          "scope": "已审读该修订中文导言，保留范围：芬兰湾港口、建城、改名与历史遗产。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 524901,
+      "sourceSha256": "da747ab8684a991d4987d5ccc910353b7001c925b5f0ab240cf9629e37786fc6",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "莫斯科 · 城市速读",
+        "paragraphs": [
+          "莫斯科是俄罗斯首都，也是全国政治、经济、科技、文化与交通中心。城市沿莫斯科河发展，河流与城市名称紧密相连。",
+          "莫斯科的行政范围与莫斯科州、卡卢加州接壤。沿莫斯科河发展的城区与周围行政区域，共同构成这座首都的地理关系。"
+        ],
+        "source": {
+          "title": "莫斯科",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8E%AB%E6%96%AF%E7%A7%91&oldid=93651507",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%8E%AB%E6%96%AF%E7%A7%91&oldid=93651507",
+          "scope": "已审读该修订中文导言，保留范围：莫斯科河、行政邻接与首都职能。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 683506,
+      "sourceSha256": "704ca2996d0265bc09c937ff088e0fb40c7cfe4054c60769450e80f7d6b898af",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "布加勒斯特 · 城市速读",
+        "paragraphs": [
+          "布加勒斯特是罗马尼亚首都，也是全国政治、经济与文化中心，位于罗马尼亚东南部瓦拉几亚平原中部。",
+          "布加勒斯特还有“小巴黎”之称。登博维察河是多瑙河的一条支流，河流与瓦拉几亚平原共同界定了城市所处的地理环境。"
+        ],
+        "source": {
+          "title": "布加勒斯特",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E5%8A%A0%E5%8B%92%E6%96%AF%E7%89%B9&oldid=93581176",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E5%8A%A0%E5%8B%92%E6%96%AF%E7%89%B9&oldid=93581176",
+          "scope": "已审读该修订中文导言，保留范围：瓦拉几亚平原、登博维察河与城市称呼。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 703448,
+      "sourceSha256": "11b0901d49f83c4c5d35851e6051bd7f9d7af07fff4d8f1b68a13ccc1d65def8",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "基輔 · 城市速读",
+        "paragraphs": [
+          "基辅是乌克兰首都，位于该国中北部、第聂伯河中游两岸，也是工业、科学、教育与文化中心，拥有高等院校及基辅地铁等城市设施。",
+          "城市名称与传说中的建立者基伊相联系。基辅在早期贸易发展中逐渐成为东斯拉夫文明的中心，并于10至13世纪承担基辅罗斯首都职能。"
+        ],
+        "source": {
+          "title": "基輔",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%9F%BA%E8%BC%94&oldid=95343473",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%9F%BA%E8%BC%94&oldid=95343473",
+          "scope": "已审读该修订中文导言，保留范围：第聂伯河区位、城市设施与基辅罗斯。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 727011,
+      "sourceSha256": "fe7b09947667a6ef7103faa163de5ed332a3e92d5b72067cca427a7e4d79cf35",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "索菲亞 · 城市速读",
+        "paragraphs": [
+          "索菲亚是保加利亚首都，位于索菲亚盆地南部，周边有山地环绕。盆地与山地是这座城市的主要地理背景。",
+          "俄土战争结束后，索菲亚成为保加利亚首都，承担国家政治中心职能。盆地中的城市区位与近代首都历史，在这里相互叠合。"
+        ],
+        "source": {
+          "title": "索菲亞",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%B4%A2%E8%8F%B2%E4%BA%9E&oldid=93225841",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%B4%A2%E8%8F%B2%E4%BA%9E&oldid=93225841",
+          "scope": "已审读该修订中文导言，保留范围：盆地区位与成为首都的历史背景。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 745044,
+      "sourceSha256": "b0048aea2cc1cadffc96c33e4720422bdf10fc1f867244a659e0678866ae88b6",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "伊斯坦堡 · 城市速读",
+        "paragraphs": [
+          "伊斯坦布尔是土耳其重要的经济、文化与历史中心，城市行政辖区与伊斯坦布尔省重合，同时也是该省行政中心。",
+          "约公元前660年，城市以拜占庭之名建立。公元330年，君士坦丁一世将其重新营建为帝国新首都，称君士坦丁堡；此后长期先后承担东罗马、拉丁与奥斯曼帝国的首都职能。"
+        ],
+        "source": {
+          "title": "伊斯坦堡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1&oldid=95339217",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BC%8A%E6%96%AF%E5%9D%A6%E5%A0%A1&oldid=95339217",
+          "scope": "已审读该修订中文导言，保留范围：城市行政范围、拜占庭与帝国首都历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 756135,
+      "sourceSha256": "54f3a101874d471524aa4a1ba9f793a3572ba17b195bc59719aafce50eb24253",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "华沙 · 城市速读",
+        "paragraphs": [
+          "华沙是波兰首都及马佐夫舍省首府，位于波兰中东部维斯瓦河沿岸，是全国政治、经济与文化中心。",
+          "华沙最初是维斯瓦河畔的小渔村。16世纪后期，齐格蒙特三世决定将首都从克拉科夫迁来，城市随之崛起；1939年第二次世界大战爆发后，华沙遭受轰炸与围困。"
+        ],
+        "source": {
+          "title": "华沙",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%8E%E6%B2%99&oldid=95154803",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%8E%E6%B2%99&oldid=95154803",
+          "scope": "已审读该修订中文导言，保留范围：维斯瓦河、迁都与战争历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 964137,
+      "sourceSha256": "7dca26fff2964c1f5b16823560981077535fb9b5ff5fa868ff64baf6d769a712",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "比勒陀利亞 · 城市速读",
+        "paragraphs": [
+          "比勒陀利亚位于南非豪登省北部，是南非行政首都，中文也称斐京。总统府与外国使馆集中，形成国家政治决策中心。",
+          "城市建于1855年，以布尔人领袖安德列斯·比勒陀利乌斯的名字命名。外交机构沿使馆街等地区分布，使政治决策与国际交往具体地进入城市空间。"
+        ],
+        "source": {
+          "title": "比勒陀利亞",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%AF%94%E5%8B%92%E9%99%80%E5%88%A9%E4%BA%9E&oldid=94913303",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%AF%94%E5%8B%92%E9%99%80%E5%88%A9%E4%BA%9E&oldid=94913303",
+          "scope": "已审读该修订中文导言，保留范围：行政首都、政府使馆与1855年命名。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 993800,
+      "sourceSha256": "e55ea8fec85188fb51d0af9af6984a2678803a390e7d8744e8acb5f3a2933f8a",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "约翰内斯堡 · 城市速读",
+        "paragraphs": [
+          "约翰内斯堡是南非豪登省首府，也是经济与文化中心。虽然不是南非三个首都之一，但南非宪法法院设在这里。",
+          "城市位于富含矿物的维特沃特斯兰德地区。黄金和钻石贸易是其重要商业活动，矿产区位与城市经济的发展关系密切。"
+        ],
+        "source": {
+          "title": "约翰内斯堡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%BA%A6%E7%BF%B0%E5%86%85%E6%96%AF%E5%A0%A1&oldid=94900412",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%BA%A6%E7%BF%B0%E5%86%85%E6%96%AF%E5%A0%A1&oldid=94900412",
+          "scope": "已审读该修订中文导言，保留范围：豪登省首府、宪法法院与矿产贸易。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1007311,
+      "sourceSha256": "cf04206a44c42d5f0c805fb6a184a1668010ad2d480eeadfddc8729d8be4f8ed",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "德班 · 城市速读",
+        "paragraphs": [
+          "德班位于南非夸祖鲁—纳塔尔省，是重要港口与制造业城市。它属于德班都会区，港口活动是其突出的城市职能。",
+          "城市的祖鲁语名称eThekwini与表示“海港或潟湖”的itheku一词相联系。地名释义与实际港口角色在这里相互呼应。"
+        ],
+        "source": {
+          "title": "德班",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BE%B7%E7%8F%AD&oldid=95539376",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%BE%B7%E7%8F%AD&oldid=95539376",
+          "scope": "已审读该修订中文导言，保留范围：港口制造业与祖鲁语地名。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1153671,
+      "sourceSha256": "ff9b0289e1381bdf629644d27e94c82e71903ac46b50fa8964e68f4021f9e834",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "清邁 · 城市速读",
+        "paragraphs": [
+          "清迈是泰国北部清迈府的首府，也是泰北政治、经济与文化中心。城市位于平河流域，平河是昭披耶河的主要支流。",
+          "清迈在1296年至1768年间曾为兰纳王国首都。“清迈”在泰语中有“新城市”的意思，与1296年兰纳王国在此设立都城的历史相联系。"
+        ],
+        "source": {
+          "title": "清邁",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B8%85%E9%82%81&oldid=93608704",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B8%85%E9%82%81&oldid=93608704",
+          "scope": "已审读该修订中文导言，保留范围：平河区位、兰纳王都及城市名称。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1172451,
+      "sourceSha256": "f4382d454bc41c470b0343523113add370c5c6046939594bd7baa39f52b64415",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "拉合爾 · 城市速读",
+        "paragraphs": [
+          "拉合尔是巴基斯坦旁遮普省省会，也是该国重要的大城市。其城市特色可以从莫卧儿时期留下的建筑和园林进入阅读。",
+          "城内保留拉合尔古堡、巴德夏希清真寺等莫卧儿时期建筑，拉合尔博物馆与沙利马尔花园也构成当地历史文化景观。建筑、园林和收藏机构共同呈现这座城市的历史层次。"
+        ],
+        "source": {
+          "title": "拉合爾",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%8B%89%E5%90%88%E7%88%BE&oldid=92283317",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%8B%89%E5%90%88%E7%88%BE&oldid=92283317",
+          "scope": "已审读该修订中文导言，保留范围：旁遮普省地位与莫卧儿建筑园林。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1174872,
+      "sourceSha256": "3fb6629761d6733af30fa88b463ca3965850c5d0a01abd3ccf5847ac37193d3c",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "卡拉奇 · 城市速读",
+        "paragraphs": [
+          "卡拉奇是巴基斯坦信德省首府，也是卡拉奇港与卡西姆港所在地。港口、银行、工业和商业活动构成其重要城市职能。",
+          "巴基斯坦独立后，卡拉奇曾为首都，直到1960年代新首都伊斯兰堡建成。城市聚集纺织、运输、汽车制造、出版、软件开发及医学研究等领域的企业和机构。"
+        ],
+        "source": {
+          "title": "卡拉奇",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%A1%E6%8B%89%E5%A5%87&oldid=93000694",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%A1%E6%8B%89%E5%A5%87&oldid=93000694",
+          "scope": "已审读该修订中文导言，保留范围：信德省港口、旧首都与产业类型。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1176615,
+      "sourceSha256": "d0e441bc8ee3caac6a2d9ae0138ad777776e820d556fe83fa2fef63c3e7265f0",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "伊斯兰堡 · 城市速读",
+        "paragraphs": [
+          "伊斯兰堡是巴基斯坦首都，行政上属于伊斯兰堡首都区。城市位于巴基斯坦东北部波特瓦尔高原，邻近通往旁遮普与开伯尔—普什图地区的交通通道。",
+          "伊斯兰堡主要修建于1960年代，用于取代原首都卡拉奇。作为规划建设的新首都，它承担政府与国际交往等城市职能。"
+        ],
+        "source": {
+          "title": "伊斯兰堡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BC%8A%E6%96%AF%E5%85%B0%E5%A0%A1&oldid=93987093",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BC%8A%E6%96%AF%E5%85%B0%E5%A0%A1&oldid=93987093",
+          "scope": "已审读该修订中文导言，保留范围：高原交通区位与1960年代首都建设。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1185241,
+      "sourceSha256": "856a58badfc13084d7d1950136f752b27844c929a9e3e6eb32581c5e1474ae15",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "达卡 · 城市速读",
+        "paragraphs": [
+          "达卡是孟加拉国首都，坐落于恒河三角洲的布里甘加河北岸。城市有“清真寺之城”的称呼，当地的穆斯林纺织品也是城市特色之一。",
+          "达卡旧称贾罕吉尔纳加尔，在17世纪是贸易中心。现代城市建设主要始于英国殖民时期；1947年印巴分治后成为东巴基斯坦行政首都，之后成为独立孟加拉国的首都。"
+        ],
+        "source": {
+          "title": "达卡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%BE%BE%E5%8D%A1&oldid=91760195",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%BE%BE%E5%8D%A1&oldid=91760195",
+          "scope": "已审读该修订中文导言，保留范围：河流三角洲区位、城市称呼与首都变迁。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1261481,
+      "sourceSha256": "efdbe902beac680a46d8fe3211fc19e87db064d6eabe8dcfd78c52d8957185ca",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "新德里 · 城市速读",
+        "paragraphs": [
+          "新德里是印度首都和联邦政府所在地，也是德里大都市区中的一个区。它位于印度西北部、亚穆纳河西岸，东北紧邻旧德里。",
+          "新德里的街道采用放射式布局，政府建筑集中于总统府至印度门一带。新首都于1911年奠基，由埃德温·鲁琴斯与赫伯特·贝克等建筑师设计，并于1931年揭幕。"
+        ],
+        "source": {
+          "title": "新德里",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%96%B0%E5%BE%B7%E9%87%8C&oldid=95181921",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%96%B0%E5%BE%B7%E9%87%8C&oldid=95181921",
+          "scope": "已审读该修订中文导言，保留范围：德里内部区位、放射式规划与新首都建设。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1275004,
+      "sourceSha256": "1bf1f2e04c7838410537dad6d79300c9dafb5f366ad1d83095c0f3ed7f8a849c",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "加尔各答 · 城市速读",
+        "paragraphs": [
+          "加尔各答是印度西孟加拉邦首府，位于印度东部恒河三角洲地区、胡格利河东岸。河流与殖民时期城市发展在此相互联系。",
+          "1772年至1911年间，加尔各答曾是英属印度首都，也是近代教育、科学、文化与政治活动的中心。城中至今保留大量维多利亚风格建筑，记录了这一阶段的城市历史。"
+        ],
+        "source": {
+          "title": "加尔各答",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8A%A0%E5%B0%94%E5%90%84%E7%AD%94&oldid=95533297",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8A%A0%E5%B0%94%E5%90%84%E7%AD%94&oldid=95533297",
+          "scope": "已审读该修订中文导言，保留范围：胡格利河区位、英属印度首都与建筑遗存。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1275339,
+      "sourceSha256": "7362ead98187aa1afa2501a5a3849b8ca3c3b77ca19e8790f7d2d888f80978e3",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "孟买 · 城市速读",
+        "paragraphs": [
+          "孟买是印度马哈拉施特拉邦首府，位于该邦西海岸外的撒尔塞特岛。孟买港是深水港，港口与金融活动构成理解城市的重要线索。",
+          "组成孟买的七座岛屿最初是马拉地语族科里人的家园。现代孟买聚集印度储备银行、孟买证券交易所、印度国家证券交易所及许多企业总部，是印度重要的金融城市。"
+        ],
+        "source": {
+          "title": "孟买",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%AD%9F%E4%B9%B0&oldid=93415885",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%AD%9F%E4%B9%B0&oldid=93415885",
+          "scope": "已审读该修订中文导言，保留范围：海岛港口区位、七岛居民与金融机构。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1277333,
+      "sourceSha256": "6033116ddd4ff622a7b278c9058640b68bdd34a418e8db66e4fb68dffb257627",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "班加羅爾 · 城市速读",
+        "paragraphs": [
+          "班加罗尔的官方名称为本加卢鲁，是印度卡纳塔克邦首府，位于印度南部德干高原，海拔超过三千英尺。",
+          "当地神庙石刻中关于城市名称的记录可追溯至约公元890年。16世纪，Kempe Gowda在此营建城市，周边商业市集逐渐发展，后来的道路与城区由此向外扩张。"
+        ],
+        "source": {
+          "title": "班加羅爾",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%AD%E5%8A%A0%E7%BE%85%E7%88%BE&oldid=94328771",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%AD%E5%8A%A0%E7%BE%85%E7%88%BE&oldid=94328771",
+          "scope": "已审读该修订中文导言，保留范围：德干高原区位、名称铭文与市集发展。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1280849,
+      "sourceSha256": "07a96da8f048b9acadc2ddfe4408db090a59f32c4cd580b15528bd72e45baf3b",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "喀什市 · 城市速读",
+        "paragraphs": [
+          "喀什古称疏勒，位于新疆西南部、帕米尔高原与塔里木盆地的交接处。山地高原和盆地之间的位置，使它成为认识天山以南区域联系的重要城市。",
+          "喀什历史上是古代丝绸之路多条路线交会的交通枢纽和商品集散地。贸易与巴扎，也就是集市，是原条目导言介绍其城市特色的线索；这里保留的是历史地理背景，并非现实通行建议。"
+        ],
+        "source": {
+          "title": "喀什市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%96%80%E4%BB%80%E5%B8%82&oldid=94711280",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%96%80%E4%BB%80%E5%B8%82&oldid=94711280",
+          "scope": "审读唯一导言段，选取帕米尔塔里木交接、疏勒旧称、丝路交通和集市贸易；删去最西最大和营销式口号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1283240,
+      "sourceSha256": "7d173e91e687d03911e5a19a382adb96562c44abc593f4cdeb457bf2bcb78e3b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "加德滿都 · 城市速读",
+        "paragraphs": [
+          "加德满都是尼泊尔首都，市区位于三面环山的加德满都谷地，海拔约1400米。山谷区位是理解城市形态的重要背景。",
+          "城市所在山谷历史上称为尼泊尔曼陀罗，加德满都是内瓦尔文明的重要城镇。近代曾作为尼泊尔王国皇家首都，保留宫殿、宅邸与花园等城市遗产。"
+        ],
+        "source": {
+          "title": "加德滿都",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8A%A0%E5%BE%B7%E6%BB%BF%E9%83%BD&oldid=93416223",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8A%A0%E5%BE%B7%E6%BB%BF%E9%83%BD&oldid=93416223",
+          "scope": "已审读该修订中文导言，保留范围：谷地海拔、内瓦尔文明与皇家首都遗产。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1512569,
+      "sourceSha256": "2e809936ee03cfa2597868c272017784be95ca385ea6d53a9e61ce94bb038c6b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "塔什干 · 城市速读",
+        "paragraphs": [
+          "塔什干是乌兹别克斯坦首都，也是全国政治、经济、文化与交通中心。它位于乌兹别克斯坦东北部，靠近哈萨克斯坦边境。",
+          "塔什干的乌兹别克语名称为Toshkent，中文直译为“石头城”。这一地名与城市的首都身份并列，保留了认识当地的一条语言线索。"
+        ],
+        "source": {
+          "title": "塔什干",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A1%94%E4%BB%80%E5%B9%B2&oldid=94866109",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A1%94%E4%BB%80%E5%B9%B2&oldid=94866109",
+          "scope": "已审读该修订中文导言，保留范围：首都与边境区位、名称释义。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1526273,
+      "sourceSha256": "4391b6c3fc0d0d5a7f11dbd4ef70dd488c5984e99d8f8938747decbe0476a056",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "阿斯塔納 · 城市速读",
+        "paragraphs": [
+          "阿斯塔纳位于哈萨克斯坦中北部，是该国首都及直辖市，周边与阿克莫拉州接壤，伊希姆河穿城而过。",
+          "成为首都后，阿斯塔纳按照规划城市的路径持续建设。总体规划由日本建筑师黑川纪章设计，政府、议会、最高法院与总统府等机构在此集中，新建筑也不断改变城市面貌。"
+        ],
+        "source": {
+          "title": "阿斯塔納",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E6%96%AF%E5%A1%94%E7%B4%8D&oldid=94583614",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E6%96%AF%E5%A1%94%E7%B4%8D&oldid=94583614",
+          "scope": "已审读该修订中文导言，保留范围：伊希姆河区位、总体规划与政府建筑。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1526384,
+      "sourceSha256": "a8926609e82246b1f7e48f26a16f6f0631f7be99dc2349a6b84dec6eeda0e76b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "阿拉木圖 · 城市速读",
+        "paragraphs": [
+          "阿拉木图旧称维尔内、阿尔玛—阿塔，是哈萨克斯坦的一座直辖市。其旧名与现代名称记录了城市不同阶段的命名。",
+          "城市坐落在哈萨克斯坦东南部山区，邻近吉尔吉斯斯坦。当地早年盛产苹果，因此有“苹果城”之称。"
+        ],
+        "source": {
+          "title": "阿拉木圖",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E6%8B%89%E6%9C%A8%E5%9C%96&oldid=94416018",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E6%8B%89%E6%9C%A8%E5%9C%96&oldid=94416018",
+          "scope": "已审读该修订中文导言，保留范围：城市旧名、东南部山区与苹果城称呼。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1529102,
+      "sourceSha256": "32fddd2e991c5b6450ab56b3686fc52f14a9cd3b2367814d8de4c28d09940332",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "乌鲁木齐市 · 城市速读",
+        "paragraphs": [
+          "乌鲁木齐是新疆维吾尔自治区首府，旧称迪化。城市位于天山中段北麓、准噶尔盆地南缘，东、南、西三面环山，地势总体南高北低。",
+          "博格达山、天格尔山与乌鲁木齐河等构成当地的山河背景。乌鲁木齐也是新疆重要的交通、商贸与教育中心，与中亚、西亚的交流是原条目介绍其城市角色的线索。"
+        ],
+        "source": {
+          "title": "乌鲁木齐市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82&oldid=95521409",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82&oldid=95521409",
+          "scope": "审读导言前两段，选取天山准噶尔区位、山河与首府商贸交通；删除最远海洋纪录、人口族群比例、财政与城市榜单。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1529114,
+      "sourceSha256": "6d20fcf4677e07a50fda8726c8436581b645511f22cd428b215ffa86196c44aa",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "吐鲁番市 · 城市速读",
+        "paragraphs": [
+          "吐鲁番位于新疆东部、天山山脉东段南麓，市域北半部为吐鲁番盆地，南半部为库木塔格沙漠和南湖戈壁，山地、盆地与荒漠相接。",
+          "吐鲁番盆地中的艾丁湖低于海平面，这是原条目介绍当地地形的重要特征。这里的低地资料指向市域中的具体湖盆，不能直接当作整个城市或每个街区的海拔。"
+        ],
+        "source": {
+          "title": "吐鲁番市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%90%E9%B2%81%E7%95%AA%E5%B8%82&oldid=94644127",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%90%E9%B2%81%E7%95%AA%E5%B8%82&oldid=94644127",
+          "scope": "审读导言两段，选取盆地与沙漠位置及艾丁湖低地；明确湖盆尺度，不采有争议的词源和极值排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1566083,
+      "sourceSha256": "390257b2cc2b6708520b3d1ad2e85fe752b03e8ac3b38afc0dff9d03f9cd98ac",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "胡志明市 · 城市速读",
+        "paragraphs": [
+          "胡志明市又以旧名西贡为别称，是越南中央直辖市及经济、贸易、交通与文化中心。其现名用于纪念越南领导人胡志明。",
+          "城市位于湄公河三角洲东北部、西贡河沿岸的冲积平原。17世纪末阮主在此设立嘉定府，18世纪末当地已发展为繁忙的国际商港，河流与贸易共同参与塑造了城市。"
+        ],
+        "source": {
+          "title": "胡志明市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%83%A1%E5%BF%97%E6%98%8E%E5%B8%82&oldid=94477750",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%83%A1%E5%BF%97%E6%98%8E%E5%B8%82&oldid=94477750",
+          "scope": "已审读该修订中文导言，保留范围：西贡名称、河流平原、嘉定府与商港发展。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1581130,
+      "sourceSha256": "39db774ad00f0397b4770525de43cfb679ee1f1d5dfc5bcd8254c840af806ecc",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "河內市 · 城市速读",
+        "paragraphs": [
+          "河内是越南首都，位于越南北部红河三角洲西北部，在红河右岸及红河与天德江汇流区域。城市名称与其所处的河流关系相联系。",
+          "河内也是越南历史上的古都，自11世纪起就是北部政治、经济与文化中心。长期的城市发展留下丰富的历史文物和古迹，工业与文化活动也构成其现代城市角色。"
+        ],
+        "source": {
+          "title": "河內市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%B3%E5%85%A7%E5%B8%82&oldid=94123701",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%B3%E5%85%A7%E5%B8%82&oldid=94123701",
+          "scope": "已审读该修订中文导言，保留范围：红河三角洲区位、古都与历史遗存。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1609350,
+      "sourceSha256": "07a607d4a07334406823d31765605cec8b89ec80d80f301576a8e5d91031d7d1",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "曼谷 · 城市速读",
+        "paragraphs": [
+          "曼谷是泰国首都，官方名称为恭贴玛哈纳空，当地华人也称暹京或泰京。城市位于昭披耶河东岸，邻近泰国湾，是泰国政治、经济、交通与文化中心。",
+          "曼谷的历史可追溯至阿瑜陀耶王国时期的河口贸易集镇，此后成为吞武里及拉达那哥欣王国的都城。19世纪后期，曼谷成为暹罗近代化与城市发展的中心。"
+        ],
+        "source": {
+          "title": "曼谷",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BC%E8%B0%B7&oldid=94738144",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BC%E8%B0%B7&oldid=94738144",
+          "scope": "已审读该修订中文导言，保留范围：昭披耶河区位、贸易集镇与王都发展。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1668341,
+      "sourceSha256": "b89b267aa270aa21a237b720efe2510c83ef3529128ed73de77c3958effb4d8b",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "臺北市 · 城市速读",
+        "paragraphs": [
+          "台北位于台湾北部、台北盆地东北半部，外围由新北市环绕，并与周边形成大型都市区。盆地地形与相邻城市的联系，为认识台北的空间范围提供了起点。",
+          "台北近代城市史可追溯到清代设置台北府及兴建台北城，1920年正式设市。此后城市持续发展，金融、科技、教育和文化机构在这里集中，城邑变迁与现代都市功能共同构成阅读线索。"
+        ],
+        "source": {
+          "title": "臺北市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E5%8C%97%E5%B8%82&oldid=95367331",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E5%8C%97%E5%B8%82&oldid=95367331",
+          "scope": "审读导言两段，选取台北盆地、新北邻接、清代城府与1920建市及现代城市功能；删去人口密度排名和世界城市等级。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1668399,
+      "sourceSha256": "226055eb6dc4606cbde002e888c7d40916ecebf10b46b56f3a4d30662605c347",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "臺中市 · 城市速读",
+        "paragraphs": [
+          "台中位于台湾中部，西临台湾海峡，市域东侧与中央山脉、雪山山脉相接，并常与彰化、南投合称中彰投地区。海岸与山地构成市域不同的地理层次。",
+          "台中之名具有台湾中央的含义。近代城市雏形与20世纪初的市区规划有关，绿川、柳川的整治也是原条目介绍市街形成的线索；现代城市是在更早聚落基础上逐渐发展起来的。"
+        ],
+        "source": {
+          "title": "臺中市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E4%B8%AD%E5%B8%82&oldid=95547240",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%87%BA%E4%B8%AD%E5%B8%82&oldid=95547240",
+          "scope": "审读导言两段，选取海峡山脉、中彰投联系、台中地名与市区规划河道；删除人口港口排名、空军基地极值和京都营销称呼。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1673820,
+      "sourceSha256": "a52ca6cffe4f19afee6768d83958a1b944e5076491d4c79d17ce40e41777c917",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "高雄市 · 城市速读",
+        "paragraphs": [
+          "高雄位于台湾西南部，因港口而有港都的别称。原条目以高雄港及周边城市地域介绍这里，港口是认识这座南部城市的重要线索。",
+          "高雄旧称打狗，20世纪改用高雄之名，名称变化与原有地名读音及日语汉字的对应有关。阅读地名沿革时，可以区分历史名称、近现代市区与今天更广阔的行政范围。"
+        ],
+        "source": {
+          "title": "高雄市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%AB%98%E9%9B%84%E5%B8%82&oldid=95397328",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%AB%98%E9%9B%84%E5%B8%82&oldid=95397328",
+          "scope": "审读唯一导言段，选取台湾西南位置、港口与打狗高雄名称变化；删除人口、港口大小排名，保留行政地域尺度区别。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1735161,
+      "sourceSha256": "f2421e683023b3cd163f2a0793ca8d0d3a460fe18f3e914cbb2270f3ae17516b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "吉隆坡 · 城市速读",
+        "paragraphs": [
+          "吉隆坡是马来西亚首都，地处马来半岛西岸，为雪兰莪州所环绕。其行政地位为吉隆坡联邦直辖区，由联邦政府管理。",
+          "吉隆坡曾是联邦政府行政中心与联邦法院所在地，相关职能于1999年迁往城南的布城。吉隆坡仍是商业与文化活动中心，并被联合国教科文组织选为2020年度世界图书之都。"
+        ],
+        "source": {
+          "title": "吉隆坡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E9%9A%86%E5%9D%A1&oldid=94456251",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E9%9A%86%E5%9D%A1&oldid=94456251",
+          "scope": "已审读该修订中文导言，保留范围：联邦直辖区、布城迁移与世界图书之都。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1784642,
+      "sourceSha256": "5677e0babf380db5ff1bba09d88b398ff42a4cde38972472b9e57fb0fa5acec0",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "镇江市 · 城市速读",
+        "paragraphs": [
+          "镇江位于江苏南部、长江南岸，古称京口、润州。宁镇山脉与三角洲平原在这里相接，京杭大运河自南向北流贯并与长江交会。",
+          "长江与运河的联系，使镇江形成港口和贸易转运中心的角色。镇江也是历史文化名城，曾任江苏省省会，河运枢纽与历代城市建制为阅读其历史提供了入口。"
+        ],
+        "source": {
+          "title": "镇江市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%95%87%E6%B1%9F%E5%B8%82&oldid=95446402",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%95%87%E6%B1%9F%E5%B8%82&oldid=95446402",
+          "scope": "审读导言两段，选取宁镇山脉平原、江运河交会、港口转运和旧省会；删除精确建城年数等未经独立细核的量化。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1784658,
+      "sourceSha256": "5c561b26a492cdd0a120e137d28d8d35cfccf7886d8736d56764db7ce1e111f2",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "郑州市 · 城市速读",
+        "paragraphs": [
+          "郑州是河南省省会，位于河南中部偏北、黄河下游，是中原地区的重要交通城市。铁路、航空与公路网络在这里交汇，郑州航空港经济综合实验区也是城市发展的线索之一。",
+          "郑州地级市所辖区域与夏、商、郑、韩等古代政权的活动有关。阅读这段历史时，需要把现代郑州城区、所辖县市与更广阔的历史地域区分开来。"
+        ],
+        "source": {
+          "title": "郑州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%83%91%E5%B7%9E%E5%B8%82&oldid=94297652",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%83%91%E5%B7%9E%E5%B8%82&oldid=94297652",
+          "scope": "审读导言前三段，选取中原黄河位置、交通与辖区古代历史；明确现代市域和古都地域的尺度差别，不把辖区史等同中心城区史。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1786657,
+      "sourceSha256": "3bd0b30bbb54239ee95168ec55afa42112dfde7f11dad001a2a902ae0b3090de",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "银川市 · 城市速读",
+        "paragraphs": [
+          "银川是宁夏回族自治区首府，位于宁夏平原中部，西倚贺兰山，黄河由南向北穿过市域，湖泊与湿地也是当地的地理线索。",
+          "银川曾为西夏王朝都城兴庆府，后来又是明代宁夏镇的所在地。贺兰山岩画、西夏王陵、拜寺口双塔，以及城中的玉皇阁、鼓楼等，呈现了周边与城市不同层次的历史。"
+        ],
+        "source": {
+          "title": "银川市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%93%B6%E5%B7%9D%E5%B8%82&oldid=95543872",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%93%B6%E5%B7%9D%E5%B8%82&oldid=95543872",
+          "scope": "审读导言前三段，选取贺兰山黄河平原、西夏与明代建制及历史遗迹；删除史前文明绝对判断、人口族群数字。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1787093,
+      "sourceSha256": "8b4492f1e0fab8df22dbc890a626d72428c884e659b7eccee553fb6eea56cdb2",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "烟台市 · 城市速读",
+        "paragraphs": [
+          "烟台古称芝罘，位于山东东部、胶东半岛中北部，北濒渤海，南滨黄海，与辽东半岛隔海相望。南北临海而东西连陆，是其市域鲜明的地理格局。",
+          "烟台市域兼有低山、丘陵、平原和海岸，境内有大泽山、艾山、昆嵛山等山地，以及五龙河、大沽夹河等河流。沿海开放城市的身份与多样的海陆地形，构成原条目介绍烟台的主要线索。"
+        ],
+        "source": {
+          "title": "烟台市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%83%9F%E5%8F%B0%E5%B8%82&oldid=95353926",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%83%9F%E5%8F%B0%E5%B8%82&oldid=95353926",
+          "scope": "审读唯一导言段，选取胶东双海岸、旧称、山地河流与沿海城市属性；不采用最古老城市、魅力奖项等表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1787227,
+      "sourceSha256": "9ccd2a3e6b24ae31b4af5fe862466cee2a82378dbdab90adff28ef66b7c84122",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "扬州市 · 城市速读",
+        "paragraphs": [
+          "扬州位于江苏中部、长江北岸，古称江都、广陵，是南北水陆交通交会地区的历史城市。漕运与盐运曾是理解城市繁荣的重要线索。",
+          "唐宋至明清，扬州经历多次商贸与文化交流的兴盛时期。盐商财富与江南、徽州等文化的交汇，形成了当地饮食和园林传统，淮扬菜也是原条目介绍城市特色的入口。"
+        ],
+        "source": {
+          "title": "扬州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%89%AC%E5%B7%9E%E5%B8%82&oldid=95396425",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%89%AC%E5%B7%9E%E5%B8%82&oldid=95396425",
+          "scope": "审读导言前三段，选取江北位置、漕盐运输、文化交流及饮食园林；不采用GDP、繁荣排名及有待细核的遗产子项表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1788852,
+      "sourceSha256": "4552a26871efa17d42e278812624446e9ceb5a5a35eee633087fab2d668b5f8b",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "西宁市 · 城市速读",
+        "paragraphs": [
+          "西宁是青海省省会，位于青藏高原东北部、湟水中游的河谷盆地。达坂山、拉脊山和日月山环绕周边，湟水自西向东穿过市域，南川河、北川河在城区汇合。",
+          "西宁古称鄯州、西平郡、青唐城，历史上是丝绸之路与唐蕃古道沿线的节点。河谷位置与古代通道，提供了理解这座高原城市地理和历史联系的入口。"
+        ],
+        "source": {
+          "title": "西宁市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E5%AE%81%E5%B8%82&oldid=95430484",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E5%AE%81%E5%B8%82&oldid=95430484",
+          "scope": "审读唯一导言段，选取湟水盆地、山脉支流、旧称和古代通道；不从高原位置推断城市生活或具体健康影响。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1790437,
+      "sourceSha256": "fbfa46cd5fdbb3a6727204c9d3485daab7465711dd25db3db7a3da8dfcc32edf",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "珠海市 · 城市速读",
+        "paragraphs": [
+          "珠海位于广东南部、珠江口西岸，毗邻澳门，东隔伶仃洋与香港相望，南滨南海。市域岛屿众多，口岸、海湾与岛屿是认识这座城市的地理线索。",
+          "珠海于1979年建市，1980年设立经济特区。其地域文化属于香山文化的重要组成部分，港珠澳大桥的开通也进一步联系了珠江口两岸与澳门。"
+        ],
+        "source": {
+          "title": "珠海市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%A0%E6%B5%B7%E5%B8%82&oldid=94240107",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%A0%E6%B5%B7%E5%B8%82&oldid=94240107",
+          "scope": "审读导言两段，选取珠江口澳门邻接、岛屿、建市特区及香山文化；删去岛屿动态数量与全国唯一等绝对化表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1790645,
+      "sourceSha256": "8a1badf228da253b9c7291785d5bce43d8d8256452e1cc34241960695c39333a",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "厦门市 · 城市速读",
+        "paragraphs": [
+          "厦门位于福建东南沿海，与泉州、漳州接壤，与金门隔海相望。厦门岛、鼓浪屿及集美、同安、翔安等沿海地区，共同组成这座海湾型城市。",
+          "厦门是中国最早开放的四个经济特区之一，也是一座侨乡和港口城市。鼓浪屿与城市的滨海景观，是原条目导言介绍的旅行与文化地标。"
+        ],
+        "source": {
+          "title": "厦门市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8E%A6%E9%97%A8%E5%B8%82&oldid=95555245",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8E%A6%E9%97%A8%E5%B8%82&oldid=95555245",
+          "scope": "审读导言前两段，选取岛屿海湾构成、经济特区、侨乡和鼓浪屿；删去港口机场排名和营销称号。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1791236,
+      "sourceSha256": "18e1c69ebe0df09b5ca1d801619e241b7c57f1a9e2f0b71bfda13cd2afcce024",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "芜湖市 · 城市速读",
+        "paragraphs": [
+          "芜湖古称鸠兹，位于安徽东南部的长江沿江平原。城区在长江南岸、青弋江与长江汇合处，水阳江、漳河等水系也流经周边。",
+          "近代芜湖开埠后，商贸发展使其成为江南米市之一。原条目以沿江区位、区域交通与产业联系介绍当代芜湖，江河汇流和历史贸易是理解城市形成的线索。"
+        ],
+        "source": {
+          "title": "芜湖市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8A%9C%E6%B9%96%E5%B8%82&oldid=94241229",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%8A%9C%E6%B9%96%E5%B8%82&oldid=94241229",
+          "scope": "审读导言两段，选取青弋江汇长江、水系、近代开埠与米市；删除GDP排名、政策园区名单与人口语言统计。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1791247,
+      "sourceSha256": "1b3a01a744410c41f59898b765545bde26f7b3a62f1e7faccca66e27eaa0745b",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "武汉 · 城市速读",
+        "paragraphs": [
+          "武汉是湖北省省会，位于长江中游。长江与汉江穿行其间，形成武昌、汉口、汉阳隔江相望的武汉三镇格局；内河航运与铁路交通也是认识武汉的重要线索。",
+          "近代汉口发展为商业城市，1911年的武昌起义发生于此。1927年，武汉三镇合并；1949年以后，武汉逐渐成为重要的工业、教育科研与综合交通城市。"
+        ],
+        "source": {
+          "title": "武汉市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%AD%A6%E6%B1%89%E5%B8%82&oldid=95548488",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%AD%A6%E6%B1%89%E5%B8%82&oldid=95548488",
+          "scope": "审读导言前三段，选取两江三镇、汉口商埠、武昌起义与工业科教发展；不采用城市活力及产业升级排位。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1791388,
+      "sourceSha256": "4ac897d89618835416a5ddbc3fe3b00d86d9b7e25bba766f94a91a3a79f01e78",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "温州市 · 城市速读",
+        "paragraphs": [
+          "温州旧称永嘉，位于浙江东南部、瓯江下游入海口，东滨东海，西接浙闽丘陵。港口、河口与丘陵相接的地理位置，为认识温州提供了起点。",
+          "温州历史上以造船、造纸、雕刻、漆器等手工业著称，宋元时期曾是对外贸易港口，1876年后成为通商口岸。改革开放后，民营企业发展和被称为温州模式的经济实践，使温州受到广泛关注。"
+        ],
+        "source": {
+          "title": "温州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B8%A9%E5%B7%9E%E5%B8%82&oldid=94320146",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B8%A9%E5%B7%9E%E5%B8%82&oldid=94320146",
+          "scope": "审读导言前三段，选取瓯江口位置、历史手工业、港口和民营经济；删除宗教人口与全球侨民数量等泛化表述。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1791681,
+      "sourceSha256": "f37f3b0f9b0077129f1c6814dfaeddd209b09d6a4c339c2b9344c3bae021aec6",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "潍坊 · 城市速读",
+        "paragraphs": [
+          "潍坊位于山东中部偏东，北临莱州湾。市域南部和西南部为山地丘陵，中部为平原，北部为沿海滩涂，潍河、弥河、白浪河等水系流经当地。",
+          "潍坊古称潍州、潍县，别称鸢都，胶济铁路横贯市境东西。其位置连接山东内陆腹地与胶东半岛，原条目亦介绍了近代潍县与城市建制的变化。"
+        ],
+        "source": {
+          "title": "潍坊市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%BD%8D%E5%9D%8A%E5%B8%82&oldid=95549224",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%BD%8D%E5%9D%8A%E5%B8%82&oldid=95549224",
+          "scope": "审读唯一导言段，选取分区地形、水系、旧称和胶济铁路；未由鸢都称号外推未读到的风筝工艺细节。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1792947,
+      "sourceSha256": "2a1085abc91b19b1c32269429c9ae8398609bf38c99d101eb4d904a46bf1afa2",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "天津市 · 城市速读",
+        "paragraphs": [
+          "天津位于华北平原、海河各支流交汇处，东临渤海，北依燕山，与北京、河北相邻。海河蜿蜒穿过城中，河道与跨河桥梁也是认识这座城市空间的线索。",
+          "随着大运河开通，天津逐渐成为南北物资转运的水陆码头。明代设置天津卫并筑城；1860年开放为通商口岸以后，租界、近代实业与交通设施的发展改变了城市面貌。"
+        ],
+        "source": {
+          "title": "天津市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A9%E6%B4%A5%E5%B8%82&oldid=95499100",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A9%E6%B4%A5%E5%B8%82&oldid=95499100",
+          "scope": "审读导言前三段，选取海河渤海区位、运河码头、设卫筑城与近代开埠；删去城市规模排名及军事机构细节。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1793511,
+      "sourceSha256": "cb35019368bdb9e8cdc2e35851db4726c534a40743362b7e10daf42e15a8e02d",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "太原 · 城市速读",
+        "paragraphs": [
+          "太原是山西省省会，古称晋阳、并州，位于晋中盆地北部。这里三面环山，汾河自西北进入并穿过城区，太行山与吕梁山构成市域东、西两侧的山地背景。",
+          "太原具有悠久的城市历史，晋阳古城与多朝政治活动有关，龙城也是它的别称。如今，太原仍是山西重要的制造业、经济和文化中心。"
+        ],
+        "source": {
+          "title": "太原市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%AA%E5%8E%9F%E5%B8%82&oldid=95394689",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%AA%E5%8E%9F%E5%B8%82&oldid=95394689",
+          "scope": "审读导言前三段，选取盆地汾河位置、晋阳旧称与制造业；删除音标、遗产数量及国际影响力泛称。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1795270,
+      "sourceSha256": "8ea4b504653b62da5eed4730e90c26e5680b6545953fba0c1097f852c93856fd",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "石家庄市 · 城市速读",
+        "paragraphs": [
+          "石家庄是河北省省会，位于河北中南部、太行山东麓与华北平原西缘，地势西高东低。西部为山地丘陵，东部为冲积平原，滹沱河等河流属于海河流域。",
+          "石家庄是一座随着近代铁路开通而成长的城市。京广、石德、石太等铁路及相应客运通道在这里交汇，铁路枢纽与现代服务业、产业基地共同构成城市发展的线索。"
+        ],
+        "source": {
+          "title": "石家庄市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82&oldid=95550710",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82&oldid=95550710",
+          "scope": "审读全部两段导言，选取太行山平原交接、水系和铁路城市起源；不重复行政机构驻地及政策称号。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1795565,
+      "sourceSha256": "d9fa2f758336f7f7c8ec927ec1f3f9be4bfce093a9818dad629bac107a533ca2",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "深圳 · 城市速读",
+        "paragraphs": [
+          "深圳地处珠江口东岸，东临大亚湾、大鹏湾，南与香港接壤，北与惠州、东莞相连。城市的海湾位置与对外开放、制造业和科技产业发展紧密相连。",
+          "深圳市于1979年在原宝安县基础上开始设立，深圳经济特区于1980年获批成立。改革开放以后，这里由边陲农业县发展为大城市，华为、腾讯、大疆、比亚迪等企业的总部设于深圳。"
+        ],
+        "source": {
+          "title": "深圳市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B7%B1%E5%9C%B3%E5%B8%82&oldid=95413151",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B7%B1%E5%9C%B3%E5%B8%82&oldid=95413151",
+          "scope": "审读导言前三段，选取海湾邻接、1979设市与1980特区、企业总部；不采用GDP、证券交易所或城市榜单排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1796236,
+      "sourceSha256": "e3003b9bfc074ec7e51a9def42543d7c419e817894b5759af1126f0587c2888c",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "上海 · 城市速读",
+        "paragraphs": [
+          "上海位于中国东部海岸、长江三角洲东端，东临东海，南濒杭州湾，崇明岛处在长江入海口。它是一座港口城市，金融、贸易和航运是理解城市发展的重要线索。",
+          "上海县始建于1292年。近代开埠后，来自江浙、广东及海外的移民在这里汇聚，江南传统与近现代西方文化相互交融，逐渐形成海派文化；1990年的浦东开发开放又改变了城市的空间与经济面貌。"
+        ],
+        "source": {
+          "title": "上海市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%8A%E6%B5%B7%E5%B8%82&oldid=95386605",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%8A%E6%B5%B7%E5%B8%82&oldid=95386605",
+          "scope": "审读导言前三段，选取长江口位置、建县、开埠移民与海派文化及浦东开发；不采用原文开埠年份表述及即时经济排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1796556,
+      "sourceSha256": "8bc452647dce06e607007369ff69750f131b44cd75339117fcac40c3c6aa624f",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "三亚市 · 城市速读",
+        "paragraphs": [
+          "三亚位于海南岛最南端，地势北高南低，兼有山地、丘陵与滨海平原，沿岸分布多个海湾和岛屿。宁远河、藤桥河、三亚河等自北向南汇入南海。",
+          "三亚的历史名称包括崖州、崖县，名称和行政中心曾经历变化。港口与热带滨海旅游，是原条目介绍当代城市特色的线索；市域山地、河流和海岸仍应按具体地点分别理解。"
+        ],
+        "source": {
+          "title": "三亚市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%89%E4%BA%9A%E5%B8%82&oldid=95428097",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%89%E4%BA%9A%E5%B8%82&oldid=95428097",
+          "scope": "审读唯一导言段，选取海南南端地形水系、崖州崖县旧称及港口旅游角色；删除人口族群比例和气候泛化。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1797353,
+      "sourceSha256": "a8a87d27d61cf9aaafca186d5a85bdf3e20250dda2daf2f50413c7f4f8945157",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "泉州市 · 城市速读",
+        "paragraphs": [
+          "泉州位于福建中南部沿海，旧称刺桐、温陵、清源。市域地势西北高、东南低，晋江水系穿过当地并注入泉州湾，河流、海湾与丘陵构成了城市的地理背景。",
+          "宋元时期，泉州的海外贸易发达，历史上的港口往来留下多元文化遗存。2021年，泉州：宋元中国的世界海洋商贸中心被列入世界文化遗产名录。"
+        ],
+        "source": {
+          "title": "泉州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B3%89%E5%B7%9E%E5%B8%82&oldid=94936256",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B3%89%E5%B7%9E%E5%B8%82&oldid=94936256",
+          "scope": "审读导言前两段，选取海湾晋江地理、宋元贸易和世界遗产；删除音标模板、全球唯一等绝对化判断及经济排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1797929,
+      "sourceSha256": "df39546171889f6422e6584ef78de66afd3835a3133bba546845010d7c7d2fba",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "青岛市 · 城市速读",
+        "paragraphs": [
+          "青岛位于胶东半岛南侧，是山东沿海的一座港口城市，旧称胶澳，别称岛城、琴岛。港口、铁路与海洋产业是理解青岛近现代发展的重要线索。",
+          "清政府于1891年在此驻兵建置。近代德国租借时期，港口与铁路建设推动了城市发展。此后商贸和制造业逐渐发展，航运、建筑、教育与海洋科研共同塑造了这座城市。"
+        ],
+        "source": {
+          "title": "青岛市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%9D%92%E5%B2%9B%E5%B8%82&oldid=95159919",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%9D%92%E5%B2%9B%E5%B8%82&oldid=95159919",
+          "scope": "审读导言前三段，选取半岛位置、港口铁路与近代建置；删除原文文化沙漠等价值判断、宜居营销与经济排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1799397,
+      "sourceSha256": "6fd60e15556ddddc75b39abacc819029632c6076732b4538ba6ee19d45861e82",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "宁波市 · 城市速读",
+        "paragraphs": [
+          "宁波位于浙江东部、长江三角洲南翼，北临杭州湾，东北与舟山隔海相望，西接绍兴、南靠台州。临海位置使港口与航运成为这座城市鲜明的地理线索。",
+          "宁波有悠久的对外交流和经商传统，宁波商帮广为人知。鸦片战争后，宁波成为通商口岸；改革开放以来，临港产业和民营经济推动了城市的发展。"
+        ],
+        "source": {
+          "title": "宁波市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%AE%81%E6%B3%A2%E5%B8%82&oldid=95540085",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%AE%81%E6%B3%A2%E5%B8%82&oldid=95540085",
+          "scope": "审读全部两段导言，选取沿海邻接、商帮、通商与临港产业；删去港口吞吐量等动态排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1799722,
+      "sourceSha256": "41f90ba3d75ac0fb6f9db6067804bd26b10274ef6b8cb603d4fda9ee253bc60c",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "南通市 · 城市速读",
+        "paragraphs": [
+          "南通位于江苏东南部，东抵黄海、南濒长江，是江海交会处的沿海城市。长江岸线与海岸共同构成了这座港口城市的地理背景。",
+          "南通古称静海、通州、紫琅，是历史文化名城，也是早期对外开放的沿海城市之一。港口、长江水运与通向上海及长三角其他城市的联系，是认识其现代发展的线索。"
+        ],
+        "source": {
+          "title": "南通市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E9%80%9A%E5%B8%82&oldid=95044462",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E9%80%9A%E5%B8%82&oldid=95044462",
+          "scope": "审读导言前三段，选取江海交会、旧称、港口和沿海开放；删除GDP城市排序与黄金岸线等宣传表达。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1799869,
+      "sourceSha256": "1d6ce0406c6cd1132fdf3fba0c364d4aea66c2e012dacf36afd5e964739d7a4d",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "南宁市 · 城市速读",
+        "paragraphs": [
+          "南宁是广西壮族自治区首府，简称邕，古称邕州，位于广西中部偏南、桂西南丘陵区。北面多山，南面相对平坦，邕江横贯市境并穿过城区。",
+          "南宁的地方建制可追溯到东晋时期。如今这里承担广西的教育、文化、交通和经济中心角色，邕江与邕州的旧称，也为认识城市地理和名称的延续提供了入口。"
+        ],
+        "source": {
+          "title": "南宁市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E5%AE%81%E5%B8%82&oldid=95501785",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E5%AE%81%E5%B8%82&oldid=95501785",
+          "scope": "审读导言两段，选取邕江丘陵地形、邕州名称、东晋建制及首府角色；删除绿城营销与奖项。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1799962,
+      "sourceSha256": "b87043228629c1cd1b558f244b68069773fd3cb9bea8bee049afc1ef43211aa1",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "南京 · 城市速读",
+        "paragraphs": [
+          "南京是江苏省省会，地处江苏西南部、长江下游，别称金陵、建康、江宁。交通、教育和科研机构在这座长三角城市中占有重要位置。",
+          "东吴、东晋及南朝诸政权、南唐、明朝等曾在南京定都，因而有六朝古都等称呼。南京博物院、南京图书馆，以及中山陵、总统府等近代建筑，为阅读城市不同阶段的历史提供了入口。"
+        ],
+        "source": {
+          "title": "南京市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E4%BA%AC%E5%B8%82&oldid=95396422",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E4%BA%AC%E5%B8%82&oldid=95396422",
+          "scope": "审读导言前三段，选取下游区位、旧称、历代都城及文化设施与近代建筑；不采用考古年代争论与科研排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1800163,
+      "sourceSha256": "ba05e0fc45c52b91c6df939530feead2b2a21412ad7dae683d38ee8801dc3afe",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "南昌 · 城市速读",
+        "paragraphs": [
+          "南昌是江西省省会，古称豫章、洪州，位于江西北部、鄱阳湖平原腹地。赣江、抚河纵贯市境并向北注入鄱阳湖，湖泊与水系是认识城市环境的重要线索。",
+          "南昌有两千多年的建城史，海昏侯墓、滕王阁、绳金塔、八大山人纪念馆等呈现了不同的历史层次。1927年的南昌起义也使城市在中国近现代史中占有重要位置。"
+        ],
+        "source": {
+          "title": "南昌市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E6%98%8C%E5%B8%82&oldid=95394678",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E6%98%8C%E5%B8%82&oldid=95394678",
+          "scope": "审读导言前三段，选取赣江鄱阳湖、历史遗迹与南昌起义；删除荣誉称号及航空制造唯一首创等表述。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1801792,
+      "sourceSha256": "8066303580f70df3f162cc0f4c2239480228ad6b2bdecc1c52a8b035beed8534",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "洛阳市 · 城市速读",
+        "paragraphs": [
+          "洛阳是河南省的一座历史城市。原条目将洛阳地区描述为多个相邻而位置不同的古代都城所在，阅读其历史时，应区分现代城市与不同时代都城的范围。",
+          "洛阳与长安共同位于丝绸之路长安—天山廊道路网的东端。白马寺、龙门石窟等遗址，也为了解这座城市在中国佛教传播与艺术史中的位置提供了入口。"
+        ],
+        "source": {
+          "title": "洛阳市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B4%9B%E9%98%B3%E5%B8%82&oldid=94707279",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B4%9B%E9%98%B3%E5%B8%82&oldid=94707279",
+          "scope": "审读导言两段，选取多处古都的空间区别、丝路廊道与佛教遗址；不将多座古都混为一个连续不变的现代城区。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1804430,
+      "sourceSha256": "6ee2e7012e08c2eb280167d9c1dcf0f8b1924a0fb09c9347af928697fa5099de",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "兰州市 · 城市速读",
+        "paragraphs": [
+          "兰州是甘肃省省会，位于黄土高原、青藏高原与内蒙古高原交会区域的河谷盆地中。黄河自西向东穿过城市，南北两侧可见祁连山余脉。",
+          "兰州别称金城，汉代曾设金城县、金城郡，隋代改称兰州。历史上的交通节点角色延续到铁路时代，包兰、兰新、兰青、陇海等铁路在这里交汇。"
+        ],
+        "source": {
+          "title": "兰州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%85%B0%E5%B7%9E%E5%B8%82&oldid=95549122",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%85%B0%E5%B7%9E%E5%B8%82&oldid=95549122",
+          "scope": "审读导言前三段，选取黄河河谷、金城兰州名称沿革及铁路交通；删除中国几何中心、城市排名和荣誉称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1804651,
+      "sourceSha256": "6de642c0515609fffbf664d47b2c691dd11325a795073c99856e728e8f7da4cd",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "昆明市 · 城市速读",
+        "paragraphs": [
+          "昆明是云南省省会，别称春城，也是面向南亚、东南亚交流的重要交通城市。城市的教育、科研与文化机构，是理解其省会角色的线索。",
+          "原条目导言介绍了滇池、西山、轿子山以及云南石林等市域景观。这些湖泊、山地与石林景观提供了认识昆明周边的不同入口，地点之间的距离与范围仍需结合具体地图理解。"
+        ],
+        "source": {
+          "title": "昆明市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%98%86%E6%98%8E%E5%B8%82&oldid=95301688",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%98%86%E6%98%8E%E5%B8%82&oldid=95301688",
+          "scope": "审读唯一导言段，选取省会与对外交通角色、滇池西山轿子山石林；删去气候绝对化与城市人口等动态数据。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1804879,
+      "sourceSha256": "15b0601c24aa23b49ba2a36630d5b4fa657b250c2a547e3ec59a2bf54a87c82a",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "开封市 · 城市速读",
+        "paragraphs": [
+          "开封位于河南中东部、华北平原腹地，黄河流经市域北缘，贾鲁河、惠济河穿过当地。汴、汴京、汴梁等旧称保留了城市历史的痕迹。",
+          "战国魏国、五代诸政权与北宋曾在此建都，北宋时称东京开封府。原条目还介绍了城摞城遗址、豫剧及清明和菊花文化活动，可从古城遗存和地方艺术继续认识开封。"
+        ],
+        "source": {
+          "title": "开封市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BC%80%E5%B0%81%E5%B8%82&oldid=95431853",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%BC%80%E5%B0%81%E5%B8%82&oldid=95431853",
+          "scope": "审读导言前三段，选取平原河流、旧称、北宋等都城史、城摞城与豫剧；删除建城极早年代、唯一轴线等绝对判断。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1805179,
+      "sourceSha256": "fe138faad777fd01ab1cf32f16ff63e2d8fa795d48329c935e059487ac41cd83",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "九江市 · 城市速读",
+        "paragraphs": [
+          "九江位于江西北部、长江南岸，扼鄱阳湖口，市域与湖北、安徽、湖南相接。庐山、幕阜山、九岭山和鄱阳湖平原，构成不同的地形层次。",
+          "九江古称江州、浔阳、柴桑，简称浔。原条目以修水、赣江及长江湖口关系介绍当地，山地与大江大湖的交接，也为理解这座赣北城市的区域联系提供了入口。"
+        ],
+        "source": {
+          "title": "九江市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%9D%E6%B1%9F%E5%B8%82&oldid=95324409",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B9%9D%E6%B1%9F%E5%B8%82&oldid=95324409",
+          "scope": "审读导言两段，选取赣北四省交界、鄱阳湖口山地水系及历史名称；不将政策节点名称改写成历史事实。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1805753,
+      "sourceSha256": "065899a1a230d16c2fa9ff87c409bfb3627b3cdf768feb39cc62ec1ace18a93e",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "济南市 · 城市速读",
+        "paragraphs": [
+          "济南是山东省省会，位于山东中西部、黄河下游，别称泉城。城市是山东半岛城市群和济南都市圈的组成部分，教育、科研和交通机构在这里集中。",
+          "济南因泉眼众多而有七十二名泉之说，趵突泉、千佛山、大明湖是原条目介绍的著名景观。章丘城子崖遗址与龙山文化的发现，也为理解当地更久远的聚落历史提供了线索。"
+        ],
+        "source": {
+          "title": "济南市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B5%8E%E5%8D%97%E5%B8%82&oldid=95475810",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B5%8E%E5%8D%97%E5%B8%82&oldid=95475810",
+          "scope": "审读导言前三段，选取黄河位置、泉城景观和城子崖龙山文化；删除音标模板、人口与科研排名及建城年代断言。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1806776,
+      "sourceSha256": "8081fe4a03755fe3e55a74b64e4ff4d681bc57c3c662ecaa896d1fb3d41ce8db",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "惠州市 · 城市速读",
+        "paragraphs": [
+          "惠州位于广东东南部、珠江三角洲东端与大亚湾北部。市域兼有南昆山、罗浮山等山地，河谷盆地与滨海平原；东江在城区与西枝江汇合。",
+          "惠州别称鹅城，历史上包括苏轼在内的文人曾在这里旅居并留下诗文。它也是客家人聚居的地区之一，近现代的电子制造业则为城市发展增加了另一条线索。"
+        ],
+        "source": {
+          "title": "惠州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%83%A0%E5%B7%9E%E5%B8%82&oldid=95444183",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%83%A0%E5%B7%9E%E5%B8%82&oldid=95444183",
+          "scope": "审读导言前三段，选取东江西枝江、山地海湾、苏轼旅居、客家与电子制造；删除客家聚落排名及发展潜力评价。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1808722,
+      "sourceSha256": "e46aa668e9898cc37eb7e50dc1f801a45a7888fa062463c89ac713bb9edc2540",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "合肥市 · 城市速读",
+        "paragraphs": [
+          "合肥是安徽省省会，别称庐州，位于长江与淮河之间，市域环抱巢湖。江淮之间的地理位置，是认识这座城市交通与区域联系的起点。",
+          "合肥自秦汉以来就是江淮地区的重要行政与军事节点。原条目也介绍了这里的科研教育、现代制造业及集成电路产业，历史城邑与现代科学产业共同构成城市线索。"
+        ],
+        "source": {
+          "title": "合肥市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%88%E8%82%A5%E5%B8%82&oldid=95426842",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%88%E8%82%A5%E5%B8%82&oldid=95426842",
+          "scope": "审读导言两段，选取江淮巢湖、庐州与秦汉建制、科研制造及集成电路；删除人口、城市等级和阅读排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1809078,
+      "sourceSha256": "82c4ee7c14fe3f35f3893018046d4178270694972c01abff12b8af476501383c",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "海口市 · 城市速读",
+        "paragraphs": [
+          "海口是海南省省会，位于海南岛东北部、南渡江入海口的滨海平原，北隔琼州海峡与雷州半岛相望。主城区位于河口西岸，海甸岛、新埠岛也是城市空间的组成部分。",
+          "海口之名与南渡江河口的位置有关，古称白沙津、海口浦，别称椰城。海口港承担海南岛对外联系的重要功能，城市也集中了省内的文化、科技与行政服务。"
+        ],
+        "source": {
+          "title": "海口市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B5%B7%E5%8F%A3%E5%B8%82&oldid=95427189",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B5%B7%E5%8F%A3%E5%B8%82&oldid=95427189",
+          "scope": "审读唯一导言段，选取南渡江口平原与岛屿、河口词源、港口省会角色；删除人口GDP、港口排名及政策称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1809461,
+      "sourceSha256": "5646a676d0aaff217ff8f6140aed28d1acb1e3922f53e81c400814215240b068",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "贵阳市 · 城市速读",
+        "paragraphs": [
+          "贵阳是贵州省省会，位于云贵高原东部的黔中山原丘陵区，处在长江与珠江两大流域的分水岭地带。南明河等河流穿过当地，乌江流经市域北缘。",
+          "贵阳与安顺、毕节、遵义和黔南相邻，是全省的教育、文化、交通和旅游服务中心。山原丘陵与跨区域交通联系，构成原条目介绍这座西南城市的主要线索。"
+        ],
+        "source": {
+          "title": "贵阳市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B4%B5%E9%98%B3%E5%B8%82&oldid=94240600",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%B4%B5%E9%98%B3%E5%B8%82&oldid=94240600",
+          "scope": "审读唯一导言段，选取高原丘陵、流域分水岭、水系邻接和省会服务交通角色；删除人口面积和生态旅游营销称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1809498,
+      "sourceSha256": "2ec5133f362add8ff03a06bf83ac73b8f8db8c07d7f260d312c51eaaae1e7b4b",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "桂林市 · 城市速读",
+        "paragraphs": [
+          "桂林位于广西东北部、南岭山脉西南侧，处在湘桂走廊南端。市域兼有山地、丘陵和岩溶峰林，中部的峰林地貌是认识桂林山水的地理线索。",
+          "漓江与湘江是市域中的两条主要河流，灵渠将两者联系起来。原条目以越城岭、海洋山、都庞岭等山地和相互连接的水系介绍当地，并将桂林列为历史文化名城。"
+        ],
+        "source": {
+          "title": "桂林市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%A1%82%E6%9E%97%E5%B8%82&oldid=95335368",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%A1%82%E6%9E%97%E5%B8%82&oldid=95335368",
+          "scope": "审读导言两段，选取南岭湘桂走廊、岩溶峰林及漓江湘江灵渠；删除山水甲天下等宣传性评价。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1809858,
+      "sourceSha256": "e09f3bd442bdcd98080493fc4d520eb0098317102796b90c6a5485cc39293b86",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "广州市 · 城市速读",
+        "paragraphs": [
+          "广州是广东省省会，别称羊城、花城，也是粤港澳大湾区的中心城市之一。商贸与综合交通枢纽功能，是认识这座华南城市的入口。",
+          "广州拥有两千多年的建城历史，是岭南文化的重要发源地。自秦代起，它长期是地方行政中心；对外通商与海上交通在城市历史中占有重要位置，中国进出口商品交易会自1957年起在这里举办。"
+        ],
+        "source": {
+          "title": "广州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E5%B7%9E%E5%B8%82&oldid=95413951",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E5%B7%9E%E5%B8%82&oldid=95413951",
+          "scope": "审读导言前三段，选取省会、岭南文化、行政与对外贸易史、广交会；删去永久繁荣与唯一港口等绝对化表述及排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1810638,
+      "sourceSha256": "3e3aaf5f17762248d2f0d448f5270466f9c854f872d1b0c9b1f6ff7cb41b3919",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "赣州市 · 城市速读",
+        "paragraphs": [
+          "赣州位于江西南部，与福建、广东、湖南相邻，常以赣南称呼这一地域。跨省联系使这里成为连接赣粤闽湘的区域交通城市。",
+          "赣州是历史文化名城，也是客家人主要聚居地区之一。原条目还介绍了稀有金属和先进制造业，以及与原中央苏区有关的历史文化线索，可从区域文化与产业两方面继续认识它。"
+        ],
+        "source": {
+          "title": "赣州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B5%A3%E5%B7%9E%E5%B8%82&oldid=95502237",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%B5%A3%E5%B7%9E%E5%B8%82&oldid=95502237",
+          "scope": "审读导言两段，选取赣南四省联系、客家聚居、稀有金属制造和原苏区背景；删除最大最多、世界之都等表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1810821,
+      "sourceSha256": "f32e91cb8ade61d76f5285a93de33bc0c4a8515296fe54f54941307b39ce09f1",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "福州市 · 城市速读",
+        "paragraphs": [
+          "福州是福建省省会，位于福建东部、闽江下游，别称榕城，也是著名侨乡。滨江与滨海的地理背景，构成了认识这座海峡西岸城市的入口。",
+          "福州是闽都文化的发源地之一，长期担任福建的行政与文化中心。它既是历史上海上交通的门户，也是近代最早开放的五个通商口岸之一，城市历史与对外交流相互交织。"
+        ],
+        "source": {
+          "title": "福州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%A6%8F%E5%B7%9E%E5%B8%82&oldid=95498849",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%A6%8F%E5%B7%9E%E5%B8%82&oldid=95498849",
+          "scope": "审读导言前三段，选取福建闽江下游、榕城侨乡、闽都文化及通商口岸；删去古都数量、海域数字和政策称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1811103,
+      "sourceSha256": "bb8fdf0993df64998a46116666a1a01b6e48261c8b5e5a509d28ca7e74ea45d8",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "佛山市 · 城市速读",
+        "paragraphs": [
+          "佛山位于广东南部、珠江三角洲腹地。西江以西多低山丘陵，以东为三角洲平原；西江、北江及支流贯穿当地，在三水区相互连通。",
+          "明清时期的佛山镇与汉口、景德镇、朱仙镇并称四大名镇。如今佛山与广州联系紧密，也是一座侨乡；历史商镇、河网与民营经济共同构成原条目介绍城市的线索。"
+        ],
+        "source": {
+          "title": "佛山市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BD%9B%E5%B1%B1%E5%B8%82&oldid=95511013",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BD%9B%E5%B1%B1%E5%B8%82&oldid=95511013",
+          "scope": "审读导言两段，选取西北江河网与地形、明清名镇、侨乡与广佛联系；不采用经济领先排名和侨胞数量。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1812545,
+      "sourceSha256": "c0d6e3a346a6e40b7f0fe148dec9c44f394149b55338c0259aa8ede2b5bf36da",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "东莞市 · 城市速读",
+        "paragraphs": [
+          "东莞位于广东中南部、东江下游，处在珠江三角洲东部冲积平原与低山丘陵的交接带，北邻广州、惠州，南接深圳，西南临珠江口。",
+          "东江在石龙一带分为多条水道并注入狮子洋。原条目还将东莞介绍为重要的加工制造与商贸城市，河网、珠三角城市联系和工业发展共同构成认识它的入口。"
+        ],
+        "source": {
+          "title": "东莞市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%9C%E8%8E%9E%E5%B8%82&oldid=95384262",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%9C%E8%8E%9E%E5%B8%82&oldid=95384262",
+          "scope": "审读导言两段，选取东江分汊、丘陵平原交接、周边城市及加工制造；删除外来人口占比与世界工厂营销称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1814087,
+      "sourceSha256": "96d56e1d4046ba061e1725a5ccf96ea7509bffc36cb9eebf47e753803e87ba7e",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "大连市 · 城市速读",
+        "paragraphs": [
+          "大连位于辽东半岛南端、黄海与渤海交界处，与山东半岛隔海相望。港口、贸易、工业与航运，是理解这座辽宁沿海城市的重要线索。",
+          "大连曾有旅大市之名，俄占时期也曾称达尔尼或达里尼。原条目导言还介绍了这里作为东北航运与物流中心的城市角色，以及夏季达沃斯新领军者年会的举办经历。"
+        ],
+        "source": {
+          "title": "大连市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E8%BF%9E%E5%B8%82&oldid=95483195",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E8%BF%9E%E5%B8%82&oldid=95483195",
+          "scope": "审读导言前三段，选取半岛港口区位、历史名称、航运物流及会展；删去气候绝对化、宜居营销与城市排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1814906,
+      "sourceSha256": "3da7dc3080bf7c4c9b60829767b5306da798bf4aa3539796a5c46c118058c9f4",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "重庆市 · 城市速读",
+        "paragraphs": [
+          "重庆位于中国西南、长江上游，是中国的直辖市，别称山城、江城。重庆市域包括众多区县，行政范围与人们通常所说的主城区并不相同。",
+          "重庆简称渝，与嘉陵江古称渝水有关。南宋时恭州升为重庆府，重庆由此得名；1891年成为内陆通商口岸。抗日战争时期，重庆曾是国民政府的战时首都，1997年重新设为直辖市。"
+        ],
+        "source": {
+          "title": "重庆市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%87%8D%E5%BA%86%E5%B8%82&oldid=95552436",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%87%8D%E5%BA%86%E5%B8%82&oldid=95552436",
+          "scope": "审读导言前三段，选取上游区位、简称与地名来历、开埠及近现代行政史；删除人口数量、政策定位与绝对排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1815456,
+      "sourceSha256": "d5b9d963fe65aa52ff718cac02d8f0436678c396de4702803555ff3f3c6ad42f",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "常州市 · 城市速读",
+        "paragraphs": [
+          "常州位于江苏南部、长江南岸与太湖北滨平原，西靠茅山，南倚天目山。京杭运河穿过城区，多条河流与水道交织构成了城市的水网背景。",
+          "常州古称毗陵、武进、延陵，是一座历史文化名城。它与苏州、无锡共同构成苏锡常地区的重要城市，运河交通和长三角城市联系是原条目介绍其空间位置的线索。"
+        ],
+        "source": {
+          "title": "常州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%B8%E5%B7%9E%E5%B8%82&oldid=95421056",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%B8%E5%B7%9E%E5%B8%82&oldid=95421056",
+          "scope": "审读导言两段，选取太湖北滨水网山地、历史名称及苏锡常联系；不采用城市等距等近似定位或营销称号。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1815577,
+      "sourceSha256": "0499c300e0fada05762c71b0476c56bfa69f41b6a926345e8c40214017a3c36f",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "长沙市 · 城市速读",
+        "paragraphs": [
+          "长沙是湖南省省会，位于湘东北、湘江下游，与株洲、湘潭共同构成长株潭城市群。山、水与洲的地理形态，也使长沙有山水洲城的称呼。",
+          "马王堆汉墓、长沙窑与岳麓书院，分别提供了阅读汉代生活、古代陶瓷贸易和书院教育的入口。近现代以来，工程机械、传媒和出版等产业也构成了长沙的城市特色。"
+        ],
+        "source": {
+          "title": "长沙市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%B2%99%E5%B8%82&oldid=95221430",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%B2%99%E5%B8%82&oldid=95221430",
+          "scope": "审读导言前三段，选取湘江与长株潭、马王堆长沙窑岳麓书院和机械传媒产业；不采用首创、全球之都及高校排名表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1816670,
+      "sourceSha256": "7a663bcfcca327fce643579320ba8e369911da49350f7c6b327a904c9a8aeccf",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "北京 · 城市速读",
+        "paragraphs": [
+          "北京是中国的首都，位于华北平原北部边缘，背靠燕山，与天津、河北相邻，是京津冀城市群的重要组成部分。这里既有国家政治、教育和科研机构，也有从旧城延续下来的街巷格局。",
+          "北京有三千余年建城史，金、元、明、清时期均曾在此建都。紫禁城、天坛、颐和园、北海等古迹，与胡同、四合院共同构成认识北京历史的不同入口。"
+        ],
+        "source": {
+          "title": "北京市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8C%97%E4%BA%AC%E5%B8%82&oldid=95548731",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8C%97%E4%BA%AC%E5%B8%82&oldid=95548731",
+          "scope": "审读导言前三段，选取华北平原与燕山位置、历代都城和古迹民居；删去人口、遗产数量、商业榜单与排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1816971,
+      "sourceSha256": "27961c504a6d8ff20f01bb0921fd21eaa344825e83c4a92b2640cb2d69ab4bb8",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "保定市 · 城市速读",
+        "paragraphs": [
+          "保定位于河北中部偏西、太行山东麓与华北平原交接地带，地势西高东低。拒马河、唐河等河流向东流入白洋淀与大清河水系。",
+          "保定古称保州、清苑、保阳，清代曾是直隶省省会和直隶总督驻地，20世纪也曾担任河北省省会。山前平原的位置与省会行政历史，是原条目介绍这座历史文化名城的线索。"
+        ],
+        "source": {
+          "title": "保定市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BF%9D%E5%AE%9A%E5%B8%82&oldid=95526921",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BF%9D%E5%AE%9A%E5%B8%82&oldid=95526921",
+          "scope": "审读导言两段，选取太行山平原水系、历史名称与直隶河北省会；删除人口最多和雄安行政隶属等易变表述。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1819729,
+      "sourceSha256": "6ce716986613fedc82672d338bee3874eefc6cdcc74f046276083e9a437aba98",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "香港 · 城市速读",
+        "paragraphs": [
+          "香港位于珠江口东侧，地域包括香港岛、九龙与新界。海湾、岛屿和沿海位置，是理解这座城市与周边地区联系的起点。",
+          "香港是中国的特别行政区，贸易、航运和金融构成其重要城市功能。原条目还以自由港制度介绍这里的经济背景；这一概览针对香港整体地域，不把单一地图点位当作全部行政边界。"
+        ],
+        "source": {
+          "title": "香港",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&oldid=95445445",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%A6%99%E6%B8%AF&oldid=95445445",
+          "scope": "审读导言前三段，选取珠江口与港九新界、特别行政区及港口金融贸易；删去经济自由度排名、政策营销与人口流入评价，标明整体地域尺度。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1853909,
+      "sourceSha256": "1d52bbc9bf55f9b8a7fbc7a4de3d009577895fa95259618864ea523a23cc8685",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "大阪市 · 城市速读",
+        "paragraphs": [
+          "大阪市位于日本大阪府中部，是大阪府府治，也是大阪都市圈、京阪神都市圈及近畿地方的中心城市。",
+          "大阪自奈良时代起因临海区位成为贸易港口，并曾建立难波京。丰臣秀吉修建大阪城，以此作为政治中枢；江户时代大阪与京都、江户并称“三都”，商贸活动使其获得“天下的厨房”的称呼。"
+        ],
+        "source": {
+          "title": "大阪市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E9%98%AA%E5%B8%82&oldid=94888243",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E9%98%AA%E5%B8%82&oldid=94888243",
+          "scope": "已审读该修订中文导言，保留范围：大阪府区位、贸易港、大阪城与江户商贸。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1856057,
+      "sourceSha256": "3034838acd531fe7643513813c6939d82cb4735b7f34e5e1b5a9980847898535",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "名古屋市 · 城市速读",
+        "paragraphs": [
+          "名古屋位于日本爱知县西部，是爱知县县治及中部、东海地方的中枢城市，也是中京圈的核心。因处在东京与京都之间，又有“中京”之称。",
+          "市中心的名驿、荣、锦三、大须和金山是主要商业区，名驿与荣拥有大规模地下街。2008年，名古屋与神户一起被联合国教科文组织认可为创意城市。"
+        ],
+        "source": {
+          "title": "名古屋市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82&oldid=94807969",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%8D%E5%8F%A4%E5%B1%8B%E5%B8%82&oldid=94807969",
+          "scope": "已审读该修订中文导言，保留范围：爱知县区位、中京名称、商业街区与创意城市。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1863967,
+      "sourceSha256": "f5419ffe3bab911e9603823082e7adaba7ed380d65a99091b67f55f95f346075",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "福岡市 · 城市速读",
+        "paragraphs": [
+          "福冈位于日本九州北部、福冈县西部，是县厅所在地及政令指定都市，城市临博多湾，与东亚大陆的往来构成其历史的重要背景。",
+          "17世纪黑田氏兴建福冈城后，那珂川两侧逐渐形成不同格局：西侧“福冈”以武士城下町为主，东侧“博多”以商人为主。今日天神与博多的双中心格局，仍可联系到这段两地并立的城市历史。"
+        ],
+        "source": {
+          "title": "福岡市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%A6%8F%E5%B2%A1%E5%B8%82&oldid=95297612",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%A6%8F%E5%B2%A1%E5%B8%82&oldid=95297612",
+          "scope": "已审读该修订中文导言，保留范围：九州与博多湾区位、福冈和博多的双城格局。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 1886760,
+      "sourceSha256": "2e5006b04e4a4742b0ebf31d4dae0a501174e4a76a765270000d8d9362a96013",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "苏州市 · 城市速读",
+        "paragraphs": [
+          "苏州位于江苏东南部、长江三角洲和太湖平原的中心地带，古称吴，是江南吴文化的重要发祥地。",
+          "明清时期，苏州是重要的工商业与文化城市。近代开埠格局和战乱曾影响其发展；20世纪后期，乡镇企业与开发区建设推动了新的产业增长，成为理解苏南经济变迁的一条线索。"
+        ],
+        "source": {
+          "title": "苏州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8B%8F%E5%B7%9E%E5%B8%82&oldid=95521346",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%8B%8F%E5%B7%9E%E5%B8%82&oldid=95521346",
+          "scope": "审读导言前三段并核对Jiangsu身份，选取太湖平原、吴文化、明清工商业与苏南乡镇企业；删去建城年代争议、经济人口排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2034937,
+      "sourceSha256": "3722db83b2dc53416100966546cccb707ad31988d40b44ff46592a4cd97c815d",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "沈阳市 · 城市速读",
+        "paragraphs": [
+          "沈阳是辽宁省省会，古称奉天、盛京，位于辽东山地与辽河平原的过渡地带。它与辽东半岛、环渤海地区相连，是东北地区重要的交通、工业与文化城市。",
+          "1625年，后金迁都沈阳，城市随之扩建；清朝入关后，这里成为陪都。近现代以来，沈阳发展为重要的重工业城市，工业发展与历史都城记忆共同构成其城市线索。"
+        ],
+        "source": {
+          "title": "沈阳市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E9%98%B3%E5%B8%82&oldid=95420991",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E9%98%B3%E5%B8%82&oldid=95420991",
+          "scope": "审读导言第一和第三段，选取地形过渡、后金盛京历史和工业发展；不采用人口、教育指数或建城规模排名。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2035265,
+      "sourceSha256": "9ee70fc1c0302b2c3ad680e7f30c67ea593a1acede1414cfea05a0d94d90057b",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "齐齐哈尔市 · 城市速读",
+        "paragraphs": [
+          "齐齐哈尔位于黑龙江省、松嫩平原西部，嫩江自北向南贯穿市域，诺敏河、雅鲁河、乌裕尔河等水系也流经当地。西侧与内蒙古相邻，西南与吉林省相接。",
+          "齐齐哈尔别称鹤城、卜奎、龙沙，曾长期担任黑龙江省省会，也是一座历史文化名城和重要的重工业城市。原条目以河流平原、区域联系和城市建制介绍了这里。"
+        ],
+        "source": {
+          "title": "齐齐哈尔市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%B8%82&oldid=94554892",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%B8%82&oldid=94554892",
+          "scope": "审读唯一导言段，选取松嫩平原嫩江、区域邻接、旧省会及重工业；不由鹤城别称推导未经阅读的生态旅游细节。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2035715,
+      "sourceSha256": "443a55fccef12ed9d5b9a475f2acd3570fe5e795bfee71f938107381bbf0571a",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "牡丹江市 · 城市速读",
+        "paragraphs": [
+          "牡丹江位于黑龙江东南部、张广才岭与老爷岭之间的谷地，因流经市区的牡丹江得名。市域东侧与俄罗斯滨海边疆区相邻，南侧接吉林延边。",
+          "牡丹江上游有镜泊湖，市域另有穆棱河、绥芬河等水系，森林与河谷是其鲜明的地理线索。原条目还介绍了辖区东宁的边境贸易口岸功能，体现这座城市与周边地区的联系。"
+        ],
+        "source": {
+          "title": "牡丹江市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%89%A1%E4%B8%B9%E6%B1%9F%E5%B8%82&oldid=95144439",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%89%A1%E4%B8%B9%E6%B1%9F%E5%B8%82&oldid=95144439",
+          "scope": "审读导言两段，选取山间谷地、河流命名、镜泊湖与东宁贸易口岸；删除城市机场规模排名和航线动态数字。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2036502,
+      "sourceSha256": "dad51ef2c01fcaf60af0eb0d7fcfc6d22cb9fb971d5d67a8e1e7ac93678405ac",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "吉林市 · 城市速读",
+        "paragraphs": [
+          "吉林市位于吉林省中部偏东，松花江由南向北流经市域，沿途汇入辉发河、蛟河等支流。山岭与江河构成了这座北国江城的地理背景。",
+          "吉林市曾是吉林省省会。清代在此设置吉林府，近代又设置吉林市；吉林乌拉这一满语名称具有沿江的含义，河流与地方建制共同成为理解城市名称和历史的线索。"
+        ],
+        "source": {
+          "title": "吉林市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E6%9E%97%E5%B8%82&oldid=95420912",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%90%89%E6%9E%97%E5%B8%82&oldid=95420912",
+          "scope": "审读导言前三段，选取松花江水系、原省会、吉林府与地名含义；删去唯一同名城市及城市规模的绝对判断。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2036892,
+      "sourceSha256": "875742fff59f91acde40ce9db114f4f3b66c287abab0ba2fb47bc5bd866a17c9",
+      "reviewFile": "scripts/city-article-reviews-china.json",
+      "article": {
+        "title": "呼和浩特 · 城市速读",
+        "paragraphs": [
+          "呼和浩特是内蒙古自治区首府，位于蒙古高原南缘、阴山南麓，西南接土默川平原。大黑河穿过城区并汇入黄河，山地、平原与河流构成了当地的地理背景。",
+          "呼和浩特主城区由归化、绥远两座城在清末民初逐渐合并而成，旧称归绥。城市处于农耕与游牧文化交会的区域，原条目以多种文化在此交流的历史介绍了其城市背景。"
+        ],
+        "source": {
+          "title": "呼和浩特市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%E5%B8%82&oldid=95429023",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%E5%B8%82&oldid=95429023",
+          "scope": "审读唯一导言段，选取阴山土默川、大黑河与双城合并；删除语言模板、人口比例和对居民生活的泛化推断。依据原条目作中文摘编与文字整理；百科引文未逐项独立核验。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2037799,
+      "sourceSha256": "7df7e015179c3165994f5695af2a9c405956859ba95529fde8ddd3f3b4abf065",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "大同市 · 城市速读",
+        "paragraphs": [
+          "大同古称平城、云中，位于山西北部、大同盆地北缘，邻接河北与内蒙古。御河自北向南流经城区并汇入桑干河，山地与盆地构成其地理背景。",
+          "大同曾是北魏首都、辽金时期的西京，明清时又是北方军事重镇。近代以来，煤炭工业与京包、同蒲、大秦等铁路，也构成认识城市发展和区域联系的重要线索。"
+        ],
+        "source": {
+          "title": "大同市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E5%90%8C%E5%B8%82&oldid=94822606",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%A7%E5%90%8C%E5%B8%82&oldid=94822606",
+          "scope": "审读唯一导言段并核对Shanxi身份，选取河流盆地、北魏辽金与边镇史、煤炭铁路；删去古都数量与城市规模排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2038180,
+      "sourceSha256": "3f12378742d47a1054f5a16f41b62dcaa40f44695929ce9c5b4400d519665335",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "长春市 · 城市速读",
+        "paragraphs": [
+          "长春是吉林省省会，位于东北平原腹地的松辽平原上。装备制造与综合交通枢纽功能，是认识这座东北城市的起点。",
+          "长春保留有近现代历史古迹与工业遗产，1932年至1945年曾是满洲国首都。汽车工业与电影工业构成其重要城市记忆，吉林大学、东北师范大学及多家科研机构也坐落于此。"
+        ],
+        "source": {
+          "title": "长春市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%98%A5%E5%B8%82&oldid=95533517",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%95%BF%E6%98%A5%E5%B8%82&oldid=95533517",
+          "scope": "审读导言第一和第三段，选取松辽平原、满洲国都城时期、汽车电影工业及高校；删去人口、基础建设和科研排名。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2063523,
+      "sourceSha256": "4c668620d11a4ca785dbde30d2a724b30f5377201998bad06997c226d5875b9c",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "珀斯 · 城市速读",
+        "paragraphs": [
+          "珀斯是西澳大利亚州首府，位于澳洲大陆西岸，天鹅河岸景观是这座城市的特色之一。河流、海岸和州首府职能在这里相互联系。",
+          "采矿业、服务业和旅游业是城市经济的主要支柱。天鹅河岸的景观也与旅游活动相联系，河流环境与产业共同构成珀斯的现代城市面貌。"
+        ],
+        "source": {
+          "title": "珀斯",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%80%E6%96%AF&oldid=93294648",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%8F%80%E6%96%AF&oldid=93294648",
+          "scope": "已审读该修订中文导言，保留范围：西岸首府、天鹅河与主要产业。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2078025,
+      "sourceSha256": "897dfd024e96a0a3a20f1b0636fc3665a17e84e911a93f5445f97885aa543779",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "阿德莱德 · 城市速读",
+        "paragraphs": [
+          "阿德莱德是南澳大利亚州首府，也是该州商业与文化中心。城市位于阿德莱德平原、弗勒里厄半岛以北，圣文森特湾以东。",
+          "都会区域从海岸到丘陵呈修长布局，沿海平原向内陆山丘过渡。平原、海湾、半岛与山地的相互位置，构成阿德莱德鲜明的地理背景。"
+        ],
+        "source": {
+          "title": "阿德莱德",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%BE%B7%E8%8E%B1%E5%BE%B7&oldid=94302115",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%BE%B7%E8%8E%B1%E5%BE%B7&oldid=94302115",
+          "scope": "已审读该修订中文导言，保留范围：南澳首府、平原海湾与修长布局。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2128295,
+      "sourceSha256": "c3b48d5b833594c620ed467c1f21395873d0eca689948c76bf8003a155e298c1",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "札幌市 · 城市速读",
+        "paragraphs": [
+          "札幌位于日本北海道道央地区，是北海道道厅及石狩振兴局本部所在地。铁路、高速公路和航空路线在此汇集，使其成为北海道的交通中心。",
+          "1869年设立开拓使后，札幌的城市建设逐步展开。规划参考京都的棋盘格布局，以创成川等道路与河流组织轴线；大通公园成为城市主干空间。札幌还举办了1972年冬季奥运会。"
+        ],
+        "source": {
+          "title": "札幌市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9C%AD%E5%B9%8C%E5%B8%82&oldid=94342440",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%9C%AD%E5%B9%8C%E5%B8%82&oldid=94342440",
+          "scope": "已审读该修订中文导言，保留范围：北海道交通区位、棋盘格规划与冬奥历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2147714,
+      "sourceSha256": "4f67ad6f3838f055f9a3cf05ae2e9d8f776cce83b0c370754a67c950ca9d90fb",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "悉尼 · 城市速读",
+        "paragraphs": [
+          "悉尼是澳大利亚新南威尔士州首府，都市区环绕悉尼港，东临太平洋，西接蓝山。“海港城”是其常见城市称呼之一。",
+          "澳大利亚原住民早已在这一地区生活。1788年，亚瑟·菲利普率领第一舰队在此建立英国流放殖民地，成为城市近代发展的一段重要历史。"
+        ],
+        "source": {
+          "title": "悉尼",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%82%89%E5%B0%BC&oldid=95565816",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%82%89%E5%B0%BC&oldid=95565816",
+          "scope": "已审读该修订中文导言，保留范围：海港与蓝山区位、原住民及殖民聚落。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2158177,
+      "sourceSha256": "0e81fb295e5acb9836249d3b9783cc6a6ca54435c8f34d3e76d7a8bef84d477c",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "墨尔本 · 城市速读",
+        "paragraphs": [
+          "墨尔本是澳大利亚维多利亚州首府，位于菲利普港湾东北两侧的沿岸平原，是重要港口和制造业城市。",
+          "1901年至1927年间，墨尔本曾承担澳大利亚联邦首都职能。城市还聚集文化、商业、教育、餐饮、体育与娱乐活动，海外移民也参与形成了多元城市生活。"
+        ],
+        "source": {
+          "title": "墨尔本",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A2%A8%E5%B0%94%E6%9C%AC&oldid=95314902",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A2%A8%E5%B0%94%E6%9C%AC&oldid=95314902",
+          "scope": "已审读该修订中文导言，保留范围：港湾平原、联邦首都阶段与多元文化。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2172517,
+      "sourceSha256": "cc157f84b938ac4d5ba975f5289b9933da6d3222647ffada1216d756a6024e89",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "堪培拉 · 城市速读",
+        "paragraphs": [
+          "堪培拉是澳大利亚首都及首都领地首府，位于首都领地北端、悉尼和墨尔本之间的内陆地区。",
+          "1908年，联邦选择在两大城市之间的折中位置建立首都。堪培拉于1913年动工，总体规划由沃尔特·伯利·格里芬和玛丽恩·马奥尼·格里芬夫妇设计，是整体规划兴建的新城。"
+        ],
+        "source": {
+          "title": "堪培拉",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A0%AA%E5%9F%B9%E6%8B%89&oldid=91575695",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A0%AA%E5%9F%B9%E6%8B%89&oldid=91575695",
+          "scope": "已审读该修订中文导言，保留范围：内陆首都、1908年选址与格里芬规划。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2174003,
+      "sourceSha256": "ea35041e602db606f2fd28a98e6dbdbe8132d948f24fa87c3533220a13504e85",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "布里斯班 · 城市速读",
+        "paragraphs": [
+          "布里斯班是澳大利亚昆士兰州首府，位于澳洲本土东部，北邻阳光海岸，南接黄金海岸地区。",
+          "都会区坐落在大分水岭与摩顿湾之间的布里斯班河冲积平原，中心城区沿河发展。机场与国际海港位于河口两旁，城市又向西部内陆及南北方向扩展。"
+        ],
+        "source": {
+          "title": "布里斯班",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E9%87%8C%E6%96%AF%E7%8F%AD&oldid=95371861",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E9%87%8C%E6%96%AF%E7%8F%AD&oldid=95371861",
+          "scope": "已审读该修订中文导言，保留范围：昆士兰州首府、河流平原与机场港口。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2179537,
+      "sourceSha256": "46b872b84d8937d477d309957cce662750bf81cb8b1fb9c3c571f9dc54322fe0",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "惠灵顿 · 城市速读",
+        "paragraphs": [
+          "惠灵顿是新西兰首都，位于北岛西南端、库克海峡与雷穆塔卡山脉之间。海峡和山地共同界定了城市的地理位置。",
+          "城市近代建设与1840年新西兰公司的活动有关，自1865年以来一直承担首都职能。新西兰政府、议会、最高法院及多数公共服务机构均设在这里。"
+        ],
+        "source": {
+          "title": "惠灵顿",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%83%A0%E7%81%B5%E9%A1%BF&oldid=90822365",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%83%A0%E7%81%B5%E9%A1%BF&oldid=90822365",
+          "scope": "已审读该修订中文导言，保留范围：海峡山地区位、近代建设与首都机构。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2192362,
+      "sourceSha256": "47003265cc7227b344e7a789d4e3a87c0d96bc5003c2c96b86fa05d4a6070185",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "基督城 · 城市速读",
+        "paragraphs": [
+          "基督城位于新西兰南岛，英文名Christchurch与牛津大学的基督堂学院有关，这一名称成为城市历史的一个入口。",
+          "当地毛利语名称为Ōtautahi，与酋长Tautahi相联系，其部落曾在雅芳河地区定居。英语名称和毛利地名保留了理解这座城市的不同历史线索。"
+        ],
+        "source": {
+          "title": "基督城",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%9F%BA%E7%9D%A3%E5%9F%8E&oldid=92811950",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%9F%BA%E7%9D%A3%E5%9F%8E&oldid=92811950",
+          "scope": "已审读该修订中文导言，保留范围：学院名称、毛利地名与雅芳河聚落。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2193733,
+      "sourceSha256": "1476c9ba28f569799b38f7e98723fe40c6416ba94924964f6e46552611701287",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "奧克蘭 · 城市速读",
+        "paragraphs": [
+          "奥克兰位于新西兰北岛，有“帆之都”的称呼，也是全国工业与商业中心。城市承担南太平洋交通枢纽及旅客出入境门户等职能。",
+          "奥克兰曾为新西兰首都，1865年首都迁到北岛南端的惠灵顿。首都身份虽然改变，奥克兰仍继续作为商业、艺术和教育活动的重要城市。"
+        ],
+        "source": {
+          "title": "奧克蘭",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A5%A7%E5%85%8B%E8%98%AD&oldid=95449898",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A5%A7%E5%85%8B%E8%98%AD&oldid=95449898",
+          "scope": "已审读该修订中文导言，保留范围：帆之都、交通门户与1865年迁都。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2253354,
+      "sourceSha256": "d7bfcf1be26bc9dd0ef8270455cd7c4d9234a384ed4e277930f9b54dd6768096",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "達喀爾 · 城市速读",
+        "paragraphs": [
+          "达喀尔是塞内加尔首都，位于面向大西洋的佛得角半岛。这一西非海岸区位，使其发展为泛大西洋与欧洲贸易的重要区域港口。",
+          "达喀尔也是塞内加尔主要行政中心，国民议会与总统官邸设在这里。公路交通又把城市与周边国家联系起来，形成港口和陆路相结合的交通角色。"
+        ],
+        "source": {
+          "title": "達喀爾",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%81%94%E5%96%80%E7%88%BE&oldid=95549962",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%81%94%E5%96%80%E7%88%BE&oldid=95549962",
+          "scope": "已审读该修订中文导言，保留范围：大西洋半岛港口与国家行政中心。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2267057,
+      "sourceSha256": "bdb5f779b891b9240984bea961ee2f3d73069f079228a3f83eb0e415996d24cc",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "里斯本 · 城市速读",
+        "paragraphs": [
+          "里斯本又称葡京，是葡萄牙首都和政府所在地，位于葡萄牙中南部大西洋沿岸，城南接特茹河出海口，城北邻辛特拉山。",
+          "里斯本与波尔图同为葡萄牙的代表性城市，葡萄牙语国家共同体总部也设在这里。河口、山地与国家政治职能共同构成其城市区位。"
+        ],
+        "source": {
+          "title": "里斯本",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%87%8C%E6%96%AF%E6%9C%AC&oldid=95345517",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%87%8C%E6%96%AF%E6%9C%AC&oldid=95345517",
+          "scope": "已审读该修订中文导言，保留范围：大西洋河口、政治中心与葡语共同体。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2306104,
+      "sourceSha256": "b481c2c4193e3fdd2d5767de8a0e055d3d4860e83efa2a19e96bbbdcf4334669",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "阿克拉 · 城市速读",
+        "paragraphs": [
+          "阿克拉是加纳首都，也是全国行政、经济与通信中心，承担着多种城市管理和产业职能。",
+          "食品加工、木材与胶合板生产、纺织、服装和化工，是阿克拉的主要工业领域。多种加工制造活动与首都的行政、通信职能并存。"
+        ],
+        "source": {
+          "title": "阿克拉",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%85%8B%E6%8B%89&oldid=93412459",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%85%8B%E6%8B%89&oldid=93412459",
+          "scope": "已审读该修订中文导言，保留范围：首都职能与具体产业类型。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2352778,
+      "sourceSha256": "2da73ede0d63d2b0e72e956de43bec824e9df5263124e9103dd05fc763347745",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "阿布贾 · 城市速读",
+        "paragraphs": [
+          "阿布贾是尼日利亚首都，位于国家中部的联邦首都区，是一座主要在1980年代建设的规划城市。1991年12月12日，它取代拉各斯成为首都。",
+          "城市的代表性宗教场所包括阿布贾国家清真寺与全国基督教中心，另有纳姆迪·阿齐克韦国际机场提供航空服务。规划首都与国家机构的集中构成其城市特色。"
+        ],
+        "source": {
+          "title": "阿布贾",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%B8%83%E8%B4%BE&oldid=93416182",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%B8%83%E8%B4%BE&oldid=93416182",
+          "scope": "已审读该修订中文导言，保留范围：1980年代规划城市、迁都与宗教建筑。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2464470,
+      "sourceSha256": "b88091875b2b65992104a8c81ddc6ef6e85e16fdeb73764c14fe302e35ccdd01",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "突尼斯市 · 城市速读",
+        "paragraphs": [
+          "突尼斯市是突尼斯共和国首都，位于国家北部突尼斯湾一带。突尼斯湖、潟湖与运河共同参与塑造了城市的近海环境。",
+          "运河穿过中心地区，在外港哈克阿瓦迪附近入海。城市的阿拉伯老城列入世界文化遗产，留下了与现代交通水道并存的历史城区。"
+        ],
+        "source": {
+          "title": "突尼斯市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%AA%81%E5%B0%BC%E6%96%AF%E5%B8%82&oldid=89839371",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%AA%81%E5%B0%BC%E6%96%AF%E5%B8%82&oldid=89839371",
+          "scope": "已审读该修订中文导言，保留范围：湾岸湖泊、运河与阿拉伯老城。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2507480,
+      "sourceSha256": "f63414bcbd91a7a3e912f0d43e038b417646bbc3fc7b5c3b9c28dec9fbf36d22",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "阿爾及爾 · 城市速读",
+        "paragraphs": [
+          "阿尔及尔是阿尔及利亚首都，位于国家中北部海湾西侧，北临地中海。现代城市沿海岸平地建设，老城则分布在后方陡峭山丘上。",
+          "山丘上的卡斯巴城保存古老清真寺与奥斯曼风格宫殿遗迹，并被列入联合国教科文组织世界遗产。平地新城与山地老城构成鲜明的空间层次。"
+        ],
+        "source": {
+          "title": "阿爾及爾",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E7%88%BE%E5%8F%8A%E7%88%BE&oldid=92224076",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E7%88%BE%E5%8F%8A%E7%88%BE&oldid=92224076",
+          "scope": "已审读该修订中文导言，保留范围：地中海海湾、新旧城地形与卡斯巴遗产。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2510911,
+      "sourceSha256": "ce7bfcbbd2b43b7daeb690be3ea051b66a9d2b64fe6b8b25e4132da893e58d00",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "塞维利亚 · 城市速读",
+        "paragraphs": [
+          "塞维利亚有瓜达尔基维尔河穿城而过，城市保存王宫等建筑。河流与王室建筑是进入这座城市的两条具体阅读线索。",
+          "塞维利亚拥有广阔的历史中心和众多已编目的古迹。王宫与历史城区彼此联系，使城市的建筑遗存成为阅读其历史的重要线索。"
+        ],
+        "source": {
+          "title": "塞维利亚",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A1%9E%E7%BB%B4%E5%88%A9%E4%BA%9A&oldid=94770702",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A1%9E%E7%BB%B4%E5%88%A9%E4%BA%9A&oldid=94770702",
+          "scope": "已审读该修订中文导言，保留范围：瓜达尔基维尔河、王宫与历史中心。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2538475,
+      "sourceSha256": "e41c1070b55ce50a9f6df81257abc0b14e863033942c105ef17f68d9be315242",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "拉巴特 · 城市速读",
+        "paragraphs": [
+          "拉巴特是摩洛哥首都，位于西北部布赖格赖格河口，濒临大西洋，与通勤联系密切的塞拉隔河相望。",
+          "城市于12世纪穆瓦希德王朝时期建立，17世纪曾成为巴巴里海盗的避风港。今日拉巴特保留现代城市与历史古城交叠的景观，并以此列入世界文化遗产。"
+        ],
+        "source": {
+          "title": "拉巴特",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%8B%89%E5%B7%B4%E7%89%B9&oldid=95380593",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%8B%89%E5%B7%B4%E7%89%B9&oldid=95380593",
+          "scope": "已审读该修订中文导言，保留范围：河口首都、12世纪起源与历史古城。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2553604,
+      "sourceSha256": "197b284761be279832288e9f16910687be6402082afea783d22ceb4cf5fb8ec6",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "卡萨布兰卡 · 城市速读",
+        "paragraphs": [
+          "卡萨布兰卡位于摩洛哥大西洋海岸，首都拉巴特在其东北方向。城市既是主要港口，也是摩洛哥重要的商业与金融中心。",
+          "卡萨布兰卡的西班牙语名称意为“白屋”。行政上，城市在2015年前属于大卡萨布兰卡大区，之后属于卡萨布兰卡—塞塔特大区。"
+        ],
+        "source": {
+          "title": "卡萨布兰卡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%A1%E8%90%A8%E5%B8%83%E5%85%B0%E5%8D%A1&oldid=93897230",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%A1%E8%90%A8%E5%B8%83%E5%85%B0%E5%8D%A1&oldid=93897230",
+          "scope": "已审读该修订中文导言，保留范围：大西洋港口、白屋地名与行政区变迁。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2618425,
+      "sourceSha256": "1ea81b1d18d3eec20b6d1471a555e814bffcc2df6d882d4464cbc682627c0783",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "哥本哈根 · 城市速读",
+        "paragraphs": [
+          "哥本哈根是丹麦首都，位于西兰岛东部，隔厄勒海峡与瑞典马尔默相望，也是丹麦重要港口。",
+          "厄勒海峡大桥在2000年完工后，两座城市之间可以通过公路和铁路往来。跨海通道改变了两岸的通勤与交流条件，使城市联系进一步增强。"
+        ],
+        "source": {
+          "title": "哥本哈根",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9&oldid=94237442",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9&oldid=94237442",
+          "scope": "已审读该修订中文导言，保留范围：西兰岛区位与厄勒海峡大桥。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2643123,
+      "sourceSha256": "5cd7412494cf4c848b5802061e4ea020100b9d1666ac0967234f1903401e4ee4",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "曼彻斯特 · 城市速读",
+        "paragraphs": [
+          "曼彻斯特位于英格兰西北部，是大曼彻斯特郡的中心城市，1853年正式获得城市地位。工业历史使工蜂成为城市象征，蜜蜂也进入其官方标志。",
+          "城市起源与罗马人在厄韦尔河和梅德洛克河汇流处建立的马穆西乌姆兵营有关。工业革命时期，棉花加工推动城市发展，留下“棉都”和“仓库城市”等称呼。"
+        ],
+        "source": {
+          "title": "曼彻斯特",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9&oldid=95250130",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9&oldid=95250130",
+          "scope": "已审读该修订中文导言，保留范围：英格兰工业城市、罗马兵营与棉纺历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2643743,
+      "sourceSha256": "adf7f06fcdddb105c21a4e09af3d5f80c966efd2f231f3d703e43051204664ff",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "伦敦 · 城市速读",
+        "paragraphs": [
+          "伦敦位于泰晤士河流域，罗马人约于公元50年建立名为伦蒂尼恩的聚落。历史核心伦敦市与后来向外扩展的伦敦地区，需要区分理解。",
+          "现代伦敦拥有密集的高等教育机构，也承担文化与国际交往职能。2012年，伦敦第三次举办现代夏季奥林匹克运动会，成为其城市体育史上的一个节点。"
+        ],
+        "source": {
+          "title": "伦敦",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BC%A6%E6%95%A6&oldid=93999849",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BC%A6%E6%95%A6&oldid=93999849",
+          "scope": "已审读该修订中文导言，保留范围：泰晤士河、罗马聚落、核心区与奥运历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2657896,
+      "sourceSha256": "ed88aa21d51a1c4af79b9a072d49d04fb3eccf5faaa121d28438397d23bef2d0",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "苏黎世 · 城市速读",
+        "paragraphs": [
+          "苏黎世是瑞士苏黎世州首府，处于瑞士德语区，也是瑞士重要的商业、文化与银行业城市。国际足球联合会总部也设在这里。",
+          "城市名称可能与凯尔特语中的Turus有关。当地发现的一块罗马时期墓志铭，保存了古代地名的拉丁化形式Turicum，为这一地名解释提供了线索。"
+        ],
+        "source": {
+          "title": "苏黎世",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8B%8F%E9%BB%8E%E4%B8%96&oldid=91377520",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%8B%8F%E9%BB%8E%E4%B8%96&oldid=91377520",
+          "scope": "已审读该修订中文导言，保留范围：商业银行城市、国际机构与古地名。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2747891,
+      "sourceSha256": "02500c2b7cd3208e5bbdc86e3af75c6d1ec4a304a054b6059e5ce24b63b651b6",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "鹿特丹 · 城市速读",
+        "paragraphs": [
+          "鹿特丹位于荷兰南荷兰省、新马斯河畔，是荷兰的重要城市。河流关系直接体现在城市的位置与名称中。",
+          "“鹿特丹”这一名称来自注入新马斯河的小河鹿特河，以及荷兰语中表示“坝”的词语。它把一处河口水工设施的记忆留在了城市名字里。"
+        ],
+        "source": {
+          "title": "鹿特丹",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%B9%BF%E7%89%B9%E4%B8%B9&oldid=93161024",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%B9%BF%E7%89%B9%E4%B8%B9&oldid=93161024",
+          "scope": "已审读该修订中文导言，保留范围：南荷兰河流区位与地名释义。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2759794,
+      "sourceSha256": "ae939664dd6f63c33e6f9aa95b2b670d8c6e8713e14aa6b7ccfa1f4af36865aa",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "阿姆斯特丹 · 城市速读",
+        "paragraphs": [
+          "阿姆斯特丹的名称来自Amstel dam，即阿姆斯特尔河上的水坝，位置与今天水坝广场所在区域相联系。这个名称保存了城市的起源线索。",
+          "12世纪晚期，这里仍是一个小渔村。贸易发展使阿姆斯特丹在荷兰黄金时代成为重要港口，也成为金融与贸易活动中心。"
+        ],
+        "source": {
+          "title": "阿姆斯特丹",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9&oldid=93800745",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%98%BF%E5%A7%86%E6%96%AF%E7%89%B9%E4%B8%B9&oldid=93800745",
+          "scope": "已审读该修订中文导言，保留范围：河坝地名、渔村起源与黄金时代贸易。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2800866,
+      "sourceSha256": "fde48840f576474cfe62a4fc5aa51682e39d92dbbcb5bda7b4c307c66a6840c3",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "布鲁塞尔 · 城市速读",
+        "paragraphs": [
+          "布鲁塞尔城是比利时首都，也是布鲁塞尔首都大区及弗拉芒地区政府所在地，欧洲联盟的主要行政机构也驻设于此。",
+          "除被称为“五边形”的中心城区外，布鲁塞尔城还包括向南和向东延伸的地区，以及北部哈伦、拉肯和下—上亨贝克等片区。城市行政范围比日常所说的历史中心更广。"
+        ],
+        "source": {
+          "title": "布鲁塞尔",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E9%B2%81%E5%A1%9E%E5%B0%94&oldid=95528793",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E9%B2%81%E5%A1%9E%E5%B0%94&oldid=95528793",
+          "scope": "已审读该修订中文导言，保留范围：首都与欧盟机构、行政片区范围。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2867714,
+      "sourceSha256": "65624c10cf6272a611fcd9ae9fe14318b0044d1778c6227b5fdb14c05379a56b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "慕尼黑 · 城市速读",
+        "paragraphs": [
+          "慕尼黑是德国巴伐利亚州首府，位于德国南部阿尔卑斯山北麓的伊萨尔河畔。城市包括老城与新城，是经济、文化、科技及交通中心。",
+          "汽车制造、机械、电气和化工是城市重要产业领域，宝马、西门子等企业总部设在这里。工业与高科技企业的集中，为这座城市增添了与老城景观并存的现代产业面貌。"
+        ],
+        "source": {
+          "title": "慕尼黑",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%85%95%E5%B0%BC%E9%BB%91&oldid=95147887",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%85%95%E5%B0%BC%E9%BB%91&oldid=95147887",
+          "scope": "已审读该修订中文导言，保留范围：伊萨尔河区位、老城与现代制造业。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2911298,
+      "sourceSha256": "82e4004b774fb3e09dd099118d45f8a213bb10d2e414b126d75f20229cfa90f6",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "汉堡 · 城市速读",
+        "paragraphs": [
+          "汉堡全称汉堡汉萨自由市，是德国北部的港口城市，也是一座拥有州级行政地位的城邦。",
+          "汉堡港位于易北河出海口，港口、机场及轨道交通共同支持其物流职能。城市产业也包括航空航天工程、生命科学、信息技术与媒体文化等领域。"
+        ],
+        "source": {
+          "title": "汉堡",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B1%89%E5%A0%A1&oldid=94879096",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B1%89%E5%A0%A1&oldid=94879096",
+          "scope": "已审读该修订中文导言，保留范围：城邦地位、易北河港口与产业构成。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2950159,
+      "sourceSha256": "05d45f23762258d914359bef929f5cad437413a3ac8326f2923d3ea2c23cc21c",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "柏林 · 城市速读",
+        "paragraphs": [
+          "柏林建在施普雷河两岸，河流在施潘道地区汇入哈弗尔河。城市西部与东南部有多座湖泊，森林、公园、水道和湖泊共同组成其城市环境。",
+          "柏林的早期文字记录出现在13世纪，当时处于重要贸易路线交会处。此后曾承担勃兰登堡、普鲁士以及德国不同历史阶段的首都职能，也发展为科学、艺术和哲学活动中心。"
+        ],
+        "source": {
+          "title": "柏林",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%9F%8F%E6%9E%97&oldid=94495137",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%9F%8F%E6%9E%97&oldid=94495137",
+          "scope": "已审读该修订中文导言，保留范围：河流湖泊、贸易路线与首都文化历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2964574,
+      "sourceSha256": "8a31bd31473ddb832cc5f364fa29daa59170e8d3034e68c1d7d32b3eec29a88b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "都柏林 · 城市速读",
+        "paragraphs": [
+          "都柏林是爱尔兰首都，位于爱尔兰岛东岸、利菲河河口，是都柏林地区的中心城市，现代也聚集了许多高科技企业。",
+          "Dublin一名来自爱尔兰语Dubh Linn，意为“黑色池塘”。现代爱尔兰语名Baile Átha Cliath中的Átha Cliath，指“设屏障的渡口”，保留了另一种理解城市起源的地名线索。"
+        ],
+        "source": {
+          "title": "都柏林",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%83%BD%E6%9F%8F%E6%9E%97&oldid=93397288",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%83%BD%E6%9F%8F%E6%9E%97&oldid=93397288",
+          "scope": "已审读该修订中文导言，保留范围：利菲河区位、高科技活动与双重地名。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2988507,
+      "sourceSha256": "8d078eeef8ec29142f14a288ae742278eab2555d1c995f80697abf2d845fa60b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "巴黎 · 城市速读",
+        "paragraphs": [
+          "巴黎是法国首都及法兰西岛大区首府，也是全国政治、经济与文化中心。巴黎市与巴黎省的辖域重叠，是城市行政身份的一个特点。",
+          "今日巴黎市辖区大致位于旧城墙以内，按照发展历史划为20个区，其范围自1860年代起没有重大变化。教育、时尚、科学、媒体和艺术活动也构成现代巴黎的重要城市角色。"
+        ],
+        "source": {
+          "title": "巴黎",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B7%B4%E9%BB%8E&oldid=95530506",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B7%B4%E9%BB%8E&oldid=95530506",
+          "scope": "已审读该修订中文导言，保留范围：市省重合、20区格局与文化职能。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 2996944,
+      "sourceSha256": "76f838c632e86b7ca1eca6925b370efa084adf8ade8552cecd4ea7c1d106bbb0",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "里昂 · 城市速读",
+        "paragraphs": [
+          "里昂是法国奥弗涅—罗讷—阿尔卑斯大区、罗讷省与里昂大都会的首府。城市历史与建筑地标以“里昂历史遗迹”之名列入世界遗产。",
+          "里昂的丝绸与纺织业历史悠久，因此有“欧洲丝绸之都”之称。食品产业也为城市带来“美食之都”的称呼，国际刑警组织总部则设在这里。"
+        ],
+        "source": {
+          "title": "里昂",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%87%8C%E6%98%82&oldid=95483105",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%87%8C%E6%98%82&oldid=95483105",
+          "scope": "已审读该修订中文导言，保留范围：地区首府、历史遗迹、丝绸与食品产业。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3054643,
+      "sourceSha256": "5e3aa00e46fcabc4a8f4dd4120c0599e53e79d105c40e596fd2437f43b527db1",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "布达佩斯 · 城市速读",
+        "paragraphs": [
+          "布达佩斯是匈牙利首都，也是全国政治、商业与运输中心，在中欧交通联系中占有重要位置。",
+          "城市历史可以追溯到凯尔特定居点及罗马城镇阿昆库姆。9世纪后期匈牙利人来到这一地区；经历中世纪战乱与重建后，15世纪的城市成为文艺复兴和人文主义文化中心之一。"
+        ],
+        "source": {
+          "title": "布达佩斯",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E8%BE%BE%E4%BD%A9%E6%96%AF&oldid=95065646",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E8%BE%BE%E4%BD%A9%E6%96%AF&oldid=95065646",
+          "scope": "已审读该修订中文导言，保留范围：首都交通职能、古代聚落与文艺复兴。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3067696,
+      "sourceSha256": "687100bb13a3deb93742ac6d705031585fd5b4afcbd6ed82656219599ecb04de",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "布拉格 · 城市速读",
+        "paragraphs": [
+          "布拉格是捷克首都，也是历史上波希米亚的首都，位于伏尔塔瓦河流域。它处于欧洲大陆交通联系的重要位置，与周边国家往来密切。",
+          "布拉格城堡始建于9世纪。14世纪查理四世统治时期，城市成为神圣罗马帝国及波希米亚王国的重要政治中心，查理大学也在这一阶段兴建。"
+        ],
+        "source": {
+          "title": "布拉格",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E6%A0%BC&oldid=92461676",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E6%8B%89%E6%A0%BC&oldid=92461676",
+          "scope": "已审读该修订中文导言，保留范围：伏尔塔瓦河、城堡、查理四世与大学。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3094802,
+      "sourceSha256": "5b809ea7cc7005a4c75c4b996a9232f91f5e3ba595f4b4e96a890d49cf7aecc2",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "克拉科夫 · 城市速读",
+        "paragraphs": [
+          "克拉科夫位于波兰南部，是小波兰省省会，维斯瓦河贯穿市区。1038年至1596年间，城市长期承担波兰首都职能。",
+          "克拉科夫从瓦维尔山上的聚落逐渐发展为中欧贸易中心，并留下深厚的历史文化积淀。1795年第三次瓜分波兰后，城市归入奥地利帝国统治。"
+        ],
+        "source": {
+          "title": "克拉科夫",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%85%8B%E6%8B%89%E7%A7%91%E5%A4%AB&oldid=95355524",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%85%8B%E6%8B%89%E7%A7%91%E5%A4%AB&oldid=95355524",
+          "scope": "已审读该修订中文导言，保留范围：维斯瓦河、旧首都、贸易与近代变迁。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3117735,
+      "sourceSha256": "2130771b180f5629c3247ff18781fd13af46ca6f89efaa6d5847895e3c7b3628",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "马德里 · 城市速读",
+        "paragraphs": [
+          "马德里是西班牙首都，也是马德里自治区首府，位于西班牙国土中部，曼萨纳雷斯河流经市区。",
+          "马德里拥有皇家马德里与马德里竞技两家知名足球俱乐部。城市还承担金融与国际贸易职能，是欧洲与拉丁美洲之间的重要联系节点。"
+        ],
+        "source": {
+          "title": "马德里",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%A9%AC%E5%BE%B7%E9%87%8C&oldid=94759729",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%A9%AC%E5%BE%B7%E9%87%8C&oldid=94759729",
+          "scope": "已审读该修订中文导言，保留范围：国土中部区位、足球俱乐部与跨洲联系。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3128760,
+      "sourceSha256": "fafca20c9d0a820d5d83e829cd7dd6f19c5484a30f0e6740a34b253b6471b839",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "巴塞罗那 · 城市速读",
+        "paragraphs": [
+          "巴塞罗那是加泰罗尼亚议会、行政机构与高等法院所在地，也是当地政府中枢机构集中的城市。",
+          "城市曾是巴塞罗那伯爵领地与阿拉贡王国的都城。大量历史建筑构成其城市特色，其中安东尼·高迪及路易·多梅内克·蒙塔内尔的建筑作品被列入世界遗产。"
+        ],
+        "source": {
+          "title": "巴塞罗那",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B7%B4%E5%A1%9E%E7%BD%97%E9%82%A3&oldid=94292623",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B7%B4%E5%A1%9E%E7%BD%97%E9%82%A3&oldid=94292623",
+          "scope": "已审读该修订中文导言，保留范围：政府中枢、历史都城与建筑遗产。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3143244,
+      "sourceSha256": "153f50421dd385a2f73bb3d30857d981e658ca0823a51f0b7942e6d8427e7bfd",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "奥斯陆 · 城市速读",
+        "paragraphs": [
+          "奥斯陆是挪威首都，位于挪威东南部奥斯陆峡湾内侧，也是全国贸易、银行、工业与航运枢纽。",
+          "城市被森林、田野和植被茂密的丘陵环绕，多条河流从丘陵流经城区后汇入峡湾。河流、丘陵与海湾共同塑造了奥斯陆的城市环境。"
+        ],
+        "source": {
+          "title": "奥斯陆",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A5%A5%E6%96%AF%E9%99%86&oldid=94990598",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A5%A5%E6%96%AF%E9%99%86&oldid=94990598",
+          "scope": "已审读该修订中文导言，保留范围：峡湾区位、航运与城市自然环境。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3169070,
+      "sourceSha256": "06b83575d42b678f39d7217c92cb5e91d13c124bf892e6486ac24cf36fdd8cab",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "罗马 · 城市速读",
+        "paragraphs": [
+          "罗马是意大利首都，位于意大利半岛中部拉齐奥大区、台伯河下游平原。建城初期围绕七座山丘发展，因此又称“七丘之城”。",
+          "罗马是古罗马文明发祥地，共和国及帝国的扩张使其成为地中海世界的政治中心。西罗马帝国崩溃后，天主教会的地位又使城市长期承担宗教中心角色。"
+        ],
+        "source": {
+          "title": "罗马",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%BD%97%E9%A9%AC&oldid=94549666",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%BD%97%E9%A9%AC&oldid=94549666",
+          "scope": "已审读该修订中文导言，保留范围：台伯河与七丘、古罗马及宗教中心。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3173435,
+      "sourceSha256": "e9ded9628b7241be8437711664380ba921e29b329f0b20d45ec3514e4dd557bc",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "米蘭 · 城市速读",
+        "paragraphs": [
+          "米兰位于意大利西北部，是米兰广域市和伦巴第大区首府，也是南欧重要的交通节点，以时尚、观光和建筑景观著称。",
+          "米兰最初与凯尔特因苏布雷人的聚落有关。罗马人在公元前222年征服此地后，将其称为梅蒂奥拉努；中世纪使用过的Mailand一名，至今仍用于德语。"
+        ],
+        "source": {
+          "title": "米蘭",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%B1%B3%E8%98%AD&oldid=95311055",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%B1%B3%E8%98%AD&oldid=95311055",
+          "scope": "已审读该修订中文导言，保留范围：伦巴第区位、凯尔特聚落与城市名称。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3176959,
+      "sourceSha256": "1fe5c9cd43381c641517de2bc3ccc4ec0f5a7bf1c355fc64f5e403d83a17f447",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "佛罗伦萨 · 城市速读",
+        "paragraphs": [
+          "佛罗伦萨又有“翡冷翠”这一音译名称，是意大利中部托斯卡纳大区及佛罗伦萨广域市首府，也是当地历史、文化与商业中心。",
+          "城市曾长期处于美第奇家族控制之下，是欧洲中世纪的重要文化、商业及金融中心，并曾一度担任意大利统一后的首都。"
+        ],
+        "source": {
+          "title": "佛罗伦萨",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8&oldid=94380472",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BD%9B%E7%BD%97%E4%BC%A6%E8%90%A8&oldid=94380472",
+          "scope": "已审读该修订中文导言，保留范围：托斯卡纳首府、美第奇家族与旧首都。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3186886,
+      "sourceSha256": "5567234743f2606d91f2394d0e4b5b1dcb5c2c7c2bf4c2db025707e72ecd863b",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "萨格勒布 · 城市速读",
+        "paragraphs": [
+          "萨格勒布是克罗地亚首都，位于该国西北部梅德韦德尼察山南坡，萨瓦河流经城市。它同时具有直辖市地位。",
+          "1094年，位于东部卡普托尔的主教教区相关记载中出现了“萨格勒布”之名。山坡、河流与宗教中心的早期记录，为阅读这座城市提供了具体背景。"
+        ],
+        "source": {
+          "title": "萨格勒布",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%90%A8%E6%A0%BC%E5%8B%92%E5%B8%83&oldid=94685860",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%90%A8%E6%A0%BC%E5%8B%92%E5%B8%83&oldid=94685860",
+          "scope": "已审读该修订中文导言，保留范围：山坡河流、直辖市与1094年名称记录。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3435910,
+      "sourceSha256": "5b381a74c6daa74566e07c4467ecdce056e2c66e8fc2ababb00666a97c7f6411",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "布宜諾斯艾利斯 · 城市速读",
+        "paragraphs": [
+          "布宜诺斯艾利斯是阿根廷联邦首都，位于南美洲东南部拉普拉塔河南岸，与乌拉圭隔河相望，也是构成阿根廷的行政区之一。",
+          "城内分为15个大区及48个小区。七月九日大道以宽阔闻名，是城市街道空间的代表；宽阔道路与细分城区共同形成联邦首都的日常空间。"
+        ],
+        "source": {
+          "title": "布宜諾斯艾利斯",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E5%AE%9C%E8%AB%BE%E6%96%AF%E8%89%BE%E5%88%A9%E6%96%AF&oldid=95365401",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B8%83%E5%AE%9C%E8%AB%BE%E6%96%AF%E8%89%BE%E5%88%A9%E6%96%AF&oldid=95365401",
+          "scope": "已审读该修订中文导言，保留范围：拉普拉塔河、联邦首都与城市空间。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3469058,
+      "sourceSha256": "24bf6cc9968e849602f48d66764330f0dffc4e7eddcd490ccd0dfb8c1c035be2",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "巴西利亚 · 城市速读",
+        "paragraphs": [
+          "巴西利亚是巴西首都及联邦区行政中心，位于巴西高原，城市也被列入联合国教科文组织世界遗产。",
+          "巴西利亚于1956年至1960年间按照新城规划兴建，以大胆设计的建筑著称。为推动内陆开发，巴西于1960年4月21日将首都从里约热内卢迁到这里。"
+        ],
+        "source": {
+          "title": "巴西利亚",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%B7%B4%E8%A5%BF%E5%88%A9%E4%BA%9A&oldid=95460822",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%B7%B4%E8%A5%BF%E5%88%A9%E4%BA%9A&oldid=95460822",
+          "scope": "已审读该修订中文导言，保留范围：高原区位、规划新城与1960年迁都。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3470127,
+      "sourceSha256": "fc917b70744bf6c5ecf6841492c84a095d7a49370033a274f0206f09b720f07a",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "贝洛奥里藏特 · 城市速读",
+        "paragraphs": [
+          "贝洛奥里藏特也称美景市，其葡萄牙语名称意为“美丽的地平线”。城市位于巴西东南部，是米纳斯吉拉斯州政府所在地。",
+          "它承担米纳斯吉拉斯州政治、经济与文化中心职能，冶金、宝石加工、汽车制造、纺织及食品加工是当地较发达的工业领域。"
+        ],
+        "source": {
+          "title": "贝洛奥里藏特",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B4%9D%E6%B4%9B%E5%A5%A5%E9%87%8C%E8%97%8F%E7%89%B9&oldid=95461023",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%B4%9D%E6%B4%9B%E5%A5%A5%E9%87%8C%E8%97%8F%E7%89%B9&oldid=95461023",
+          "scope": "已审读该修订中文导言，保留范围：美景地名、州政府与产业类型。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3530597,
+      "sourceSha256": "bed6ae0ae9d59ec4c05fee350e44e70a65ea08b0978b9b73fcca0bda081a5fc9",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "墨西哥城 · 城市速读",
+        "paragraphs": [
+          "墨西哥城是墨西哥首都，位于国家中部的高原地区，也是政治、经济与文化中心。现代城市延续着湖区古城与殖民城市交叠的历史。",
+          "1325年，阿兹特克人在特斯科科湖岛屿上建立特诺奇蒂特兰。1521年西班牙征服后，城市被重新规划和重建，后来成为新西班牙总督区首府；2016年原联邦特区改制为墨西哥城。"
+        ],
+        "source": {
+          "title": "墨西哥城",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%9F%8E&oldid=95345940",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A2%A8%E8%A5%BF%E5%93%A5%E5%9F%8E&oldid=95345940",
+          "scope": "已审读该修订中文导言，保留范围：中部高原、特诺奇蒂特兰与城市改制。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3553478,
+      "sourceSha256": "ba4b4faece18f4ed03fc1551a90742f2dc619f04e602995099d9d1b7e2a17ea1",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "哈瓦那 · 城市速读",
+        "paragraphs": [
+          "哈瓦那是古巴首都，位于古巴西北海岸，是重要商业城市。城市拥有多个港区，阿尔门达雷斯河流经城市并汇入佛罗里达海峡。",
+          "1553年，殖民政府所在地从圣地亚哥迁到哈瓦那。1592年西班牙国王授予其城市称号，之后港口与防御工事进一步强化了哈瓦那在加勒比海贸易中的地位。"
+        ],
+        "source": {
+          "title": "哈瓦那",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%93%88%E7%93%A6%E9%82%A3&oldid=94362617",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%93%88%E7%93%A6%E9%82%A3&oldid=94362617",
+          "scope": "已审读该修订中文导言，保留范围：西北海岸港口、殖民首府与防御建设。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3652462,
+      "sourceSha256": "00d8ddbd3ba052193876b2ef2dad48c404417a256d8f4c6e3a1fe615aa86d676",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "基多 · 城市速读",
+        "paragraphs": [
+          "基多是厄瓜多尔首都，位于该国北部，距离赤道约24公里。接近赤道的位置，是阅读这座南美城市的鲜明地理线索。",
+          "基多地处高原，海拔约2852米。赤道附近的纬度与高原高度在此相遇，使城市同时具有靠近赤道和远高于海平面的地理特点。"
+        ],
+        "source": {
+          "title": "基多",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%9F%BA%E5%A4%9A&oldid=93415899",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%9F%BA%E5%A4%9A&oldid=93415899",
+          "scope": "已审读该修订中文导言，保留范围：赤道邻近位置与高原海拔。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 3688689,
+      "sourceSha256": "6834c088222e8a1411b18b1a9483abde5417449d18c7e56baba4baf6cfc48442",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "波哥大 · 城市速读",
+        "paragraphs": [
+          "波哥大是哥伦比亚首都，官方名称为波哥大首都地区，由中央政府直辖，也是国家行政、立法与司法机构的集中地。",
+          "城市承担交通、经济与文化中心职能，拥有多所大学和研究机构，以及剧院、图书馆和博物馆。这些机构共同呈现波哥大的教育与文化角色。"
+        ],
+        "source": {
+          "title": "波哥大",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B3%A2%E5%93%A5%E5%A4%A7&oldid=93392668",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B3%A2%E5%93%A5%E5%A4%A7&oldid=93392668",
+          "scope": "已审读该修订中文导言，保留范围：首都地区、国家机构与教育文化设施。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 4140963,
+      "sourceSha256": "3d10d1b079b1ca3abc89357cfab3028d842ab08c0ca350316df754b89b8455ab",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "华盛顿哥伦比亚特区 · 城市速读",
+        "paragraphs": [
+          "华盛顿哥伦比亚特区是美国首都，中文也称华府。多数联邦政府机构、外国使馆以及世界银行、国际货币基金组织等机构总部设在这里，城市也拥有众多博物馆与历史遗迹。",
+          "1790年，美国国会通过首都选址法，决定把首都迁至波托马克河和安纳科斯蒂亚河汇合处附近。在新首都建成前，费城曾继续承担临时首都职能。"
+        ],
+        "source": {
+          "title": "华盛顿哥伦比亚特区",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E7%89%B9%E5%8C%BA&oldid=94680307",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%8E%E7%9B%9B%E9%A1%BF%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E7%89%B9%E5%8C%BA&oldid=94680307",
+          "scope": "已审读该修订中文导言，保留范围：联邦机构、博物馆与首都选址。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 4164138,
+      "sourceSha256": "e7e2bb2d8a447d5c5ac9ef8bff7a6dabeab424df99fee389630dc7c583cc4cfb",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "迈阿密 · 城市速读",
+        "paragraphs": [
+          "迈阿密位于美国佛罗里达州东南部，处于比斯坎湾、佛罗里达大沼泽地和大西洋之间，也是迈阿密—戴德县县治。",
+          "城市的金融、商业、媒体、娱乐、艺术与国际贸易活动重要。拉丁美洲及加勒比海居民的影响，使迈阿密在文化和语言上与美洲多个地区联系紧密。"
+        ],
+        "source": {
+          "title": "迈阿密",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%BF%88%E9%98%BF%E5%AF%86&oldid=95548490",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%BF%88%E9%98%BF%E5%AF%86&oldid=95548490",
+          "scope": "已审读该修订中文导言，保留范围：比斯坎湾区位与拉美加勒比文化联系。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 4180439,
+      "sourceSha256": "e1cdc120295ce97cf4cc6a7dc1b8d68337f0664d12ac2b6d5c1643f649d32d57",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "亚特兰大 · 城市速读",
+        "paragraphs": [
+          "亚特兰大是美国佐治亚州首府，位于阿巴拉契亚山脉山麓，周围地形以连绵丘陵和树木覆盖地区为特色。",
+          "城市发展与多条铁路交汇有关，内战后经历重建。20世纪中叶，亚特兰大是美国民权运动的重要组织中心，马丁·路德·金等曾在此活动；城市还举办了1996年夏季奥运会。"
+        ],
+        "source": {
+          "title": "亚特兰大",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7&oldid=95488899",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7&oldid=95488899",
+          "scope": "已审读该修订中文导言，保留范围：丘陵区位、铁路、民权运动与奥运会。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 4560349,
+      "sourceSha256": "4115c9d1fc759d54a0140c09cf62c88af9e3429b2f495f659d6a3f703f98b668",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "費城 · 城市速读",
+        "paragraphs": [
+          "费城是美国特拉华河谷都会区的中心城市，在美国建国史上具有重要地位，也是《独立宣言》的发表地。",
+          "本杰明·富兰克林对费城的发展贡献良多。城市与费城县曾有并行政府，自1952年起共用一套政府组织，显示出城市行政关系在现代经历的调整。"
+        ],
+        "source": {
+          "title": "費城",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%B2%BB%E5%9F%8E&oldid=94512860",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%B2%BB%E5%9F%8E&oldid=94512860",
+          "scope": "已审读该修订中文导言，保留范围：特拉华河谷、独立宣言与市县政府。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 4684888,
+      "sourceSha256": "103e2171eda5228daf762db1529fb1c78a96c132a2255b6e5db353bfe29ae267",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "達拉斯 · 城市速读",
+        "paragraphs": [
+          "达拉斯与沃思堡、阿灵顿共同构成达拉斯—沃思堡—阿灵顿城市群。这些相互联系的城市需要与达拉斯单一市区区分理解。",
+          "达拉斯和沃思堡最初的发展与穿越当地的主要铁路建设有关。达拉斯此后成为工业、金融中心及内陆港口，铁路与企业活动持续参与塑造都会区。"
+        ],
+        "source": {
+          "title": "達拉斯",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%81%94%E6%8B%89%E6%96%AF&oldid=93995983",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%81%94%E6%8B%89%E6%96%AF&oldid=93995983",
+          "scope": "已审读该修订中文导言，保留范围：都会区构成、铁路与工业金融发展。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 4887398,
+      "sourceSha256": "b4fe034e84b0371cd916f31498cd494450011ed43dded6ecd4a9d213768a27ae",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "芝加哥 · 城市速读",
+        "paragraphs": [
+          "芝加哥位于密歇根湖畔，是美国重要的铁路、航空以及金融、期货和商品交易中心。湖港与跨大陆交通，是理解其城市发展的关键线索。",
+          "城市于1837年在连接五大湖与密西西比河流域的港口附近建市，19世纪中叶迅速发展，之后与周边郊区共同形成芝加哥大都市区。"
+        ],
+        "source": {
+          "title": "芝加哥",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%8A%9D%E5%8A%A0%E5%93%A5&oldid=95341463",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%8A%9D%E5%8A%A0%E5%93%A5&oldid=95341463",
+          "scope": "已审读该修订中文导言，保留范围：密歇根湖、交通交易职能与1837年建市。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 4930956,
+      "sourceSha256": "859a0468b1bfa4710f0314c15d2aa64207c8c15caee4f506c78e7a167d2b0570",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "波士顿 · 城市速读",
+        "paragraphs": [
+          "波士顿是美国马萨诸塞州首府，也是大波士顿地区的经济与文化中心。港口、教育和城市历史在这里相互联系。",
+          "1630年，清教徒移民在肖马特半岛建立波士顿。独立战争前后的波士顿倾茶事件、邦克山战役等发生于此；美国独立后，城市继续发展为港口、制造业及教育文化中心。"
+        ],
+        "source": {
+          "title": "波士顿",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B3%A2%E5%A3%AB%E9%A1%BF&oldid=93875963",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B3%A2%E5%A3%AB%E9%A1%BF&oldid=93875963",
+          "scope": "已审读该修订中文导言，保留范围：州首府、清教徒聚落与独立战争历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 5128581,
+      "sourceSha256": "02f9447916820343d35f95613bdfdbb65c752d4f0999ac6f42175596cc276416",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "纽约 · 城市速读",
+        "paragraphs": [
+          "纽约市位于美国纽约州南端、纽约港沿岸，由曼哈顿、皇后区、布鲁克林、布朗克斯与史泰登岛五个行政区组成，五区于1898年合并为今日纽约市。",
+          "1624年荷兰殖民者在此建立贸易站，称新阿姆斯特丹，1664年被英国占领。现代纽约是联合国总部所在地，也是国际商业、媒体、教育与文化活动的重要城市。"
+        ],
+        "source": {
+          "title": "纽约",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E7%BA%BD%E7%BA%A6&oldid=95530448",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E7%BA%BD%E7%BA%A6&oldid=95530448",
+          "scope": "已审读该修订中文导言，保留范围：港口与五区合并、殖民贸易站及联合国。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 5368361,
+      "sourceSha256": "7210640f43a5f2e65a0ff1e378a7c8f33776b052bdaca5aaddaeb24f2ad3ae66",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "洛杉矶 · 城市速读",
+        "paragraphs": [
+          "洛杉矶位于美国加利福尼亚州南部，是洛杉矶县县治。城市的发展与西班牙、墨西哥和美国先后管辖的历史相联系。",
+          "1781年，西属上加利福尼亚总督费利佩·德·内韦建立洛杉矶。1848年美墨战争后，包括洛杉矶在内的上加利福尼亚被割让给美国，1850年城市正式建市。"
+        ],
+        "source": {
+          "title": "洛杉矶",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B4%9B%E6%9D%89%E7%9F%B6&oldid=95341183",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B4%9B%E6%9D%89%E7%9F%B6&oldid=95341183",
+          "scope": "已审读该修订中文导言，保留范围：南加州区位与1781年至1850年城市变迁。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 5391959,
+      "sourceSha256": "d4a090b4154b96fb117b6dce7685fc6af53975ff4b1e1819550c76b8b8215afa",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "旧金山 · 城市速读",
+        "paragraphs": [
+          "旧金山也称旧金山市县，是加利福尼亚州一座市县合一的城市。它位于旧金山半岛北端，东临旧金山湾，西临太平洋，有“金门城市”和“雾城”等称呼。",
+          "旧金山是北加州及旧金山湾区的文化、商业与金融重镇，聚集艺术家、作家及演员。20世纪嬉皮士文化等思潮也与城市相联系，联合国在这里诞生。"
+        ],
+        "source": {
+          "title": "旧金山",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%97%A7%E9%87%91%E5%B1%B1&oldid=95187362",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%97%A7%E9%87%91%E5%B1%B1&oldid=95187362",
+          "scope": "已审读该修订中文导言，保留范围：半岛海湾区位、市县合一与现代文化。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 5419384,
+      "sourceSha256": "bac05e53edc89a22fbd49a57ed29be3f15220def2905175f6a92453b3ff01d24",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "丹佛 · 城市速读",
+        "paragraphs": [
+          "丹佛是美国科罗拉多州首府，也是一座市县合一的城市，位于紧邻落基山脉的平原上，是丹佛—奥罗拉—莱克伍德都会区的核心。",
+          "丹佛市中心位于南普拉特河东岸，接近该河与樱桃溪的交汇处。山麓平原和河流汇合的位置，为阅读这座内陆城市提供了具体的地理线索。"
+        ],
+        "source": {
+          "title": "丹佛",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%B9%E4%BD%9B&oldid=94431239",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%B9%E4%BD%9B&oldid=94431239",
+          "scope": "已审读该修订中文导言，保留范围：市县合一、山麓平原与河流汇合。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 5506956,
+      "sourceSha256": "9258765bed99494528ad2d3a610ddf841f67e9e8c717c7c3c8954a5d371034b2",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "拉斯维加斯 · 城市速读",
+        "paragraphs": [
+          "拉斯维加斯位于莫哈维沙漠地区，以度假、购物、餐饮、娱乐和夜生活著称。娱乐活动分布于市中心，也延伸到市界以外的天堂区和温切斯特。",
+          "著名的赌城大道并不全部位于拉斯维加斯市行政界内。大型赌场酒店与商业会展，构成拉斯维加斯谷的主要城市特色，也提醒读者区分城市名称、行政边界与都会区。"
+        ],
+        "source": {
+          "title": "拉斯维加斯",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%8B%89%E6%96%AF%E7%BB%B4%E5%8A%A0%E6%96%AF&oldid=94366510",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%8B%89%E6%96%AF%E7%BB%B4%E5%8A%A0%E6%96%AF&oldid=94366510",
+          "scope": "已审读该修订中文导言，保留范围：沙漠度假城市、赌城大道与行政边界。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 5809844,
+      "sourceSha256": "f16bf1d7bf79ebe883b9d9e562f3d0b27b4710ea718e2048ae42866cdf500096",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "西雅圖 · 城市速读",
+        "paragraphs": [
+          "西雅图位于美国华盛顿州，是港口城市及金县县治。欧洲移民到来前，美洲原住民已长期在这一地区生活。",
+          "1851年，丹尼等人在阿尔凯角建立聚落；1853年，聚落迁到后来城市的位置，并以西雅图酋长的名字命名。“西雅图”这一名称因此保留了当地原住民历史的线索。"
+        ],
+        "source": {
+          "title": "西雅圖",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E9%9B%85%E5%9C%96&oldid=93535824",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E9%9B%85%E5%9C%96&oldid=93535824",
+          "scope": "已审读该修订中文导言，保留范围：港口区位、原住民与19世纪聚落命名。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 6094817,
+      "sourceSha256": "e5cb2e1ce486b9c61736376888466906703a6155819467960aa214472fbb5ee2",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "渥太華 · 城市速读",
+        "paragraphs": [
+          "渥太华是加拿大联邦首都，位于安大略省东南部、渥太华河南岸。它不是联邦直辖行政区，首都地区规划另有国家首都委员会参与。",
+          "城市于1826年以Bytown之名建立，1855年改用“渥太华”之名。该名称来自渥太华人，并与阿尔冈昆语中表示“贸易”的词语相联系。"
+        ],
+        "source": {
+          "title": "渥太華",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E6%B8%A5%E5%A4%AA%E8%8F%AF&oldid=95239021",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E6%B8%A5%E5%A4%AA%E8%8F%AF&oldid=95239021",
+          "scope": "已审读该修订中文导言，保留范围：河岸首都、行政关系与Bytown名称变迁。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 6167865,
+      "sourceSha256": "bbc393602ef722a302ac6363b8abf7b32f0d7455736fd32ba0c886d2a5e255b1",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "多伦多 · 城市速读",
+        "paragraphs": [
+          "多伦多是大多伦多地区的核心城市，周围包括皮尔、约克、杜林及荷顿等地区。当地以缓坡台地为主，也分布河流、深谷与城市森林。",
+          "原住民在当地的居住历史悠久。1793年，英国殖民当局建立约克镇，并将其设为上加拿大首府；1812年战争期间，约克镇遭受破坏，之后城市继续发展。"
+        ],
+        "source": {
+          "title": "多伦多",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%9A%E4%BC%A6%E5%A4%9A&oldid=95340702",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%9A%E4%BC%A6%E5%A4%9A&oldid=95340702",
+          "scope": "已审读该修订中文导言，保留范围：都会区与台地环境、约克镇及战争历史。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 6325494,
+      "sourceSha256": "ac734b3f1dd6324e6d982c2781980526f455e0d40cfbae4996934e224d4e0f10",
+      "reviewFile": "src/data/city-articles-international.review.json",
+      "article": {
+        "title": "魁北克市 · 城市速读",
+        "paragraphs": [
+          "魁北克市位于加拿大魁北克省南部，也称魁北克城。城市的名称与圣劳伦斯河在附近戴蒙角收窄的地形关系有关。",
+          "当地阿尔冈昆人使用Kébec称呼这一地区，意为“河流收窄的地方”。1608年，法国探险家萨缪尔·德·尚普兰在此建立定居点，沿用了这一原住民名称。"
+        ],
+        "source": {
+          "title": "魁北克市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E9%AD%81%E5%8C%97%E5%85%8B%E5%B8%82&oldid=94777115",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E9%AD%81%E5%8C%97%E5%85%8B%E5%B8%82&oldid=94777115",
+          "scope": "已审读该修订中文导言，保留范围：圣劳伦斯河地形、原住民地名与1608年聚落。作节选、简体与压缩整理，删去读音、脚注和部分统计及评价；未独立核验条目的全部引文。摘编内容沿用CC BY-SA 4.0，不并入项目MIT许可。"
+        }
+      }
+    },
+    {
+      "geonamesId": 10630003,
+      "sourceSha256": "6f286cfb828ee06d6572e6313e19dc7f733d786ee40175b488e38391b6f7cb56",
+      "reviewFile": "src/data/city-articles-china-additional.review.json",
+      "article": {
+        "title": "徐州市 · 城市速读",
+        "paragraphs": [
+          "徐州古称彭城，位于江苏西北部、苏鲁皖三省交界区域，以平原为主，也有云龙山、九里山等山丘。京杭运河贯穿市域，微山湖、骆马湖分布在周边。",
+          "京沪与陇海铁路在徐州交汇，交通枢纽是认识城市的重要线索。原条目还以黄淮平原、水系和历史文化名城的身份，介绍这座联系江苏、山东与安徽的城市。"
+        ],
+        "source": {
+          "title": "徐州市",
+          "url": "https://zh.wikipedia.org/w/index.php?title=%E5%BE%90%E5%B7%9E%E5%B8%82&oldid=95536269",
+          "publisher": "中文维基百科贡献者",
+          "accessedAt": "2026-11-13",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh",
+          "revision": "https://zh.wikipedia.org/w/index.php?title=%E5%BE%90%E5%B7%9E%E5%B8%82&oldid=95536269",
+          "scope": "审读唯一导言段，选取彭城旧称、三省交界地形湖泊与铁路运河；核对GeoNames10630003城市点位，不添加汉文化未读细节。本项目据该修订导言中文整理；未独立核验百科全部引文，未补写未读到的生活细节。"
+        }
+      }
+    }
+  ]
+}

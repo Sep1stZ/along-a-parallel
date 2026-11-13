@@ -1,0 +1,213 @@
+.place-dossier {
+  margin-block: 32px;
+}
+.preview-source {
+  display: block;
+  margin-top: 9px;
+  font-size: 10px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.preview-source a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.reading-discovery {
+  margin: 40px 4.1vw;
+  padding: 32px;
+  background: #eaf0e4;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+.reading-discovery h2 {
+  font-size: clamp(23px, 4vw, 33px);
+  line-height: 1.5;
+  margin: 12px 0;
+}
+.reading-discovery > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+}
+.reading-highlights {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 23px;
+}
+.reading-highlights > button {
+  min-width: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  background: var(--paper-light);
+  border: 1px solid #d4ddcf;
+  border-radius: 10px;
+  padding: 16px 18px;
+  text-align: left;
+}
+.reading-highlights > button:hover {
+  background: #fff;
+}
+.reading-highlights small,
+.reading-highlights strong {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.reading-highlights small {
+  color: var(--muted);
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+.reading-highlights strong {
+  font-size: 15px;
+}
+.reading-highlights svg {
+  flex-shrink: 0;
+  color: var(--orange);
+}
+.place-dossier > section + section {
+  margin-top: 32px;
+}
+.place-dossier h3 {
+  font-size: clamp(19px, 3vw, 25px);
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+.place-dossier .eyebrow,
+.place-connections h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.place-article {
+  padding: 26px 28px;
+  background: #f1f0e7;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+}
+.place-article > p:not(.eyebrow) {
+  font-size: 15px;
+  line-height: 2;
+  color: #415451;
+}
+.article-credit {
+  display: grid;
+  gap: 6px;
+  padding-top: 15px;
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.article-credit a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+.profile-grid > section {
+  background: #faf9f3;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 18px 20px;
+}
+.place-dossier h4 {
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+.profile-grid p,
+.place-aliases p {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #53625a;
+  margin: 8px 0 0;
+  overflow-wrap: anywhere;
+}
+.place-aliases {
+  border-left: 3px solid #b6c1a5;
+  padding: 4px 0 4px 17px;
+  margin-top: 20px;
+}
+.place-connections > p {
+  font-size: 12px;
+  line-height: 1.9;
+  color: var(--muted);
+}
+.related-places {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.related-places > :is(button, a) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  min-width: 0;
+}
+.related-places > :is(button, a):hover {
+  background: #eaf0e4;
+}
+.related-places strong,
+.related-places small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.related-places strong {
+  font-size: 13px;
+}
+.related-places small {
+  font-size: 10px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-top: 6px;
+}
+.related-places svg {
+  flex-shrink: 0;
+}
+.shared-card .profile-grid,
+.shared-card .related-places {
+  grid-template-columns: 1fr;
+}
+.shared-card .place-article {
+  padding: 18px;
+}
+.shared-card .place-dossier h3 {
+  font-size: 19px;
+}
+@media (max-width: 600px) {
+  .reading-discovery {
+    margin: 25px 20px;
+    padding: 22px 18px;
+  }
+  .reading-highlights {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 9px;
+  }
+  .reading-highlights > button {
+    padding: 14px 12px;
+  }
+  .place-article {
+    padding: 20px 18px;
+  }
+  .profile-grid,
+  .related-places {
+    grid-template-columns: 1fr;
+  }
+  .profile-grid > section {
+    padding: 16px 18px;
+  }
+}

@@ -357,8 +357,15 @@ export class Store {
     const row = this.db.prepare('SELECT data,summary FROM places WHERE id=?').get(id);
     if (!row) throw new ApiError(404, '没有找到这座城市');
     const stored = JSON.parse(String(row.data)) as Place;
-    if (Array.isArray(stored.stories)) return stored;
     const current = catalogPlace(id);
+    if (Array.isArray(stored.stories))
+      return current
+        ? {
+            ...stored,
+            ...(current.profile ? { profile: current.profile } : {}),
+            ...(current.article ? { article: current.article } : {}),
+          }
+        : stored;
     if (current) return current;
     const summary = JSON.parse(String(row.summary)) as PlaceSummary;
     return {

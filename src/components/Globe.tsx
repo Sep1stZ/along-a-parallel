@@ -1,10 +1,13 @@
 'use client';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { geoCircle, geoDistance, geoGraticule10, geoOrthographic, geoPath } from 'd3-geo';
+import { geoDistance, geoOrthographic } from 'd3-geo';
 import { Compass, Move, RotateCcw } from 'lucide-react';
 import type { FeatureCollection } from 'geojson';
 import type { PlaceSummary } from '@/lib/place-types';
 import { coordinate, normalizeLongitude, shortestAngle } from '@/lib/geo';
+import GlobeBasemap from './GlobeBasemap';
+import { latitudeGeometry, motionWorld } from './globe-geometry';
+import styles from './Globe.module.css';
 
 export default function Globe({
   latitude,
@@ -29,6 +32,7 @@ export default function Globe({
   const [failed, setFailed] = useState(false);
   const [rotation, setRotation] = useState<[number, number]>([105, 20]);
   const rotationRef = useRef(rotation);
+  const svg = useRef<SVGSVGElement>(null);
   const drag = useRef<{
     id: number;
     x: number;
@@ -38,28 +42,56 @@ export default function Globe({
     moved: boolean;
   } | null>(null);
   const animate = useRef(0);
+  const dragFrame = useRef(0);
+  const localLongitude = useRef<{ longitude: number; latitude: number } | null>(null);
   const [dragging, setDragging] = useState(false);
+  const [animating, setAnimating] = useState(false);
   const [ocean, setOcean] = useState(false);
+  const mapRequest = useRef<AbortController | null>(null);
   const load = useCallback(() => {
-    fetch('/maps/world.json')
+    mapRequest.current?.abort();
+    const controller = new AbortController();
+    mapRequest.current = controller;
+    fetch('/maps/world.json', { signal: controller.signal })
       .then((r) => {
         if (!r.ok) throw new Error();
         return r.json();
       })
       .then((data) => {
+        if (controller.signal.aborted) return;
         setWorld(data);
         setFailed(false);
       })
-      .catch(() => setFailed(true));
+      .catch(() => {
+        if (!controller.signal.aborted) setFailed(true);
+      });
   }, []);
   useEffect(() => {
     load();
+    const element = svg.current;
+    return () => {
+      mapRequest.current?.abort();
+      cancelAnimationFrame(animate.current);
+      cancelAnimationFrame(dragFrame.current);
+      const pointer = drag.current?.id;
+      drag.current = null;
+      if (pointer !== undefined && element?.hasPointerCapture(pointer))
+        element.releasePointerCapture(pointer);
+    };
   }, [load]);
+  const flushDrag = useCallback(() => {
+    cancelAnimationFrame(dragFrame.current);
+    dragFrame.current = 0;
+    setRotation(rotationRef.current);
+  }, []);
   const moveTo = useCallback((targetLon: number, targetLat: number) => {
     cancelAnimationFrame(animate.current);
+    cancelAnimationFrame(dragFrame.current);
+    dragFrame.current = 0;
     const from = rotationRef.current;
     const to = [shortestAngle(from[0], targetLon), targetLat];
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    setAnimating(!reduced);
     const start = performance.now();
     const frame = (time: number) => {
       const t = reduced ? 1 : Math.min(1, (time - start) / 850);
@@ -71,10 +103,24 @@ export default function Globe({
       rotationRef.current = next;
       setRotation(next);
       if (t < 1) animate.current = requestAnimationFrame(frame);
+      else {
+        animate.current = 0;
+        setAnimating(false);
+      }
     };
     animate.current = requestAnimationFrame(frame);
   }, []);
   useEffect(() => {
+    const local = localLongitude.current;
+    localLongitude.current = null;
+    // A drag writes its longitude back to the journey. Acknowledge that echo
+    // without resetting its vertical rotation or starting a second animation.
+    if (
+      local &&
+      local.latitude === latitude &&
+      Math.abs(normalizeLongitude(local.longitude - longitude)) < 1e-9
+    )
+      return;
     moveTo(longitude - 13, Math.max(-65, Math.min(65, latitude * 0.62)));
     return () => cancelAnimationFrame(animate.current);
   }, [longitude, latitude, moveTo]);
@@ -88,19 +134,8 @@ export default function Globe({
         .precision(0.5),
     [rotation],
   );
-  const path = geoPath(projection);
-  const parallel = {
-    type: 'LineString' as const,
-    coordinates: Array.from({ length: 721 }, (_, i) => [-180 + i * 0.5, latitude]),
-  };
-  const cap1 = geoCircle()
-    .center([0, 90])
-    .radius(90 - Math.min(89.999, latitude + band))
-    .precision(1)();
-  const cap2 = geoCircle()
-    .center([0, 90])
-    .radius(90 - Math.max(-89.999, latitude - band))
-    .precision(1)();
+  const geometry = useMemo(() => latitudeGeometry(latitude, band), [latitude, band]);
+  const motionMap = useMemo(() => (world ? motionWorld(world) : null), [world]);
   const pointVisible = (lon: number, lat: number) =>
     geoDistance([rotation[0], rotation[1]], [lon, lat]) < Math.PI / 2 - 0.035;
   const grouped = new Map<string, { place: PlaceSummary; xy: [number, number]; count: number }>();
@@ -143,192 +178,200 @@ export default function Globe({
       <div className="north-indicator">
         N<span>↑</span>
       </div>
-      <svg
-        className={`globe ${dragging ? 'is-dragging' : ''}`}
-        viewBox="0 0 640 574"
-        role="group"
-        aria-label="可拖动的交互地球，使用左右方向键切换城市"
-        tabIndex={0}
-        onKeyDown={(e) => {
-          if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
-            e.preventDefault();
-            onStep(e.key === 'ArrowRight' ? 1 : -1);
-          }
-        }}
-        onPointerDown={(e) => {
-          if (e.button !== 0 || (e.target as Element).closest('[data-city]')) return;
-          cancelAnimationFrame(animate.current);
-          drag.current = {
-            id: e.pointerId,
-            x: e.clientX,
-            y: e.clientY,
-            lon: rotationRef.current[0],
-            lat: rotationRef.current[1],
-            moved: false,
-          };
-          e.currentTarget.setPointerCapture(e.pointerId);
-        }}
-        onPointerMove={(e) => {
-          const d = drag.current;
-          if (!d || d.id !== e.pointerId) return;
-          const dx = e.clientX - d.x,
-            dy = e.clientY - d.y;
-          if (Math.abs(dx) + Math.abs(dy) > 5) {
-            d.moved = true;
-            setDragging(true);
-          }
-          if (d.moved) {
-            const next: [number, number] = [
-              d.lon - dx * 0.32,
-              Math.max(-80, Math.min(80, d.lat + dy * 0.25)),
-            ];
-            rotationRef.current = next;
-            setRotation(next);
-          }
-        }}
-        onPointerUp={(e) => {
-          const d = drag.current;
-          if (!d) return;
-          if (d.moved) {
-            onLongitude(normalizeLongitude(rotationRef.current[0] + 13));
-            setOcean(
-              !places.some(
-                (p) => Math.abs(normalizeLongitude(p.longitude - rotationRef.current[0])) < 22,
-              ),
-            );
-          }
-          drag.current = null;
-          setDragging(false);
-          if (e.currentTarget.hasPointerCapture(e.pointerId))
-            e.currentTarget.releasePointerCapture(e.pointerId);
-        }}
-        onPointerCancel={() => {
-          drag.current = null;
-          setDragging(false);
-        }}
-      >
-        <defs>
-          <radialGradient id="sea" cx="36%" cy="28%" r="78%">
-            <stop stopColor="#2b6470" />
-            <stop offset=".68" stopColor="#1e4b57" />
-            <stop offset="1" stopColor="#113440" />
-          </radialGradient>
-          <radialGradient id="shade" cx="30%" cy="27%" r="75%">
-            <stop offset=".45" stopColor="#0a242e" stopOpacity="0" />
-            <stop offset="1" stopColor="#0a242e" stopOpacity=".37" />
-          </radialGradient>
-          <filter id="shadow">
-            <feGaussianBlur stdDeviation="10" />
-          </filter>
-        </defs>
-        <ellipse
-          cx="320"
-          cy="543"
-          rx="148"
-          ry="9"
-          fill="#233c3b"
-          opacity=".13"
-          filter="url(#shadow)"
+      <div className={styles.stage}>
+        <GlobeBasemap
+          world={dragging || animating ? motionMap : world}
+          projection={projection}
+          geometry={geometry}
         />
-        <circle
-          cx="320"
-          cy="286"
-          r="259"
-          fill="none"
-          stroke="#a9b0a1"
-          strokeWidth=".7"
-          strokeDasharray="1 6"
-        />
-        <path d={path({ type: 'Sphere' }) || ''} fill="url(#sea)" />
-        {world && <path d={path(world) || ''} fill="#b7bea3" stroke="#8f9c8c" strokeWidth=".45" />}
-        <path
-          d={path(geoGraticule10()) || ''}
-          fill="none"
-          stroke="#dfdfc5"
-          strokeOpacity=".15"
-          strokeWidth=".65"
-        />
-        <path
-          d={`${path(cap1) || ''}${path(cap2) || ''}`}
-          fill="#e3ac74"
-          fillOpacity=".22"
-          fillRule="evenodd"
-        />
-        <path d={path(parallel) || ''} fill="none" stroke="#e8ad79" strokeWidth="2" />
-        <path d={path({ type: 'Sphere' }) || ''} fill="url(#shade)" pointerEvents="none" />
-        {markers.map(({ place: p, xy, count, label }) => {
-          const active = p.id === selected;
-          return (
-            <g
-              key={p.id}
-              data-city={p.id}
-              transform={`translate(${xy[0].toFixed(3)},${xy[1].toFixed(3)})`}
-              className="map-marker"
-              role="button"
-              aria-label={`探索${p.name}${count > 1 ? `，附近聚合 ${count} 个地点` : ''}`}
-              tabIndex={0}
-              onClick={() => {
-                setOcean(false);
-                onSelect(p.id);
-              }}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault();
+        <svg
+          ref={svg}
+          className={`globe ${styles.overlay} ${dragging ? 'is-dragging' : ''}`}
+          viewBox="0 0 640 574"
+          role="group"
+          aria-label="可拖动的交互地球，使用左右方向键切换城市"
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+              e.preventDefault();
+              onStep(e.key === 'ArrowRight' ? 1 : -1);
+            }
+          }}
+          onPointerDown={(e) => {
+            if (
+              e.button !== 0 ||
+              !e.isPrimary ||
+              drag.current ||
+              (e.target as Element).closest('[data-city]')
+            )
+              return;
+            cancelAnimationFrame(animate.current);
+            setAnimating(false);
+            drag.current = {
+              id: e.pointerId,
+              x: e.clientX,
+              y: e.clientY,
+              lon: rotationRef.current[0],
+              lat: rotationRef.current[1],
+              moved: false,
+            };
+            e.currentTarget.setPointerCapture(e.pointerId);
+          }}
+          onPointerMove={(e) => {
+            const d = drag.current;
+            if (!d || d.id !== e.pointerId) return;
+            const dx = e.clientX - d.x,
+              dy = e.clientY - d.y;
+            if (Math.abs(dx) + Math.abs(dy) > 5) {
+              if (!d.moved) setDragging(true);
+              d.moved = true;
+            }
+            if (d.moved) {
+              const next: [number, number] = [
+                d.lon - dx * 0.32,
+                Math.max(-80, Math.min(80, d.lat + dy * 0.25)),
+              ];
+              rotationRef.current = next;
+              // Browser pointer events may arrive faster than display refresh.
+              // Only the newest position is committed, at most once per frame.
+              if (!dragFrame.current)
+                dragFrame.current = requestAnimationFrame(() => {
+                  dragFrame.current = 0;
+                  setRotation(rotationRef.current);
+                });
+            }
+          }}
+          onPointerUp={(e) => {
+            const d = drag.current;
+            if (!d || d.id !== e.pointerId) return;
+            flushDrag();
+            if (d.moved) {
+              const nextLongitude = normalizeLongitude(rotationRef.current[0] + 13);
+              localLongitude.current = { longitude: nextLongitude, latitude };
+              onLongitude(nextLongitude);
+              setOcean(
+                !places.some(
+                  (p) => Math.abs(normalizeLongitude(p.longitude - rotationRef.current[0])) < 22,
+                ),
+              );
+            }
+            drag.current = null;
+            setDragging(false);
+            if (e.currentTarget.hasPointerCapture(e.pointerId))
+              e.currentTarget.releasePointerCapture(e.pointerId);
+          }}
+          onPointerCancel={(e) => {
+            if (drag.current?.id !== e.pointerId) return;
+            flushDrag();
+            drag.current = null;
+            setDragging(false);
+            if (e.currentTarget.hasPointerCapture(e.pointerId))
+              e.currentTarget.releasePointerCapture(e.pointerId);
+          }}
+          onLostPointerCapture={(e) => {
+            if (drag.current?.id !== e.pointerId) return;
+            flushDrag();
+            drag.current = null;
+            setDragging(false);
+          }}
+        >
+          <defs>
+            <filter id="shadow">
+              <feGaussianBlur stdDeviation="10" />
+            </filter>
+          </defs>
+          <ellipse
+            cx="320"
+            cy="543"
+            rx="148"
+            ry="9"
+            fill="#233c3b"
+            opacity=".13"
+            filter="url(#shadow)"
+          />
+          <circle
+            cx="320"
+            cy="286"
+            r="259"
+            fill="none"
+            stroke="#a9b0a1"
+            strokeWidth=".7"
+            strokeDasharray="1 6"
+          />
+          {markers.map(({ place: p, xy, count, label }) => {
+            const active = p.id === selected;
+            return (
+              <g
+                key={p.id}
+                data-city={p.id}
+                transform={`translate(${xy[0].toFixed(3)},${xy[1].toFixed(3)})`}
+                className="map-marker"
+                role="button"
+                aria-label={`探索${p.name}${count > 1 ? `，附近聚合 ${count} 个地点` : ''}`}
+                tabIndex={0}
+                onClick={() => {
+                  setOcean(false);
                   onSelect(p.id);
-                }
-              }}
-            >
-              <title>
-                {p.name}
-                {count > 1 ? ` · 当前页附近 ${count} 个地点，可用列表逐一查看` : ''}
-              </title>
-              <circle r="17" fill="transparent" />
-              {active && (
-                <circle
-                  r="12"
-                  fill="#e8ad79"
-                  fillOpacity=".23"
-                  stroke="#f0bb8a"
-                  strokeOpacity=".55"
-                />
-              )}
-              <circle
-                r={count > 1 ? 9 : active ? 5 : 3.5}
-                fill={active ? '#f1c497' : '#f4efe5'}
-                stroke="#294a48"
-                strokeWidth="1.5"
-              />
-              {count > 1 && (
-                <text y="3" textAnchor="middle" fill="#183c3b" fontSize="8" fontWeight="600">
-                  {count}
-                </text>
-              )}
-              {label && (
-                <text
-                  x={active ? 15 : 12}
-                  y={active ? -10 : -9}
-                  fill="#fff8e9"
-                  fontSize={active ? 16 : 11}
-                  fontWeight={active ? 600 : 400}
-                  paintOrder="stroke"
-                  stroke="#254746"
-                  strokeWidth="3"
-                >
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    onSelect(p.id);
+                  }
+                }}
+              >
+                <title>
                   {p.name}
-                </text>
-              )}
-              {active && (
-                <text x="15" y="7" fill="#e0d3b8" fontSize="8" letterSpacing="1.5">
-                  {p.originalName.toUpperCase().slice(0, 30)}
-                </text>
-              )}
-            </g>
-          );
-        })}
-        <text x="578" y="289" fill="#b3724f" fontFamily="Georgia, serif" fontSize="15">
-          {Math.abs(latitude)}°{latitude < 0 ? 'S' : 'N'}
-        </text>
-      </svg>
+                  {count > 1 ? ` · 当前页附近 ${count} 个地点，可用列表逐一查看` : ''}
+                </title>
+                <circle r="17" fill="transparent" />
+                {active && (
+                  <circle
+                    r="12"
+                    fill="#e8ad79"
+                    fillOpacity=".23"
+                    stroke="#f0bb8a"
+                    strokeOpacity=".55"
+                  />
+                )}
+                <circle
+                  r={count > 1 ? 9 : active ? 5 : 3.5}
+                  fill={active ? '#f1c497' : '#f4efe5'}
+                  stroke="#294a48"
+                  strokeWidth="1.5"
+                />
+                {count > 1 && (
+                  <text y="3" textAnchor="middle" fill="#183c3b" fontSize="8" fontWeight="600">
+                    {count}
+                  </text>
+                )}
+                {label && (
+                  <text
+                    x={active ? 15 : 12}
+                    y={active ? -10 : -9}
+                    fill="#fff8e9"
+                    fontSize={active ? 16 : 11}
+                    fontWeight={active ? 600 : 400}
+                    paintOrder="stroke"
+                    stroke="#254746"
+                    strokeWidth="3"
+                  >
+                    {p.name}
+                  </text>
+                )}
+                {active && (
+                  <text x="15" y="7" fill="#e0d3b8" fontSize="8" letterSpacing="1.5">
+                    {p.originalName.toUpperCase().slice(0, 30)}
+                  </text>
+                )}
+              </g>
+            );
+          })}
+          <text x="578" y="289" fill="#b3724f" fontFamily="Georgia, serif" fontSize="15">
+            {Math.abs(latitude)}°{latitude < 0 ? 'S' : 'N'}
+          </text>
+        </svg>
+      </div>
       {failed && (
         <div className="map-error">
           地图加载失败 <button onClick={load}>重试</button>

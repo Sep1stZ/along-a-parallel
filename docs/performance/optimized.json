@@ -1,0 +1,224 @@
+{
+  "phase": "optimized",
+  "measuredAt": "2026-11-13T09:16:35.879Z",
+  "environment": "Windows, installed Chrome headless, local production Next server; fixed 4s trusted CDP mouse drag at requested 120Hz; performance observers constant across versions. CPU throttling emulates a slower main thread, not a specific phone.",
+  "limitations": "rAF intervals measure main-thread frame opportunities, not physical display FPS. Input-to-coordinate-update measures DOM commit latency, not photon latency. Browser may coalesce input; delivery counts and actual duration are reported.",
+  "results": [
+    {
+      "cpuRate": 1,
+      "run": 1,
+      "viewport": "1440x1100",
+      "requestedInputHz": 120,
+      "scheduledInputs": 301,
+      "elapsedMs": 4023.7,
+      "actualInputDurationMs": 3969.5,
+      "deliveredPointerEvents": 290,
+      "coordinateUpdates": 267,
+      "frames": {
+        "count": 576,
+        "medianMs": 6.9,
+        "p95Ms": 7,
+        "maxMs": 14
+      },
+      "framesOver25ms": 0,
+      "framesOver50ms": 0,
+      "longTasks": {
+        "count": 0,
+        "medianMs": null,
+        "p95Ms": null,
+        "maxMs": null
+      },
+      "inputToCoordinateUpdate": {
+        "count": 267,
+        "medianMs": 9.9,
+        "p95Ms": 12.6,
+        "maxMs": 14.3
+      },
+      "svgPathMutations": 0,
+      "canvasDraws": 268,
+      "markerTransformMutations": 1499,
+      "canvasCount": 1,
+      "errors": []
+    },
+    {
+      "cpuRate": 1,
+      "run": 2,
+      "viewport": "1440x1100",
+      "requestedInputHz": 120,
+      "scheduledInputs": 279,
+      "elapsedMs": 4013.8,
+      "actualInputDurationMs": 3965,
+      "deliveredPointerEvents": 274,
+      "coordinateUpdates": 265,
+      "frames": {
+        "count": 573,
+        "medianMs": 6.9,
+        "p95Ms": 7,
+        "maxMs": 13.8
+      },
+      "framesOver25ms": 0,
+      "framesOver50ms": 0,
+      "longTasks": {
+        "count": 0,
+        "medianMs": null,
+        "p95Ms": null,
+        "maxMs": null
+      },
+      "inputToCoordinateUpdate": {
+        "count": 265,
+        "medianMs": 7.7,
+        "p95Ms": 11.8,
+        "maxMs": 13.2
+      },
+      "svgPathMutations": 0,
+      "canvasDraws": 265,
+      "markerTransformMutations": 1489,
+      "canvasCount": 1,
+      "errors": []
+    },
+    {
+      "cpuRate": 1,
+      "run": 3,
+      "viewport": "1440x1100",
+      "requestedInputHz": 120,
+      "scheduledInputs": 282,
+      "elapsedMs": 4030.8,
+      "actualInputDurationMs": 3989.1,
+      "deliveredPointerEvents": 276,
+      "coordinateUpdates": 265,
+      "frames": {
+        "count": 578,
+        "medianMs": 6.9,
+        "p95Ms": 7.1,
+        "maxMs": 13.9
+      },
+      "framesOver25ms": 0,
+      "framesOver50ms": 0,
+      "longTasks": {
+        "count": 0,
+        "medianMs": null,
+        "p95Ms": null,
+        "maxMs": null
+      },
+      "inputToCoordinateUpdate": {
+        "count": 265,
+        "medianMs": 8.6,
+        "p95Ms": 13.9,
+        "maxMs": 16.4
+      },
+      "svgPathMutations": 0,
+      "canvasDraws": 266,
+      "markerTransformMutations": 1481,
+      "canvasCount": 1,
+      "errors": []
+    },
+    {
+      "cpuRate": 4,
+      "run": 1,
+      "viewport": "1440x1100",
+      "requestedInputHz": 120,
+      "scheduledInputs": 270,
+      "elapsedMs": 4066.1,
+      "actualInputDurationMs": 3974.1,
+      "deliveredPointerEvents": 150,
+      "coordinateUpdates": 87,
+      "frames": {
+        "count": 202,
+        "medianMs": 7,
+        "p95Ms": 48.6,
+        "maxMs": 62.6
+      },
+      "framesOver25ms": 86,
+      "framesOver50ms": 8,
+      "longTasks": {
+        "count": 8,
+        "medianMs": 57,
+        "p95Ms": 57,
+        "maxMs": 57
+      },
+      "inputToCoordinateUpdate": {
+        "count": 87,
+        "medianMs": 37,
+        "p95Ms": 58.4,
+        "maxMs": 66.9
+      },
+      "svgPathMutations": 0,
+      "canvasDraws": 87,
+      "markerTransformMutations": 461,
+      "canvasCount": 1,
+      "errors": []
+    },
+    {
+      "cpuRate": 4,
+      "run": 2,
+      "viewport": "1440x1100",
+      "requestedInputHz": 120,
+      "scheduledInputs": 262,
+      "elapsedMs": 4077.9,
+      "actualInputDurationMs": 3990.2,
+      "deliveredPointerEvents": 165,
+      "coordinateUpdates": 98,
+      "frames": {
+        "count": 220,
+        "medianMs": 7,
+        "p95Ms": 41.6,
+        "maxMs": 76.4
+      },
+      "framesOver25ms": 95,
+      "framesOver50ms": 3,
+      "longTasks": {
+        "count": 3,
+        "medianMs": 62,
+        "p95Ms": 66,
+        "maxMs": 66
+      },
+      "inputToCoordinateUpdate": {
+        "count": 98,
+        "medianMs": 34.3,
+        "p95Ms": 45.9,
+        "maxMs": 69
+      },
+      "svgPathMutations": 0,
+      "canvasDraws": 98,
+      "markerTransformMutations": 510,
+      "canvasCount": 1,
+      "errors": []
+    },
+    {
+      "cpuRate": 4,
+      "run": 3,
+      "viewport": "1440x1100",
+      "requestedInputHz": 120,
+      "scheduledInputs": 264,
+      "elapsedMs": 4038.5,
+      "actualInputDurationMs": 3973.4,
+      "deliveredPointerEvents": 167,
+      "coordinateUpdates": 103,
+      "frames": {
+        "count": 222,
+        "medianMs": 7.1,
+        "p95Ms": 34.8,
+        "maxMs": 41.7
+      },
+      "framesOver25ms": 98,
+      "framesOver50ms": 0,
+      "longTasks": {
+        "count": 0,
+        "medianMs": null,
+        "p95Ms": null,
+        "maxMs": null
+      },
+      "inputToCoordinateUpdate": {
+        "count": 103,
+        "medianMs": 33.2,
+        "p95Ms": 39,
+        "maxMs": 42
+      },
+      "svgPathMutations": 0,
+      "canvasDraws": 103,
+      "markerTransformMutations": 553,
+      "canvasCount": 1,
+      "errors": []
+    }
+  ]
+}

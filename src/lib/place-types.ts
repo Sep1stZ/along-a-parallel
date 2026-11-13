@@ -7,6 +7,43 @@ export type Source = {
   scope: string;
 };
 export type Story = { theme: string; title: string; body: string };
+export type RelatedPlace = {
+  id: string;
+  name: string;
+  country: string;
+  distanceKm: number;
+  latitude: number;
+  longitude: number;
+  /** Initial great-circle bearing, expressed as a readable compass direction. */
+  direction?: string;
+};
+/** Calculated geography, kept distinct from editorial history and culture. */
+export type PlaceProfile = {
+  regionText: string;
+  coordinateText: string;
+  latitudeText: string;
+  timezoneText: string;
+  elevationText?: string;
+  aliases?: string[];
+  nearby: RelatedPlace[];
+  /** Nearest places with existing curated stories; not a claim of cultural similarity. */
+  related: RelatedPlace[];
+};
+export type PlaceArticle = {
+  title: string;
+  paragraphs: string[];
+  source: {
+    title: string;
+    url: string;
+    publisher: string;
+    accessedAt: string;
+    license: string;
+    licenseUrl: string;
+    /** Full HTTPS URL of the actual source revision. */
+    revision?: string;
+    scope?: string;
+  };
+};
 export type Place = {
   id: string;
   name: string;
@@ -28,6 +65,8 @@ export type Place = {
   elevation?: number | null;
   geonamesId?: number;
   aliases?: string[];
+  profile?: PlaceProfile;
+  article?: PlaceArticle;
 };
 export type PlaceSummary = Pick<
   Place,
@@ -49,6 +88,7 @@ export type PlaceSummary = Pick<
   elevation?: number | null;
   geonamesId?: number;
   aliases?: string[];
+  hasArticle?: boolean;
 };
 export function summarizePlace(place: Place): PlaceSummary {
   return {
@@ -69,5 +109,6 @@ export function summarizePlace(place: Place): PlaceSummary {
     elevation: place.elevation,
     geonamesId: place.geonamesId,
     aliases: place.aliases,
+    hasArticle: Boolean(place.article),
   };
 }

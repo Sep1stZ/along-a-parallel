@@ -139,6 +139,14 @@ try {
   assert.equal(catalog.response.status, 200);
   assert.ok(catalog.result.total >= 10_000);
   assert.ok(catalog.result.curatedTotal >= 60);
+  assert.equal(catalog.result.profileTotal, catalog.result.total);
+  assert.ok(catalog.result.articleTotal >= 165);
+  const reader = catalog.result.articleHighlights[0];
+  const readerDetail = (await request(`/api/places/${reader.id}`)).result.place;
+  assert.equal(readerDetail.article.paragraphs.length, 2);
+  assert.equal(readerDetail.article.source.license, 'CC BY-SA 4.0');
+  assert.ok(readerDetail.article.source.revision.includes('oldid='));
+  assert.equal(readerDetail.profile.nearby.length, 3);
   assert.equal(catalog.result.coverage.length, 181);
   assert.ok(catalog.result.coverage.filter((row) => row.count > 0).length > 100);
   assert.equal(catalog.response.headers.get('set-cookie'), null);
@@ -165,6 +173,8 @@ try {
   const baseDetail = await request(`/api/places/${baseCity.id}`);
   assert.deepEqual(baseDetail.result.place.stories, []);
   assert.ok(baseDetail.result.place.sources.length > 0);
+  assert.ok(baseDetail.result.place.profile.regionText);
+  assert.equal(baseDetail.result.place.profile.nearby.length, 3);
   const nearest = await request(
     '/api/places/nearby?latitude=30&band=2&longitude=120&direction=nearest',
   );

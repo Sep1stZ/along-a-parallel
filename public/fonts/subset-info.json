@@ -4,8 +4,8 @@
   "fontVersion": "Version 2.004-H2",
   "file": "noto-sans-sc-latin-cjk.woff2",
   "cssWeightRange": "400 700",
-  "unicodeCount": 3278,
-  "sourceCharacterCount": 5654,
+  "unicodeCount": 3447,
+  "sourceCharacterCount": 5823,
   "axes": [
     {
       "tag": "wght",
@@ -14,8 +14,8 @@
       "max": 700.0
     }
   ],
-  "bytes": 793528,
-  "sha256": "781ba4da772ffb12405de13ac70edfcf3c99c93d4993da9b98b3c71598ac4f4b",
+  "bytes": 837616,
+  "sha256": "15aa1bf0f3a548678c7c3c9b36833f90ed782f5c21fee2b7d58bde22afd4ded2",
   "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
   "fallbackRequiredForActualText": [
     "",
@@ -2466,6 +2466,6 @@
     "𐍇",
     "𐍉"
   ],
-  "generatedAt": "2026-11-11",
+  "generatedAt": "2026-11-13",
   "note": "Subset includes the complete local catalog and current UI/editorial copy. Chinese glyph coverage verified. Other scripts use system font fallbacks. Rebuild with scripts/build-font-subset.py after content changes."
 }

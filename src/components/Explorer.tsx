@@ -37,6 +37,7 @@ import {
 } from '@/lib/geo';
 import Globe from './Globe';
 import Dialog from './Dialog';
+import PlaceDossier from './PlaceDossier';
 
 type Journey = ExploreState & { explored: string[] };
 type Modal =
@@ -80,6 +81,38 @@ function LocalTime({ place }: { place: Pick<PlaceSummary, 'timezone'> }) {
     return () => clearInterval(timer);
   }, [place.timezone]);
   return <time suppressHydrationWarning>{time}</time>;
+}
+function geographicComparison(place: Place, dimension: string) {
+  const nearbyText = (points: NonNullable<Place['profile']>['nearby']) =>
+    points
+      .map(
+        (point) =>
+          `${point.name}（约 ${point.distanceKm < 1 ? '<1' : Math.round(point.distanceKm).toLocaleString()} km）`,
+      )
+      .join('；');
+  if (dimension === 'location')
+    return {
+      title: '位置与区域',
+      body: place.profile
+        ? `${place.profile.regionText}${place.profile.coordinateText}`
+        : place.intro,
+    };
+  if (dimension === 'introduction') {
+    const text = place.article?.paragraphs.join(' ') || place.intro;
+    return {
+      title: place.article?.title || '地点概要',
+      body: text.length > 360 ? `${text.slice(0, 360)}…` : text,
+    };
+  }
+  if (dimension === 'neighborhood')
+    return {
+      title: '附近的地点',
+      body: nearbyText(place.profile?.nearby || []) || '附近地点资料暂未收录。',
+    };
+  return {
+    title: '可继续阅读的精选城市',
+    body: nearbyText(place.profile?.related || []) || '可从这座城市的资料来源继续了解。',
+  };
 }
 function Art({ place, priority = false }: { place: PlaceSummary | Place; priority?: boolean }) {
   const [failedId, setFailedId] = useState<string | null>(null);
@@ -130,6 +163,8 @@ type Catalog = {
   curatedTotal: number;
   version: string;
   coverage: { latitude: number; count: number; curatedCount: number }[];
+  articleTotal?: number;
+  articleHighlights?: Pick<Place, 'id' | 'name' | 'country' | 'latitude' | 'longitude'>[];
 };
 type PlaceList = { places: PlaceSummary[]; total: number; curatedTotal: number; hasMore: boolean };
 type OwnedShare = { token: string; name: string; createdAt: string; revokedAt?: string | null };
@@ -460,6 +495,7 @@ export default function Explorer() {
   const compareText = compareResult?.ids === comparisonIds ? compareResult : null;
   const compareError = compareErrorIds === comparisonIds;
   const placeMap = useMemo(() => new Map(allPlaces.map((p) => [p.id, p])), [allPlaces]);
+  const compareStories = journey.compare.every((id) => placeMap.get(id)?.hasStory);
   const currentPlaces = bandIds.map((id) => placeMap.get(id)).filter((p): p is PlaceSummary => !!p);
   const city = journey.selectedCity ? placeMap.get(journey.selectedCity) || null : null;
   const cityDetail = city ? details[city.id] : null;
@@ -485,8 +521,8 @@ export default function Explorer() {
         (a, b) => Math.abs(a.latitude - journey.latitude) - Math.abs(b.latitude - journey.latitude),
       )
       .slice(0, 2) || [];
-  const select = (id: string) => {
-    const p = placeMap.get(id);
+  const select = (id: string, knownPlace?: PlaceSummary) => {
+    const p = knownPlace || placeMap.get(id);
     if (!p) return;
     navigation.current++;
     const base = stateRef.current;
@@ -542,6 +578,19 @@ export default function Explorer() {
     }
   };
   const setLatitude = (latitude: number) => void moveBand(latitude);
+  const exploreRelated = async (id: string) => {
+    const request = ++navigation.current;
+    setModal({ type: 'story', id });
+    try {
+      const detail = await loadDetail(id);
+      if (request !== navigation.current) return;
+      setLevel('all');
+      setQuery('');
+      select(id, summarizePlace(detail));
+    } catch {
+      if (request === navigation.current) notify('地点资料暂未读取，请稍后重试。', true);
+    }
+  };
   const step = async (direction: number, story = false) => {
     const base = stateRef.current;
     const request = ++navigation.current;
@@ -885,7 +934,9 @@ export default function Explorer() {
                         {p.admin ? ` · ${p.admin}` : ''}
                       </small>
                     </span>
-                    <span className="place-badge">{p.hasStory ? '精选手记' : '地点资料'}</span>
+                    <span className="place-badge">
+                      {p.hasStory ? '精选手记' : p.hasArticle ? '城市速读' : '地理档案'}
+                    </span>
                     <ChevronRight size={15} />
                   </button>
                 ))}
@@ -1027,15 +1078,38 @@ export default function Explorer() {
                 <Art place={city} priority />
                 <div className="preview-story">
                   <p className="eyebrow">
-                    {city.hasStory ? 'CITY FIELD NOTES · 精选手记' : 'PLACE RECORD · 地点资料'}
+                    {city.hasStory
+                      ? 'CITY FIELD NOTES · 精选手记'
+                      : city.hasArticle
+                        ? 'CITY READER · 城市速读'
+                        : 'PLACE PORTRAIT · 地理档案'}
                   </p>
                   <h3>
                     {cityDetail?.tagline ||
                       (city.hasStory ? '正在翻开城市手记…' : `${city.country}的一个真实地点`)}
                   </h3>
                   <p>
-                    {cityDetail?.intro ||
+                    {(cityDetail?.article?.paragraphs[0]
+                      ? cityDetail.article.paragraphs[0].length > 180
+                        ? `${cityDetail.article.paragraphs[0].slice(0, 180)}…`
+                        : cityDetail.article.paragraphs[0]
+                      : cityDetail?.intro) ||
                       `${city.name}位于${coordinate(city.latitude)}、${coordinate(city.longitude, false)}。从真实位置与当地时间开始认识这里。`}
+                    {cityDetail?.article && (
+                      <small className="preview-source">
+                        <a href={cityDetail.article.source.url} target="_blank" rel="noreferrer">
+                          {cityDetail.article.source.publisher} · 导言节选 ↗
+                        </a>
+                        {' · '}
+                        <a
+                          href={cityDetail.article.source.licenseUrl}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {cityDetail.article.source.license}
+                        </a>
+                      </small>
+                    )}
                   </p>
                 </div>
                 <div className="preview-actions">
@@ -1209,7 +1283,9 @@ export default function Explorer() {
                 <span className="stop-original">
                   {p.country} · {p.originalName}
                 </span>
-                <span className="place-badge">{p.hasStory ? '精选手记' : '地点资料'}</span>
+                <span className="place-badge">
+                  {p.hasStory ? '精选手记' : p.hasArticle ? '城市速读' : '地理档案'}
+                </span>
                 <span className="stop-coordinate">
                   {coordinate(p.longitude, false)}
                   {p.id === city?.id && <span>正在探索</span>}
@@ -1253,6 +1329,27 @@ export default function Explorer() {
             <p>当前页按经度排列，地图聚合邻近标记；不代表公路或航线。</p>
           </div>
         </section>
+        {!!catalog?.articleHighlights?.length && (
+          <section className="reading-discovery" aria-label="城市速读入口">
+            <p className="eyebrow">MORE THAN A POINT ON THE MAP</p>
+            <h2>从一篇城市简介开始。</h2>
+            <p>
+              {catalog.articleTotal?.toLocaleString()} 篇有来源的城市速读，配合每个地点的地理档案，
+              从名字和坐标继续往下读。
+            </p>
+            <div className="reading-highlights">
+              {catalog.articleHighlights.map((place) => (
+                <button key={place.id} onClick={() => void exploreRelated(place.id)}>
+                  <span>
+                    <small>{place.country}</small>
+                    <strong>{place.name}</strong>
+                  </span>
+                  <ArrowRight size={17} />
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
         {nearbyObservations.length > 0 && (
           <section className="geography-notes" aria-label="沿线自然观察">
             <div>
@@ -1390,7 +1487,7 @@ export default function Explorer() {
               </div>
               <Art place={storyCity} />
               <p className="story-intro">{storyCity.intro}</p>
-              {!storyCity.stories.length && (
+              {!storyCity.stories.length && !storyCity.profile && (
                 <div className="catalog-record">
                   <span className="place-badge">地点资料 · 尚无精选手记</span>
                   <p>这里已收录真实地理位置与时区，编辑故事尚未编写。</p>
@@ -1417,6 +1514,7 @@ export default function Explorer() {
                   </dl>
                 </div>
               )}
+              <PlaceDossier place={storyCity} onExplore={(id) => void exploreRelated(id)} />
               <div className="story-grid">
                 {storyCity.stories.map((story, i) => (
                   <section key={story.theme}>
@@ -1627,9 +1725,9 @@ export default function Explorer() {
           {modal.type === 'compare' && (
             <div className="comparison">
               <h2>
-                相近的纬度，
+                把两座城市，
                 <br />
-                怎样不同的生活？
+                放在一起读。
               </h2>
               {journey.compare.length < 2 ? (
                 <>
@@ -1707,38 +1805,71 @@ export default function Explorer() {
                         </div>
                       );
                     })}
-                    {[
-                      ['geography', '自然地理'],
-                      ['architecture', '城市与建筑'],
-                      ['life', '日常生活'],
-                      ['food', '饮食文化'],
-                    ].map(([theme, label]) => (
+                    {(compareStories
+                      ? [
+                          ['geography', '自然地理'],
+                          ['architecture', '城市与建筑'],
+                          ['life', '日常生活'],
+                          ['food', '饮食文化'],
+                        ]
+                      : [
+                          ['location', '位置与区域'],
+                          ['introduction', '城市简介'],
+                          ['neighborhood', '周边地点'],
+                          ['reading', '延伸阅读'],
+                        ]
+                    ).map(([theme, label]) => (
                       <div className="comparison-dimension" key={theme}>
                         <h4>{label}</h4>
                         {journey.compare.map((id) => {
                           const p = placeMap.get(id);
                           if (!p) return null;
-                          const story = details[id]?.stories.find((entry) => entry.theme === theme);
+                          const detail = details[id];
+                          const story = compareStories
+                            ? detail?.stories.find((entry) => entry.theme === theme)
+                            : detail
+                              ? geographicComparison(detail, theme)
+                              : undefined;
                           const storyFailed = !details[id] && compareError;
                           return (
                             <div key={id}>
                               <span className="mobile-city-label">{p.name}</span>
                               <h5>
                                 {story?.title ||
-                                  (p.hasStory
+                                  (compareStories
                                     ? storyFailed
                                       ? '手记暂时无法读取'
                                       : '手记正在读取'
-                                    : '精选手记尚待编写')}
+                                    : storyFailed
+                                      ? '资料暂时无法读取'
+                                      : '资料正在读取')}
                               </h5>
                               <p>
                                 {story?.body ||
-                                  (p.hasStory
+                                  (compareStories
                                     ? storyFailed
                                       ? '请打开下方城市故事与来源重试。'
                                       : '请稍候，或打开城市来源重试。'
-                                    : '目前提供地理位置、时区及来源资料。')}
+                                    : '请打开下方城市资料与来源重试。')}
                               </p>
+                              {!compareStories && theme === 'introduction' && detail?.article && (
+                                <small className="article-credit">
+                                  <a
+                                    href={detail.article.source.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    {detail.article.source.publisher} · 原始修订 ↗
+                                  </a>
+                                  <a
+                                    href={detail.article.source.licenseUrl}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
+                                    {detail.article.source.license}
+                                  </a>
+                                </small>
+                              )}
                             </div>
                           );
                         })}
@@ -1788,12 +1919,14 @@ export default function Explorer() {
                     ) : (
                       <p>
                         {compareError
-                          ? '比较摘要暂时不可用。上方故事仍可逐项阅读。'
+                          ? '比较摘要暂时不可用。可从下方城市资料入口重试。'
                           : '正在整理两地的共同线索…'}
                       </p>
                     )}
                     <p className="small-print">
-                      人文描述以两地手记的资料为依据，不以纬度解释文化。点击城市故事查看对应来源。
+                      {compareStories
+                        ? '人文描述以两地手记的资料为依据，不以纬度解释文化。点击城市故事查看对应来源。'
+                        : '位置与周边距离来自地点档案；简介保留原始来源。点击下方城市资料，继续阅读并查看来源。'}
                     </p>
                   </div>
                   <div className="compare-sources">
@@ -1802,7 +1935,7 @@ export default function Explorer() {
                       if (!p) return null;
                       return (
                         <button key={id} className="secondary" onClick={() => void openStory(id)}>
-                          {p.name}的故事与来源 <ExternalLink size={13} />
+                          {p.name}的{p.hasStory ? '故事' : '资料'}与来源 <ExternalLink size={13} />
                         </button>
                       );
                     })}

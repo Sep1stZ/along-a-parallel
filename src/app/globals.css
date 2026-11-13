@@ -1,4 +1,5 @@
 @import './polish.css';
+@import './dossier.css';
 
 @layer foundation {
   * {

@@ -6,7 +6,13 @@ import { join } from 'node:path';
 import report from './catalog-report.json';
 import { places as originalPlaces } from './places';
 import { curatedV2 } from './curated-v2';
-import { summarizePlace, type Place, type PlaceSummary } from '../lib/place-types';
+import {
+  summarizePlace,
+  type Place,
+  type PlaceSummary,
+  type PlaceArticle,
+} from '../lib/place-types';
+import { createPlaceIndex, geographicProfile } from '../lib/place-profile';
 
 type CatalogRow = [
   id: string,
@@ -25,13 +31,25 @@ type CatalogRow = [
   nameLanguage: string,
 ];
 type CatalogData = { version: string; accessedAt: string; records: CatalogRow[] };
+type ArticleData = {
+  version: string;
+  articles: { geonamesId: number; article: PlaceArticle }[];
+};
+type RegionData = { labels: Record<string, string> };
+const articlePath = join(process.cwd(), 'src', 'data', 'city-articles.json');
+const regionPath = join(process.cwd(), 'src', 'data', 'catalog-regions.json');
+const enrichmentDigest = createHash('sha256')
+  .update(readFileSync(articlePath))
+  .update(readFileSync(regionPath))
+  .digest('hex')
+  .slice(0, 12);
 const editorialPlaces: Place[] = [...originalPlaces, ...curatedV2];
-const detailSchemaVersion = 3;
+const detailSchemaVersion = 4;
 const curatedDigest = createHash('sha256')
   .update(JSON.stringify(editorialPlaces))
   .digest('hex')
   .slice(0, 12);
-export const catalogVersion = `${report.version}-detail-${detailSchemaVersion}-curated-${editorialPlaces.length}-${curatedDigest}`;
+export const catalogVersion = `${report.version}-detail-${detailSchemaVersion}-curated-${editorialPlaces.length}-${curatedDigest}-readings-${enrichmentDigest}`;
 
 function buildCatalog() {
   const data = JSON.parse(
@@ -39,6 +57,13 @@ function buildCatalog() {
   ) as CatalogData;
   if (data.version !== report.version) throw new Error('Catalogue data/report version mismatch');
   const rows = data.records;
+  const articleData = JSON.parse(readFileSync(articlePath, 'utf8')) as ArticleData;
+  const regionData = JSON.parse(readFileSync(regionPath, 'utf8')) as RegionData;
+  const articlesByGeonamesId = new Map(
+    articleData.articles.map(({ geonamesId, article }) => [geonamesId, article]),
+  );
+  const adminLabel = (countryCode: string | undefined, admin: string | undefined) =>
+    admin ? (regionData.labels[`${countryCode}|${admin}`] ?? admin) : undefined;
   const regionNames = new Intl.DisplayNames(['zh-Hans'], { type: 'region' });
   const sourceByGeonamesId = new Map(rows.map((row) => [row[1], row]));
   const legacyGeonamesIds = new Map(
@@ -76,9 +101,12 @@ function buildCatalog() {
       kind: place.kind ?? 'city',
       geonamesId: place.geonamesId ?? row?.[1],
       countryCode: place.countryCode ?? row?.[4],
-      admin: place.admin ?? row?.[8],
+      admin: adminLabel(place.countryCode ?? row?.[4], place.admin ?? row?.[8]),
       elevation: place.elevation ?? row?.[9],
       aliases: [...new Set([...(place.aliases ?? []), ...(row?.[10] ?? [])])],
+      ...(articlesByGeonamesId.has(place.geonamesId ?? row?.[1] ?? 0)
+        ? { article: articlesByGeonamesId.get(place.geonamesId ?? row?.[1] ?? 0) }
+        : {}),
     };
   });
 
@@ -99,7 +127,7 @@ function buildCatalog() {
       latitude: row[5],
       longitude: row[6],
       timezone: row[7],
-      admin: row[8],
+      admin: adminLabel(row[4], row[8]),
       elevation: row[9],
       aliases: row[10],
       image: '/art/catalog.svg',
@@ -107,6 +135,7 @@ function buildCatalog() {
       level: 'catalog',
       kind: 'settlement',
       hasStory: false,
+      hasArticle: articlesByGeonamesId.has(row[1]),
     };
   }
 
@@ -118,6 +147,8 @@ function buildCatalog() {
   ];
   const summariesById = new Map(catalogSummaries.map((place) => [place.id, place]));
   const curatedById = new Map(curatedPlaces.map((place) => [place.id, place]));
+  const nearestPlaces = createPlaceIndex(catalogSummaries);
+  const nearestStories = createPlaceIndex(catalogSummaries.filter((place) => place.hasStory));
   const metadataById = new Map(rows.map((row) => [row[0], [row[11], row[13]]]));
   // The prepared summaries retain every needed public field. Release raw source
   // row arrays and their temporary index before database seeding starts.
@@ -127,16 +158,23 @@ function buildCatalog() {
   /** Materialise a single basic place, without manufacturing cultural stories. */
   function catalogPlace(id: string): Place | undefined {
     const curated = curatedById.get(id);
-    if (curated) return curated;
     const summary = summariesById.get(id);
+    if (!summary) return undefined;
+    const profile = geographicProfile(summary, nearestPlaces(summary), nearestStories(summary));
+    if (curated) return { ...curated, profile };
     const metadata = metadataById.get(id);
-    if (!summary || !metadata) return undefined;
+    if (!metadata) return undefined;
+    const article = articlesByGeonamesId.get(summary.geonamesId ?? 0);
     const latitude = `${Math.abs(summary.latitude).toFixed(4)}°${summary.latitude < 0 ? 'S' : 'N'}`;
     const longitude = `${Math.abs(summary.longitude).toFixed(4)}°${summary.longitude < 0 ? 'W' : 'E'}`;
     return {
       ...summary,
-      tagline: '从一个真实坐标，认识世界的一处聚落。',
-      intro: `${summary.name}是 GeoNames 收录的聚落点位，位于${summary.country}${summary.admin ? `的 ${summary.admin}` : ''}。近似中心坐标为 ${latitude}、${longitude}，时区为 ${summary.timezone}。本条提供基础地理资料，人文故事尚待策展。`,
+      tagline: article
+        ? '从一段百科导言，认识这座城市。'
+        : '从真实位置与周边关系，认识世界的一处聚落。',
+      intro: `${summary.name}是 GeoNames 收录的聚落点位，位于${summary.country}${summary.admin ? ` · ${summary.admin}` : ''}。近似中心为 ${latitude}、${longitude}。${article ? '城市速读提供有来源与独立许可的百科导言节选。' : '地理档案说明纬度位置、时区及点位海拔，并提供附近地点与精选阅读入口。'}`,
+      profile,
+      ...(article ? { article } : {}),
       stories: [],
       sources: [
         {
@@ -172,6 +210,24 @@ function buildCatalog() {
     chineseNamed: catalogSummaries.filter((place) => /\p{Script=Han}/u.test(place.name)).length,
     nonEmptyLatitudeBands: coverage.filter((band) => band.places > 0).length,
     unmatchedCurated: curatedPlaces.filter((place) => !place.geonamesId).map((place) => place.id),
+    articleVersion: articleData.version,
+    articleTotal: catalogSummaries.filter((place) => place.hasArticle).length,
+    profileTotal: catalogSummaries.length,
+    articleHighlights: [
+      1816670, 1796236, 1809858, 1799962, 5128581, 2643743, 2988507, 3169070, 1275339, 1609350,
+      3530597, 2193733,
+    ]
+      .map((geonamesId) =>
+        catalogSummaries.find((place) => place.geonamesId === geonamesId && place.hasArticle),
+      )
+      .filter((place): place is PlaceSummary => Boolean(place))
+      .map(({ id, name, country, latitude, longitude }) => ({
+        id,
+        name,
+        country,
+        latitude,
+        longitude,
+      })),
   };
   return { version: catalogVersion, curatedPlaces, catalogSummaries, catalogReport, catalogPlace };
 }

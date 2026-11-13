@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "width": 1440,
+      "devicePixelRatio": 1,
+      "globeBox": {
+        "width": 715.796875,
+        "height": 410
+      },
+      "canvasSVGBoxAligned": true,
+      "projectionCenterError": 0,
+      "releaseViewStable": true,
+      "reducedReset": true,
+      "pointerCancel": true,
+      "lostCapture": true,
+      "subsequentDrag": true,
+      "pageErrors": 0
+    },
+    {
+      "width": 390,
+      "devicePixelRatio": 3,
+      "globeBox": {
+        "width": 344,
+        "height": 308.515625
+      },
+      "canvasSVGBoxAligned": true,
+      "projectionCenterError": 0.00002722125441323442,
+      "releaseViewStable": true,
+      "reducedReset": true,
+      "pointerCancel": true,
+      "lostCapture": true,
+      "subsequentDrag": true,
+      "pageErrors": 0
+    }
+  ]
+}

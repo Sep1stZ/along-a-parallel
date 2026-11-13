@@ -1,7 +1,13 @@
 import type { NextConfig } from 'next';
 const config: NextConfig = {
   output: process.env.NEXT_BUILD_STANDALONE === '1' ? 'standalone' : undefined,
-  outputFileTracingIncludes: { '/*': ['src/data/catalog-data.json'] },
+  outputFileTracingIncludes: {
+    '/*': [
+      'src/data/catalog-data.json',
+      'src/data/city-articles.json',
+      'src/data/catalog-regions.json',
+    ],
+  },
   poweredByHeader: false,
   async headers() {
     return [

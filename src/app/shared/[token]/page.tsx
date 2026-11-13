@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { getStore, type Snapshot } from '@/lib/server/store';
 import { isApiError } from '@/lib/server/errors';
 import { coordinate, latitudeLabel } from '@/lib/geo';
+import PlaceDossier from '@/components/PlaceDossier';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 export default async function SharedJourney({
@@ -115,10 +116,15 @@ export default async function SharedJourney({
                 {snapshot.favorites.includes(p.id) ? '◇ 已收藏' : ''}
               </p>
               <p>{p.intro}</p>
-              {!p.stories.length && <p className="muted">基础地理档案 · 尚未编写专题故事</p>}
-              {(p.stories.length > 0 || p.sources.length > 0) && (
+              {!p.stories.length && !p.profile && (
+                <p className="muted">基础地理档案 · 尚未编写专题故事</p>
+              )}
+              {(p.stories.length > 0 || p.sources.length > 0 || p.profile || p.article) && (
                 <details className="shared-stories">
-                  <summary>展开{p.name}的城市手记与来源</summary>
+                  <summary>
+                    展开{p.name}的{p.stories.length ? '城市手记' : '地理档案'}与来源
+                  </summary>
+                  <PlaceDossier place={p} />
                   {p.stories.map((story) => (
                     <section key={story.theme}>
                       <h3>{story.title}</h3>

@@ -1,0 +1,222 @@
+[
+  {
+    "geonamesId": 1816670,
+    "paragraphs": [
+      "北京是中国的首都，位于华北平原北部边缘，背靠燕山，与天津、河北相邻，是京津冀城市群的重要组成部分。这里既有国家政治、教育和科研机构，也有从旧城延续下来的街巷格局。",
+      "北京有三千余年建城史，金、元、明、清时期均曾在此建都。紫禁城、天坛、颐和园、北海等古迹，与胡同、四合院共同构成认识北京历史的不同入口。"
+    ],
+    "scope": "审读导言前三段，选取华北平原与燕山位置、历代都城和古迹民居；删去人口、遗产数量、商业榜单与排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%8C%97%E4%BA%AC%E5%B8%82&oldid=95548731",
+    "sourceSha256": "7a663bcfcca327fce643579320ba8e369911da49350f7c6b327a904c9a8aeccf",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1796236,
+    "paragraphs": [
+      "上海位于中国东部海岸、长江三角洲东端，东临东海，南濒杭州湾，崇明岛处在长江入海口。它是一座港口城市，金融、贸易和航运是理解城市发展的重要线索。",
+      "上海县始建于1292年。近代开埠后，来自江浙、广东及海外的移民在这里汇聚，江南传统与近现代西方文化相互交融，逐渐形成海派文化；1990年的浦东开发开放又改变了城市的空间与经济面貌。"
+    ],
+    "scope": "审读导言前三段，选取长江口位置、建县、开埠移民与海派文化及浦东开发；不采用原文开埠年份表述及即时经济排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E4%B8%8A%E6%B5%B7%E5%B8%82&oldid=95386605",
+    "sourceSha256": "e3003b9bfc074ec7e51a9def42543d7c419e817894b5759af1126f0587c2888c",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1809858,
+    "paragraphs": [
+      "广州是广东省省会，别称羊城、花城，也是粤港澳大湾区的中心城市之一。商贸与综合交通枢纽功能，是认识这座华南城市的入口。",
+      "广州拥有两千多年的建城历史，是岭南文化的重要发源地。自秦代起，它长期是地方行政中心；对外通商与海上交通在城市历史中占有重要位置，中国进出口商品交易会自1957年起在这里举办。"
+    ],
+    "scope": "审读导言前三段，选取省会、岭南文化、行政与对外贸易史、广交会；删去永久繁荣与唯一港口等绝对化表述及排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%B9%BF%E5%B7%9E%E5%B8%82&oldid=95413951",
+    "sourceSha256": "e09f3bd442bdcd98080493fc4d520eb0098317102796b90c6a5485cc39293b86",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1795565,
+    "paragraphs": [
+      "深圳地处珠江口东岸，东临大亚湾、大鹏湾，南与香港接壤，北与惠州、东莞相连。城市的海湾位置与对外开放、制造业和科技产业发展紧密相连。",
+      "深圳市于1979年在原宝安县基础上开始设立，深圳经济特区于1980年获批成立。改革开放以后，这里由边陲农业县发展为大城市，华为、腾讯、大疆、比亚迪等企业的总部设于深圳。"
+    ],
+    "scope": "审读导言前三段，选取海湾邻接、1979设市与1980特区、企业总部；不采用GDP、证券交易所或城市榜单排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E6%B7%B1%E5%9C%B3%E5%B8%82&oldid=95413151",
+    "sourceSha256": "d9fa2f758336f7f7c8ec927ec1f3f9be4bfce093a9818dad629bac107a533ca2",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1814906,
+    "paragraphs": [
+      "重庆位于中国西南、长江上游，是中国的直辖市，别称山城、江城。重庆市域包括众多区县，行政范围与人们通常所说的主城区并不相同。",
+      "重庆简称渝，与嘉陵江古称渝水有关。南宋时恭州升为重庆府，重庆由此得名；1891年成为内陆通商口岸。抗日战争时期，重庆曾是国民政府的战时首都，1997年重新设为直辖市。"
+    ],
+    "scope": "审读导言前三段，选取上游区位、简称与地名来历、开埠及近现代行政史；删除人口数量、政策定位与绝对排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E9%87%8D%E5%BA%86%E5%B8%82&oldid=95552436",
+    "sourceSha256": "3da7dc3080bf7c4c9b60829767b5306da798bf4aa3539796a5c46c118058c9f4",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1799962,
+    "paragraphs": [
+      "南京是江苏省省会，地处江苏西南部、长江下游，别称金陵、建康、江宁。交通、教育和科研机构在这座长三角城市中占有重要位置。",
+      "东吴、东晋及南朝诸政权、南唐、明朝等曾在南京定都，因而有六朝古都等称呼。南京博物院、南京图书馆，以及中山陵、总统府等近代建筑，为阅读城市不同阶段的历史提供了入口。"
+    ],
+    "scope": "审读导言前三段，选取下游区位、旧称、历代都城及文化设施与近代建筑；不采用考古年代争论与科研排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E4%BA%AC%E5%B8%82&oldid=95396422",
+    "sourceSha256": "b87043228629c1cd1b558f244b68069773fd3cb9bea8bee049afc1ef43211aa1",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1791247,
+    "paragraphs": [
+      "武汉是湖北省省会，位于长江中游。长江与汉江穿行其间，形成武昌、汉口、汉阳隔江相望的武汉三镇格局；内河航运与铁路交通也是认识武汉的重要线索。",
+      "近代汉口发展为商业城市，1911年的武昌起义发生于此。1927年，武汉三镇合并；1949年以后，武汉逐渐成为重要的工业、教育科研与综合交通城市。"
+    ],
+    "scope": "审读导言前三段，选取两江三镇、汉口商埠、武昌起义与工业科教发展；不采用城市活力及产业升级排位。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E6%AD%A6%E6%B1%89%E5%B8%82&oldid=95548488",
+    "sourceSha256": "1b3a01a744410c41f59898b765545bde26f7b3a62f1e7faccca66e27eaa0745b",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1799397,
+    "paragraphs": [
+      "宁波位于浙江东部、长江三角洲南翼，北临杭州湾，东北与舟山隔海相望，西接绍兴、南靠台州。临海位置使港口与航运成为这座城市鲜明的地理线索。",
+      "宁波有悠久的对外交流和经商传统，宁波商帮广为人知。鸦片战争后，宁波成为通商口岸；改革开放以来，临港产业和民营经济推动了城市的发展。"
+    ],
+    "scope": "审读全部两段导言，选取沿海邻接、商帮、通商与临港产业；删去港口吞吐量等动态排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%AE%81%E6%B3%A2%E5%B8%82&oldid=95540085",
+    "sourceSha256": "6fd60e15556ddddc75b39abacc819029632c6076732b4538ba6ee19d45861e82",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1791388,
+    "paragraphs": [
+      "温州旧称永嘉，位于浙江东南部、瓯江下游入海口，东滨东海，西接浙闽丘陵。港口、河口与丘陵相接的地理位置，为认识温州提供了起点。",
+      "温州历史上以造船、造纸、雕刻、漆器等手工业著称，宋元时期曾是对外贸易港口，1876年后成为通商口岸。改革开放后，民营企业发展和被称为温州模式的经济实践，使温州受到广泛关注。"
+    ],
+    "scope": "审读导言前三段，选取瓯江口位置、历史手工业、港口和民营经济；删除宗教人口与全球侨民数量等泛化表述。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E6%B8%A9%E5%B7%9E%E5%B8%82&oldid=94320146",
+    "sourceSha256": "4ac897d89618835416a5ddbc3fe3b00d86d9b7e25bba766f94a91a3a79f01e78",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1790645,
+    "paragraphs": [
+      "厦门位于福建东南沿海，与泉州、漳州接壤，与金门隔海相望。厦门岛、鼓浪屿及集美、同安、翔安等沿海地区，共同组成这座海湾型城市。",
+      "厦门是中国最早开放的四个经济特区之一，也是一座侨乡和港口城市。鼓浪屿与城市的滨海景观，是原条目导言介绍的旅行与文化地标。"
+    ],
+    "scope": "审读导言前两段，选取岛屿海湾构成、经济特区、侨乡和鼓浪屿；删去港口机场排名和营销称号。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%8E%A6%E9%97%A8%E5%B8%82&oldid=95555245",
+    "sourceSha256": "8a1badf228da253b9c7291785d5bce43d8d8256452e1cc34241960695c39333a",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1797353,
+    "paragraphs": [
+      "泉州位于福建中南部沿海，旧称刺桐、温陵、清源。市域地势西北高、东南低，晋江水系穿过当地并注入泉州湾，河流、海湾与丘陵构成了城市的地理背景。",
+      "宋元时期，泉州的海外贸易发达，历史上的港口往来留下多元文化遗存。2021年，泉州：宋元中国的世界海洋商贸中心被列入世界文化遗产名录。"
+    ],
+    "scope": "审读导言前两段，选取海湾晋江地理、宋元贸易和世界遗产；删除音标模板、全球唯一等绝对化判断及经济排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E6%B3%89%E5%B7%9E%E5%B8%82&oldid=94936256",
+    "sourceSha256": "a8a87d27d61cf9aaafca186d5a85bdf3e20250dda2daf2f50413c7f4f8945157",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1800163,
+    "paragraphs": [
+      "南昌是江西省省会，古称豫章、洪州，位于江西北部、鄱阳湖平原腹地。赣江、抚河纵贯市境并向北注入鄱阳湖，湖泊与水系是认识城市环境的重要线索。",
+      "南昌有两千多年的建城史，海昏侯墓、滕王阁、绳金塔、八大山人纪念馆等呈现了不同的历史层次。1927年的南昌起义也使城市在中国近现代史中占有重要位置。"
+    ],
+    "scope": "审读导言前三段，选取赣江鄱阳湖、历史遗迹与南昌起义；删除荣誉称号及航空制造唯一首创等表述。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%8D%97%E6%98%8C%E5%B8%82&oldid=95394678",
+    "sourceSha256": "ba05e0fc45c52b91c6df939530feead2b2a21412ad7dae683d38ee8801dc3afe",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1784658,
+    "paragraphs": [
+      "郑州是河南省省会，位于河南中部偏北、黄河下游，是中原地区的重要交通城市。铁路、航空与公路网络在这里交汇，郑州航空港经济综合实验区也是城市发展的线索之一。",
+      "郑州地级市所辖区域与夏、商、郑、韩等古代政权的活动有关。阅读这段历史时，需要把现代郑州城区、所辖县市与更广阔的历史地域区分开来。"
+    ],
+    "scope": "审读导言前三段，选取中原黄河位置、交通与辖区古代历史；明确现代市域和古都地域的尺度差别，不把辖区史等同中心城区史。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E9%83%91%E5%B7%9E%E5%B8%82&oldid=94297652",
+    "sourceSha256": "5c561b26a492cdd0a120e137d28d8d35cfccf7886d8736d56764db7ce1e111f2",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1805753,
+    "paragraphs": [
+      "济南是山东省省会，位于山东中西部、黄河下游，别称泉城。城市是山东半岛城市群和济南都市圈的组成部分，教育、科研和交通机构在这里集中。",
+      "济南因泉眼众多而有七十二名泉之说，趵突泉、千佛山、大明湖是原条目介绍的著名景观。章丘城子崖遗址与龙山文化的发现，也为理解当地更久远的聚落历史提供了线索。"
+    ],
+    "scope": "审读导言前三段，选取黄河位置、泉城景观和城子崖龙山文化；删除音标模板、人口与科研排名及建城年代断言。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E6%B5%8E%E5%8D%97%E5%B8%82&oldid=95475810",
+    "sourceSha256": "065899a1a230d16c2fa9ff87c409bfb3627b3cdf768feb39cc62ec1ace18a93e",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1797929,
+    "paragraphs": [
+      "青岛位于胶东半岛南侧，是山东沿海的一座港口城市，旧称胶澳，别称岛城、琴岛。港口、铁路与海洋产业是理解青岛近现代发展的重要线索。",
+      "清政府于1891年在此驻兵建置。近代德国租借时期，港口与铁路建设推动了城市发展。此后商贸和制造业逐渐发展，航运、建筑、教育与海洋科研共同塑造了这座城市。"
+    ],
+    "scope": "审读导言前三段，选取半岛位置、港口铁路与近代建置；删除原文文化沙漠等价值判断、宜居营销与经济排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E9%9D%92%E5%B2%9B%E5%B8%82&oldid=95159919",
+    "sourceSha256": "df39546171889f6422e6584ef78de66afd3835a3133bba546845010d7c7d2fba",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1791681,
+    "paragraphs": [
+      "潍坊位于山东中部偏东，北临莱州湾。市域南部和西南部为山地丘陵，中部为平原，北部为沿海滩涂，潍河、弥河、白浪河等水系流经当地。",
+      "潍坊古称潍州、潍县，别称鸢都，胶济铁路横贯市境东西。其位置连接山东内陆腹地与胶东半岛，原条目亦介绍了近代潍县与城市建制的变化。"
+    ],
+    "scope": "审读唯一导言段，选取分区地形、水系、旧称和胶济铁路；未由鸢都称号外推未读到的风筝工艺细节。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E6%BD%8D%E5%9D%8A%E5%B8%82&oldid=95549224",
+    "sourceSha256": "f37f3b0f9b0077129f1c6814dfaeddd209b09d6a4c339c2b9344c3bae021aec6",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1795270,
+    "paragraphs": [
+      "石家庄是河北省省会，位于河北中南部、太行山东麓与华北平原西缘，地势西高东低。西部为山地丘陵，东部为冲积平原，滹沱河等河流属于海河流域。",
+      "石家庄是一座随着近代铁路开通而成长的城市。京广、石德、石太等铁路及相应客运通道在这里交汇，铁路枢纽与现代服务业、产业基地共同构成城市发展的线索。"
+    ],
+    "scope": "审读全部两段导言，选取太行山平原交接、水系和铁路城市起源；不重复行政机构驻地及政策称号。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82&oldid=95550710",
+    "sourceSha256": "8ea4b504653b62da5eed4730e90c26e5680b6545953fba0c1097f852c93856fd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 1793511,
+    "paragraphs": [
+      "太原是山西省省会，古称晋阳、并州，位于晋中盆地北部。这里三面环山，汾河自西北进入并穿过城区，太行山与吕梁山构成市域东、西两侧的山地背景。",
+      "太原具有悠久的城市历史，晋阳古城与多朝政治活动有关，龙城也是它的别称。如今，太原仍是山西重要的制造业、经济和文化中心。"
+    ],
+    "scope": "审读导言前三段，选取盆地汾河位置、晋阳旧称与制造业；删除音标、遗产数量及国际影响力泛称。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%A4%AA%E5%8E%9F%E5%B8%82&oldid=95394689",
+    "sourceSha256": "cb35019368bdb9e8cdc2e35851db4726c534a40743362b7e10daf42e15a8e02d",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 2036892,
+    "paragraphs": [
+      "呼和浩特是内蒙古自治区首府，位于蒙古高原南缘、阴山南麓，西南接土默川平原。大黑河穿过城区并汇入黄河，山地、平原与河流构成了当地的地理背景。",
+      "呼和浩特主城区由归化、绥远两座城在清末民初逐渐合并而成，旧称归绥。城市处于农耕与游牧文化交会的区域，原条目以多种文化在此交流的历史介绍了其城市背景。"
+    ],
+    "scope": "审读唯一导言段，选取阴山土默川、大黑河与双城合并；删除语言模板、人口比例和对居民生活的泛化推断。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%E5%B8%82&oldid=95429023",
+    "sourceSha256": "875742fff59f91acde40ce9db114f4f3b66c287abab0ba2fb47bc5bd866a17c9",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  },
+  {
+    "geonamesId": 2034937,
+    "paragraphs": [
+      "沈阳是辽宁省省会，古称奉天、盛京，位于辽东山地与辽河平原的过渡地带。它与辽东半岛、环渤海地区相连，是东北地区重要的交通、工业与文化城市。",
+      "1625年，后金迁都沈阳，城市随之扩建；清朝入关后，这里成为陪都。近现代以来，沈阳发展为重要的重工业城市，工业发展与历史都城记忆共同构成其城市线索。"
+    ],
+    "scope": "审读导言第一和第三段，选取地形过渡、后金盛京历史和工业发展；不采用人口、教育指数或建城规模排名。",
+    "reviewedRevision": "https://zh.wikipedia.org/w/index.php?title=%E6%B2%88%E9%98%B3%E5%B8%82&oldid=95420991",
+    "sourceSha256": "3722db83b2dc53416100966546cccb707ad31988d40b44ff46592a4cd97c815d",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.zh"
+  }
+]
