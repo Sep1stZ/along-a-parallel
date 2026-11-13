@@ -4,6 +4,26 @@ GitHub 保存代码。公开网站还需要托管运行服务。可以使用有 
 
 ## 当前交付状态
 
+**V2.1 已于 2026-11-13 更新到原公开地址：[沿着一条纬线](https://parallel-6a30a9330b.sealoshzh.site/)，线上验收通过。** 运行源码提交为 `2db298134941741b50c0b67f44c880d14f2a700a`，固定镜像为：
+
+```text
+ghcr.io/sep1stz/along-a-parallel@sha256:890ed23ebba13e588dfd1665ee1167eaa85599c8f14579f5a5f28dfda3dd98d0
+```
+
+[Checks 43404464901](https://github.com/Sep1stZ/along-a-parallel/actions/runs/43404464901) 成功，33 项测试和 21 项浏览器测试通过；[Container 43404464836](https://github.com/Sep1stZ/along-a-parallel/actions/runs/43404464836) 成功完成构建、真实资源受限容器验证与 GHCR 发布。该镜像已匿名核验为 Linux amd64、非 root `node` 用户，11 个数据层 HEAD 均为 200。
+
+在 0.2 CPU、256 MiB 内存、Node 堆 160 MiB 条件下，本轮实测初次导入峰值 178.2 MiB、重启峰值 117.6 MiB、替换后峰值 117.1 MiB，无 OOM。线上部署沿用原 StatefulSet 与原 PVC，实例 Ready=true、重启计数 0；旧 V2 测试所有者的收藏、旅程和已撤销分享 410 状态保留。发布前 SQLite WAL 一致性备份完整性检查为 `ok`，备份仅在受控本地私存。
+
+线上 36 项 API 与持久化检查，以及 21 项完整生产浏览器测试全部通过。再次真实替换 V2.1 实例后，新分享中的速读与地理档案、收藏和私人旅程保留，撤销功能有效，原 PVC 不变，实例 Ready、重启计数 0。范围及证据见 [验证记录](VERIFICATION.md)。后续文档与截图提交不会改变此处固定的运行版本。
+
+V2.1 保留 34,214 个地点、60 城 240 篇四主题手记、8 条路线与 30 条自然观察，增加全部地点的地理档案及 165 篇、330 段城市速读（57 个国家/地区代码）。速读与精选城市有重叠，百科节选及其文字整理采用独立的 CC BY-SA 4.0；原地理数据继续采用 CC BY 4.0。原来源待核验边界见 [内容说明](CITY-ARTICLES.md) 和 `SOURCES.md`。
+
+地球采用 Canvas 底图、SVG 交互标记与动画帧合并绘制；相同本地场景、4 倍 CPU 限速下三轮帧间隔 p95 中位数降低约 33%。该结果不等于物理 FPS 或所有设备的性能保证，详见 [性能记录](PERFORMANCE.md)。
+
+资源仍为原试用站的单实例 200m CPU、256Mi 内存和 1Gi 持久卷，未购买、充值或升级。示例配置已固定本轮验证镜像；临时系统域名、平台余额与实际网络访问仍影响可用性。以下 V2、V1 记录保留作历史追溯。
+
+## V2 历史部署记录（2026-11-11）
+
 **V2 已于 2026-11-11 更新到原公开地址：[沿着一条纬线](https://parallel-6a30a9330b.sealoshzh.site/)。** 当前收录 34,214 个地点、60 座精选城市、8 条路线与 30 条自然观察，沿用原 200m CPU、256Mi 内存和 1Gi 持久卷。
 
 [Container 42989875070](https://github.com/Sep1stZ/along-a-parallel/actions/runs/42989875070) 已完成生产构建、同规格小内存容器 smoke 和 GHCR 发布；[Checks 42989874995](https://github.com/Sep1stZ/along-a-parallel/actions/runs/42989874995) 也成功。线上验收及实例替换的数据保留证据见[验证记录](VERIFICATION.md)。

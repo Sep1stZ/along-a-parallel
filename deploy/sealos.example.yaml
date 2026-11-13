@@ -30,7 +30,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: along-a-parallel
-          image: ghcr.io/sep1stz/along-a-parallel@sha256:0f225928401e34f005795ce1de9305077c477d383578c14a44478233d48dd6d0
+          image: ghcr.io/sep1stz/along-a-parallel@sha256:890ed23ebba13e588dfd1665ee1167eaa85599c8f14579f5a5f28dfda3dd98d0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
